@@ -1,0 +1,158 @@
+/* DEFAULT */
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+/************ NAVBAR STYLING **********/
+.topnav {
+    width: 100%;
+    height: 70px;
+    background-color:grey;
+    display: flex;
+}
+.logo {
+    margin-left: 100px;
+    margin-top: 15px;
+    color: white;
+    width: 200px;
+}
+.menu {
+    width: 700px;
+    margin-left: 150px;
+    margin-top: 20px;
+}
+.menu ul li{
+    display: inline-block;
+    list-style: none;
+}
+.menu a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    font-size: 14px;
+}
+menu a:hover{
+    color: white;
+}
+.btnGet {
+    width: 120px;
+    height: 50px;
+    margin-left: 70px;
+    margin-top: 10px;
+    border: solid white;
+    background-color: grey;
+    color: white;
+    font-size: 14px;
+}
+.hide {
+   position: absolute;
+   right: 20px;
+   top: 12px;
+   width: 70px;
+   height: 45px;
+   color: white;
+   background: black;
+   border: solid white;
+   display: none;
+}
+
+/* banner section styling */
+
+.imgban {
+    width: 700px;
+    height: 500px;
+    border: solid black;
+    margin-top: 20px;
+}
+.bantext {
+    width: 700px;
+    margin-top: 20px;
+}
+.bantext h3 {
+    padding: 100px 0 30px 30px;
+    font-size: 40px;
+}
+.bantext p {
+    padding-left: 30px;
+    text-align: justify;
+}
+.btnCre {
+    width: 150px;
+    margin-left: 30px;
+    background-color: grey;
+    color: white;
+    height: 50px;
+    border-radius: 5px;
+    outline: none;
+}
+.btnLog {
+    width: 100px;
+    margin-left: 30px;
+    background-color: grey;
+    color: white;
+    height: 50px;
+    border-radius: 5px;
+    outline: none;
+}
+
+/* TRUSTEES STYLING */
+.trustees {
+    margin-top: 100px;
+    width: 100%;
+    background-color: grey;
+}
+.trustees h3 {
+    text-align: center;
+    padding-top: 50px;
+}
+.patner {
+    margin: 30px;
+    margin-top: 50px;
+    margin-left: 50px;
+    width: 200px;
+    height: 150px;
+    border: solid black;
+} 
+.oppur h3 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+.oppur p {
+    text-align: center;
+    margin-bottom: 100px;
+}
+.oCard {
+    width: 400px;
+    height: 500px;
+    border: solid black;
+    margin: 36px;
+}
+.imgC {
+    margin: auto;
+    width: 300px;
+    height: 250px;
+    border: solid black;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.cardText h3, .cardText p {
+    padding-left: 20px;
+    padding-bottom: 20px;
+    text-align: justify;
+}
+.cardText p {
+    padding-right: 20px;
+}
+
+
+/* live oppurtunity */
+.liveO h3 {
+    text-align: center;
+    margin-top: 50px;
+}
+.liveO p {
+    padding: 30px 20px 80px 20px;
+    text-align: center;
+}
