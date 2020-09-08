@@ -1,110 +1,141 @@
-/* DEFAULT */
+/************************ DEFAULT *************************/
 * {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    font-family: edmerge;
+    text-transform: capitalize;
+    line-height: 1.5em;
 }
-/************ NAVBAR STYLING **********/
+@font-face {
+    font-family: edmerge;
+    src: url('../karuFont/Karu-Light.ttf')
+}
+/************************* NAVBAR STYLING *******************/
 .topnav {
     width: 100%;
-    height: 70px;
-    background-color:grey;
+    height: 64px;
+    background-color: white;
     display: flex;
 }
 .logo {
-    margin-left: 100px;
-    margin-top: 15px;
-    color: white;
     width: 200px;
+    margin-left: 100px;
 }
-.menu {
-    width: 700px;
-    margin-left: 150px;
-    margin-top: 20px;
+.menuLink {
+    width: 599px;
+    margin-left: 250px;
+    margin-top: 18px;
 }
-.menu ul li{
+.menuLink ul li {
+    height: 40px;
     display: inline-block;
     list-style: none;
 }
-.menu a {
+.menuLink ul li:hover{
+    border-bottom: 5px solid rgb(219, 68, 55);
+    cursor: pointer;
+}
+.menuLink ul li a {
     text-decoration: none;
-    color: white;
     padding: 10px;
-    font-size: 14px;
+    color: rgb(43,45,60);
+    font-family: edmerge;
+    text-transform: capitalize;
 }
-menu a:hover{
-    color: white;
+.menuLink ul li a:nth-child() {
+    color: #DB4437;
 }
+.menuLink ul li a:hover{
+    color: rgb(219, 68, 55);
+    cursor: pointer;
+}
+.button {
+    width: 150px;
+    margin-right: 100px;
+}
+
 .btnGet {
-    width: 120px;
+    width: 150px;
     height: 50px;
-    margin-left: 70px;
-    margin-top: 10px;
+    background-color: rgb(43,45,60);
     border: solid white;
-    background-color: grey;
+    border-radius: 5px;
+    outline: none;
     color: white;
-    font-size: 14px;
+    margin-top: 4px;
+    margin-right: 20px;
+    font-family: edmerge;
 }
 .hide {
-   position: absolute;
-   right: 20px;
-   top: 12px;
-   width: 70px;
-   height: 45px;
-   color: white;
-   background: black;
-   border: solid white;
-   display: none;
-}
-
-/* banner section styling */
-
-.imgban {
-    width: 700px;
-    height: 500px;
-    border: solid black;
-    margin-top: 20px;
-}
-.bantext {
-    width: 700px;
-    margin-top: 20px;
-}
-.bantext h3 {
-    padding: 100px 0 30px 30px;
-    font-size: 40px;
-}
-.bantext p {
-    padding-left: 30px;
-    text-align: justify;
-}
-.btnCre {
-    width: 150px;
-    margin-left: 30px;
-    background-color: grey;
-    color: white;
+    width: 50px;
     height: 50px;
+    background-color: rgb(43,45,60);
+    border: solid white;
     border-radius: 5px;
     outline: none;
+    color: white;
+    position: absolute;
+    right: 50px;
+    top: 7px;
+    display: none;
+    font-family: edmerge;
+}
+/*=================== BANNER STYLING =================== */
+.banner {
+    width: 100%;
+    height: 600px;
+}
+.banner h3 {
+    padding-top: 150px;
+    font-size: 40px;
+    font-weight: 600px;
+    padding-left: 134px;
+}
+.banner p {
+    padding-top: 30px;
+    padding-left: 134px;
+    padding-bottom: 40px;
+}
+.btnCreate {
+    width: 200px;
+    height: 48px;
+    background-color: #2B2D3C;
+    border-radius: 5px;
+    color: #ffffff;
+    font-size: 18px;
+    margin-left: 134px;
+    font-family: edmerge;
 }
 .btnLog {
-    width: 100px;
-    margin-left: 30px;
-    background-color: grey;
-    color: white;
-    height: 50px;
+    width: 200px;
+    height: 48px;
+    background-color: #ffffff;
     border-radius: 5px;
-    outline: none;
+    color: #DB4437;
+    font-size: 18px;
+    margin-left: 54px;
+    border: solid #DB4437 2px;
+    font-family: edmerge;
 }
 
-/* TRUSTEES STYLING */
-.trustees {
-    margin-top: 100px;
+/*================= TRUSTED STYLING SECTION =================*/
+
+.trustee {
     width: 100%;
-    background-color: grey;
+    height: 290px;
+    background-color: #303242;
 }
-.trustees h3 {
+.trustee h3 {
     text-align: center;
-    padding-top: 50px;
+    font-size: 25px;
+    font-weight: 600px;
+    padding-top: 30px;
+    padding-bottom: 36px;
+}
+/* .trustedPatner{
+    display: flex;
+    margin: auto;
 }
 .patner {
     margin: 30px;
@@ -112,21 +143,39 @@ menu a:hover{
     margin-left: 50px;
     width: 200px;
     height: 150px;
-    border: solid black;
-} 
-.oppur h3 {
-    margin-top: 50px;
-    margin-bottom: 50px;
-    text-align: center;
+    border: solid black 2px;
+}  */
+.item {
+    width: 90%;
+    height: 40px;
+    background: #C4C4C4;
+    margin-left: 25px;
 }
-.oppur p {
+.opporHeader h3 {
     text-align: center;
-    margin-bottom: 100px;
+    font-size: 40px;
+    font-weight: 600px;
+    color: #DB4437;
+    padding-top: 20px;
+}
+.opporHeader p {
+    width: 1200px;
+    padding-left: 200px;
+    padding-top: 50px;
+    text-align: center;
+    justify-content: center;
+}
+.card {
+    display: flex;
+    padding-top: 50px;
+    margin: auto;
+    margin-left: 75px;
+    padding-bottom: 100px;
 }
 .oCard {
-    width: 400px;
-    height: 500px;
-    border: solid black;
+    width: 360px;
+    height: 586px;
+    border: solid black 2px;
     margin: 36px;
 }
 .imgC {
@@ -141,18 +190,151 @@ menu a:hover{
     padding-left: 20px;
     padding-bottom: 20px;
     text-align: justify;
+    line-height: 1.5em;
+}
+.cardText h3 {
+    font-weight: 600px;
+    font-size: 30px;
 }
 .cardText p {
     padding-right: 20px;
 }
 
+/*================ LIVE OPPURTUNITIES STYLING ================*/
+.leave {
+    width: 100%;
+    height: 844px;
+    background: rgba(43, 45, 60, 0.9);
+    /* clip-path: polygon(100% 16%, 95% 24%, 89% 39%, 71% 50%, 52% 49%, 22% 50%, 0% 56%, 0% 100%, 27% 100%, 59% 100%, 88% 100%, 100% 100%, 100% 50%, 100% 24%);    position: absolute; */
+    /* top: 1800px; */
+    /* position: absolute; */
+}
+.leaveText h3 {
+    text-align: center;
+    font-weight: 600px;
+    font-size: 40px;
+    color: #DB4437;
+    padding-top: 40px;
+}
+.play, .stop {
+    width: 100px;
+    height: 50px;
+    color: white;
+    background-color: rgb(43,45,60);
+    border: solid white 3px;
+    border-radius: 5px;
+    outline: none;
+}
+.play {
+    margin: 50px 50px 50px 600px
+}
+.btnCreate2 {
+    width: 200px;
+    height: 48px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    color: #2b2d3c;
+    font-size: 18px;
+    margin-left: 500px;
+    font-family: edmerge;
+    border: solid #2B2D3C;
+    margin-top: 70px;
+}
+.btnLog2 {
+    width: 200px;
+    height: 48px;
+    background-color: #2B2D3C;
+    border-radius: 5px;
+    color: #ffffff;
+    font-size: 18px;
+    margin-left: 54px;
+    border: solid white;
+    font-family: edmerge;
+    margin-top: 70px;
+}
+.footer {
+    width: 100%;
+    height: 70px;
+    background: #2B2D3C;
+}
 
-/* live oppurtunity */
-.liveO h3 {
-    text-align: center;
-    margin-top: 50px;
+
+
+
+
+/*===================== RESPONSIVE STYLING =====================*/
+@media(max-width: 1300px){
+    .menuLink {
+        margin-left: 50px;
+    } 
+    .opporHeader p {
+        width: 100%;
+        padding-left: 50px;
+        padding-right: 50px;
+     
+    }
+    .card {
+        margin-left: 0px;
+    }
+   
+    
 }
-.liveO p {
-    padding: 30px 20px 80px 20px;
-    text-align: center;
+@media(max-width: 1100px){
+    .logo {
+        margin-left: 50px;
+    }
+    .menuLink {
+        margin-left: 10px;
+    } 
+    .card {
+        display: block; 
+        margin-left: 300px;
+    }
+  
+  
+    
 }
+@media(max-width: 1050px){
+    .menuLink {
+        display: none;
+    } 
+    .btnGet {
+        display: none;
+    }
+    .hide {
+        display: block;
+    }
+    .showMenu {
+        display: block;
+    }
+    .banner h3, .banner p {
+        padding-left: 50px;
+    }
+    .btnCreate {
+        margin-left: 50px;
+    }
+    .card {
+        display: block;
+        padding-top: 50px;
+        margin: auto;
+        margin-left: 75px;
+    }.menuLink ul li{
+        display: block;
+        position: relative;
+        top: 40px;
+        background: rgba(43, 45, 60, 0.4);
+        width: 100%;
+        right: 0px;
+
+    }
+    .play {
+        margin: 10px 10px 10px 150px
+    }
+    .btnCreate2 {
+        margin-left: 50px;
+        /* margin-top: 30px; */
+    }
+   
+}
+
+
