@@ -176,6 +176,7 @@ a:hover {
     width: 100%;
     height: 290px;
     background-color:rgba(43, 45, 60 ,1);
+    
 }
 .trustee h3 {
     text-align: center;
@@ -336,6 +337,12 @@ a:hover {
     margin-top: 50px;
     margin-bottom: 50px;
 }
+.started h3 {
+    text-align: center;
+    font-weight: 600;
+    color: #DB4437;
+    font-size: 40px;
+}
 .started1, .started2, .started3 {
     width: 350px;
     height: 450px;
@@ -376,9 +383,58 @@ a:hover {
     background-color: #DB4437;
 }
 
+/*==================== TESTIMONY STYLING ====================*/
+#testimony h3 {
+    color: #DB4437;
+    font-size: 40px;
+    font-weight: 600;
+    padding-top: 100px;
+    text-align: center;
+    padding-bottom: 70px;
+}
+.maintestimony {
+    display: flex;
+    margin-bottom: 50px;
+}
+.testimonyCard {
+    width: 680px;
+    height: 122px;
+    background: #BFC0C5;
+    box-shadow: 0px 3px 5px rgba(43, 45, 60, 0.6);
+    border-radius: 0px 24px;
+    margin-left: 190px;
+}
+.textimonyImg {
+    width: 119px;
+    height: 119px;
+    background: #BFC0C5;
+    border-radius: 50%;
+    margin-left: 54px;
+}
+.alttestimony {
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 190px;
+}
+.alCard {
+    width: 680px;
+    height: 122px;
+    background: #BFC0C5;
+    box-shadow: 0px 3px 5px rgba(43, 45, 60, 0.6);
+    border-radius: 0px 24px;
+    margin-left: 54px;
+    margin-right: 190px;
+}
+.altImg {
+    width: 119px;
+    height: 119px;
+    background: #BFC0C5;
+    border-radius: 50%;
+    margin-left: 200px;
+}
 
 
-/* FOOTER STYLING */
+/*======================= FOOTER STYLING ======================*/
 .footer {
     width: 100%;
     height: 70px;
