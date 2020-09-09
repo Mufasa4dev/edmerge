@@ -307,7 +307,7 @@ a:hover {
     background: rgba(43, 45, 60,0.4);
     border-radius: 50%;
     position: absolute;
-    right: -100px;
+    left: 900px;
     top: 1800px;    
 }
 .mCircle1 {
@@ -316,8 +316,8 @@ a:hover {
     position: absolute;
     width: 99px;
     height: 98px;
-    right: 350px;
-    top: 2000px; 
+    right: 490px;
+    top: 1900px; 
 }
 .sCircle1 {
     background: rgba(43, 45, 60,0.9);
@@ -325,13 +325,13 @@ a:hover {
     position: absolute;
     width: 49px;
     height: 49px;
-    right: 450px;
-    top: 2000px; 
+    right: 580px;
+    top: 1900px; 
 }
 
 /*************** GET STARTED SECTION  STYLING ****************/
 
-#started {
+.start {
     width: 100%;
     display: flex;
     margin-top: 50px;
@@ -404,6 +404,10 @@ a:hover {
     border-radius: 0px 24px;
     margin-left: 190px;
 }
+.testimonyCard p{
+    padding: 40px 0px 0px 50px;
+    color: #000;
+}
 .textimonyImg {
     width: 119px;
     height: 119px;
@@ -424,6 +428,10 @@ a:hover {
     border-radius: 0px 24px;
     margin-left: 54px;
     margin-right: 190px;
+}
+.alCard p{
+    padding: 40px 0px 0px 50px;
+    color: #000;
 }
 .altImg {
     width: 119px;
@@ -539,6 +547,19 @@ a:hover {
     }
     .started1, .started2, .started3 {
         margin-bottom: 50px;
+    }
+    .alCard, .testimonyCard {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .altImg, .textimonyImg {
+        margin-left: 10px;
+    }
+    .alttestimony {
+        margin-left: 10px;
+    }
+    #testimony{
+        width: 100%
     }
    
 }
