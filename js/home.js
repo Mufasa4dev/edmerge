@@ -22,7 +22,7 @@ function displayMenu() {
 
 var owl = $('.owl-carousel');
 owl.owlCarousel({
-    items:3,
+    items:4,
     loop:true,
     margin:10,
     autoplay:true,
@@ -37,7 +37,7 @@ $('.stop').on('click',function(){
 })
 
 //  FOR SECTION PARTNERS
-$('.owl-carousel').owlCarousel({
+$('.owl-carousel1').owlCarousel({
     loop:true,
     margin:10,
     nav:true,
