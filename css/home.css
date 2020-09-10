@@ -17,7 +17,7 @@ a:hover {
 }
 @font-face {
     font-family: edmerge;
-    src: url('../CaruFont/Karu-Light.ttf')
+    src: url('../montserrat/Montserrat-Regular.ttf')
 }
 /************************* NAVBAR STYLING *******************/
 .topnav {
