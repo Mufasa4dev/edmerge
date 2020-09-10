@@ -43,6 +43,7 @@ a:hover {
 }
 .menuLink ul li:hover{
     border-bottom: 5px solid rgb(219, 68, 55);
+    transition: 1s;
     cursor: pointer;
 }
 .menuLink ul li a {
@@ -52,6 +53,7 @@ a:hover {
     font-family: edmerge;
     text-transform: capitalize;
     font-weight: 600;
+    transition: 0.6ms;
 }
 .menuLink ul li a:nth-child() {
     color: #DB4437;
