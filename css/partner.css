@@ -41,6 +41,11 @@ form{
     
 }
 
+.form_img #pic{
+    width: 100px;
+    height: 100px;
+}
+
 .form_txt{
     height: 600px;
     width: 500px;
@@ -96,25 +101,32 @@ form{
     background-color: #DB4437;
 }
 
-.check p{
+.check #box{
+    widows: 14px;
+    height: 14px;
     float: left;
-    /* margin-top: 20px; */
-    margin-left: 5px;
-    font-family: montserrat;
-    /* border: solid; */
+    margin-left: -90px;
 }
+
+/* .check #box p{
+    border: solid blue 2px;
+} */
+
 .paraOne{
-    float: left;
-    padding-right: -5px;
-    margin-top: 15px;
+    float: right;
+    margin-right: 70px;
+    margin-top: -15px;
+    font-family: montserrat;
+    font-size: 12.5px;
     /* margin-top: 20px;
     margin-left: 20px; */
-    /* border: solid 3px; */
+    /* border: solid red 1px; */
 }
 
 .term{
     text-align: center;
     font-family: montserrat;
+    font-size: 12.5px;
 }
 
 #termOne{
