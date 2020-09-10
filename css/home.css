@@ -105,15 +105,15 @@ a:hover {
     display: flex;
 }
 .banner2 {
-    width: 600px;
+    width: 750px;
     height: 600px;
     background-image: url('../images/homeImg/undraw_analyze_17kw.svg');
     background-repeat: no-repeat;
     background-size: cover;
 }
 .banner h3 {
-    padding-top: 150px;
-    font-size: 40px;
+    padding-top: 120px;
+    font-size: 35px;
     font-weight: 600px;
     padding-left: 134px;
 }
@@ -195,7 +195,6 @@ a:hover {
 .item {
     width: 90%;
     height: 40px;
-    /* background: #C4C4C4; */
     margin-left: 25px;
 }
 .opporHeader h3 {
@@ -224,7 +223,7 @@ a:hover {
     height: 586px;
     border: solid black 2px;
     margin: 36px;
-    box-shadow: 2px 2px 2px 2px;
+    box-shadow: 0px 3px 5px rgba(43, 45, 60, 0.6);
 }
 .imgC {
     margin: auto;
@@ -242,6 +241,7 @@ a:hover {
 .cardText h3 {
     font-weight: 600px;
     font-size: 30px;
+    text-align: center;
 }
 .cardText p {
     padding-right: 20px;
@@ -250,10 +250,7 @@ a:hover {
 /*================ LIVE OPPURTUNITIES STYLING ================*/
 .leave {
     width: 100%;
-    /* background-image: url('../images/homeImg/livebg.png'); */
     background-attachment: fixed;
-    /* clip-path: polygon(100% 16%, 95% 24%, 89% 39%, 71% 50%, 52% 49%, 22% 50%, 0% 56%, 0% 100%, 27% 100%, 59% 100%, 88% 100%, 100% 100%, 100% 50%, 100% 24%);    position: absolute; */
-    /* top: 1800px; */
 }
 .leaveText h3 {
     text-align: center;
@@ -283,7 +280,6 @@ a:hover {
     border-radius: 5px;
     color: #2b2d3c;
     font-size: 18px;
-    margin-left: 500px;
     font-family: edmerge;
     border: solid #2B2D3C;
     margin-top: 70px;
@@ -315,7 +311,8 @@ a:hover {
     border-radius: 50%;
     position: absolute;
     left: 900px;
-    top: 1800px;    
+    top: 1800px;  
+    z-index: -1;  
 }
 .mCircle1 {
     background: rgba(43, 45, 60,0.6);
@@ -353,10 +350,10 @@ a:hover {
 .started1, .started2, .started3 {
     width: 350px;
     height: 450px;
-    border: solid #2B2D3C 3px;
+    border: solid #2B2D3C 2px;
     margin: auto;
     border-radius: 20px;
-    box-shadow: 2px 4px 4px 2px;
+    box-shadow: 0px 3px 5px rgba(43, 45, 60, 0.6);
     transition: 3s;
 }
 .started1:hover, .started2:hover, .started3:hover{
@@ -415,12 +412,15 @@ a:hover {
     padding: 40px 0px 0px 50px;
     color: #ffffff;
 }
+
 .textimonyImg {
     width: 119px;
     height: 119px;
-    background: #BFC0C5;
     border-radius: 50%;
     margin-left: 54px;
+}
+.textimonyImg img {
+    border-radius: 50%;
 }
 .alttestimony {
     display: flex;
@@ -443,9 +443,25 @@ a:hover {
 .altImg {
     width: 119px;
     height: 119px;
-    background: #BFC0C5;
     border-radius: 50%;
     margin-left: 200px;
+}
+.altImg img {
+    border-radius: 50%;
+}
+.rest {
+    text-align: center;
+}
+.btnGet2 {
+    width: 150px;
+    height: 50px;
+    background-color: #DB4437;
+    border-radius: 5px;
+    outline: none;
+    color: white;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-family: edmerge;
 }
 
 
@@ -531,12 +547,12 @@ a:hover {
     }
     .menuLink ul {
         transition: 2s;
+        text-align: center;
     }
     .menuLink ul li{
         display: block;
         position: relative;
         top: 170px;
-        /* background: rgba(43, 45, 60, 0.9); */
         width: 100%;
         right: 0px;
         transition: 2s;
@@ -546,13 +562,15 @@ a:hover {
         z-index: 1;
         position: relative;
         transition: 2s;
+        font-weight: 600;
+        font-size: 20px;
+        padding-bottom: 20px;
     }
     .play {
         margin: 10px 10px 10px 150px;
     }
     .btnCreate2 {
         margin-left: 50px;
-        /* margin-top: 30px; */
     }
     .cover {
         width: 100%;
@@ -590,9 +608,7 @@ a:hover {
     .btnLog, .btnCreate {
         z-index: -1;
     }
-    /* .faceC {
-        display: block;
-    } */
+
 
    
 }
