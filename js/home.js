@@ -3,30 +3,20 @@ let menuBtn = document.querySelector('.hide');
 menuBtn.addEventListener('click', displayMenu);
 let facecover = document.querySelector('.facecover');
 let cancel = document.querySelector('.cancel');
-cancel.addEventListener('click', cancelList);
 
 
 function displayMenu() {
     menuList.classList.toggle('showMenu');
+    // facecover.classList.toogle('faceC');
     if (facecover.style.display == "block"){
         facecover.style.display = "none";
     } else {
         facecover.style.display = "block";
     }
 }
-// function cancelList(){
-//     facecover.style.display = "none";
-// }
 
-// let droppDown = document.querySelector('.dropDown');
-// let dropdownShow = document.querySelector('.service');
-// dropdownShow.addEventListener('click', dropDownMenu);
 
-// function dropDownMenu(e){
-//     event.preventDefault()
-//     droppDown.style.display = "block"
-//     droppDown.classList.toggle("drop")
-// }
+
 
 
 
@@ -65,6 +55,21 @@ $('.owl-carousel1').owlCarousel({
         }
     }
 })
+
+
+// function cancelList(){
+//     facecover.style.display = "none";
+// }
+
+// let droppDown = document.querySelector('.dropDown');
+// let dropdownShow = document.querySelector('.service');
+// dropdownShow.addEventListener('click', dropDownMenu);
+
+// function dropDownMenu(e){
+//     event.preventDefault()
+//     droppDown.style.display = "block"
+//     droppDown.classList.toggle("drop")
+// }
 
 
 
