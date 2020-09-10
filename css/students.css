@@ -1,0 +1,90 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+/* This is the styling for main container  */
+#maincontainer{
+    display: block;
+    margin-left: 400px;
+    /* border: solid 1px red; */
+    height: 500px;
+    width: 500px;
+    /* text-align: center; */
+    padding-top: 100px; 
+}
+
+#details{
+    text-align: none;
+    padding: 20px;
+}
+#container{
+    text-align: center;
+}
+#details{
+    display: block;
+   
+}
+button:hover{
+     cursor: pointer;
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+#maincontainer{
+    display: flex;
+margin: auto;
+    width: 1200px;
+    height: 650px;
+    border: solid 1px red;
+    /* The styling below belongs to UI/UX I seem not to understand it 
+    I am giving it mine */
+    /* position: absolute;
+    width: 538px;
+    height: 54.99px;
+    left: 440px;
+    top: 3482px;
+
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 5px; */
+    
+}
+#pics{
+    background-image: url("images/loginimg.jpg");
+    width: 650px;
+
+}
+.input{
+    height: 54.99px;
+    width: 538px;
+}
+#contents{
+    display: block;
+    position: relative;
+    right:0px;
+}
+#bgimage{
+    background: rgba(53, 25, 196, 0.281);
+    height: 650px;
+    width: 650px;
+    transition: ease-in 2s;
+}
+h1{
+    text-align: center;
+    color: black;
+    /* padding-top: 100px; */
+}
+button{
+    border: none;
+    background-color:black;
+    color: white;
+}
+#bgimage h1{
+    
+}
+  
