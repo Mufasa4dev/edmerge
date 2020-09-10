@@ -1,10 +1,22 @@
 let menuList = document.querySelector('.menuLink');
 let menuBtn = document.querySelector('.hide');
 menuBtn.addEventListener('click', displayMenu);
+let facecover = document.querySelector('.facecover');
+let cancel = document.querySelector('.cancel');
+cancel.addEventListener('click', cancelList);
+
 
 function displayMenu() {
-    menuList.classList.toggle('showMenu')
+    menuList.classList.toggle('showMenu');
+    if (facecover.style.display == "block"){
+        facecover.style.display = "none";
+    } else {
+        facecover.style.display = "block";
+    }
 }
+// function cancelList(){
+//     facecover.style.display = "none";
+// }
 
 // let droppDown = document.querySelector('.dropDown');
 // let dropdownShow = document.querySelector('.service');
