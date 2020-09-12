@@ -2,13 +2,18 @@
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
+    font-family: edmerge;
+}
+@font-face {
+    font-family: edmerge;
+    src: url('../montserrat/Montserrat-Regular.ttf');
 }
 /* This is the styling for main container  */
 #maincontainer{
     display: block;
     margin-left: 400px;
     /* border: solid 1px red; */
-    height: 500px;
+    height: 1000px;
     width: 500px;
     /* text-align: center; */
     padding-top: 100px; 
@@ -38,7 +43,7 @@ button:hover{
     display: flex;
 margin: auto;
     width: 1200px;
-    height: 650px;
+    height: 1150px;
     border: solid 1px red;
     /* The styling below belongs to UI/UX I seem not to understand it 
     I am giving it mine */
