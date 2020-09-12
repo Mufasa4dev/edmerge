@@ -96,7 +96,7 @@ a:hover {
     display: none;
 }
 
-/* WHAT WE STAND FOR */
+/********************* WHAT WE STAND FOR *********************/
 .stand {
     width: 80%;
     margin: auto;
@@ -122,7 +122,7 @@ a:hover {
     line-height: 30px;
 }
 
-/* OUR VISSION STYLING */
+/*********************** OUR VISSION STYLING ***********************/
 
 .vission, .mission {
     display: flex;
@@ -154,7 +154,7 @@ a:hover {
 
 }
 
-/* TEAM SECTION STYLING */
+/*********************** TEAM SECTION STYLING ***********************/
 .team {
     width: 75%;
     margin: auto;
@@ -194,10 +194,11 @@ a:hover {
 }
 .imgagtext h4 {
     font-size: 16px;
-    font-weight: bold;
+    font-weight: bolder;
     color: black;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    line-height: 24px;
 }
 .member {
     width: 50%;
@@ -209,10 +210,6 @@ a:hover {
     margin: auto;
     margin-bottom: 50px;
 }
-
-
-
-
 
 /* for four images starts here */
 .break {
@@ -229,13 +226,9 @@ a:hover {
     margin-left: 230px;
 }
 .img3  {
-    /* margin: auto; */
     margin-left: 70px;
 }
 /* for four images ends here */
-
-
-
 
 .imgag1 {
     width: 400px;
@@ -259,7 +252,7 @@ a:hover {
     padding-bottom: 30px;
 }
 
-/* OUR REACH */
+/************************ OUR REACH ************************/
 .raech{
     width: 80%;
     background-color: #2b2d3c;
