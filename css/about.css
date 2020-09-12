@@ -218,7 +218,6 @@ a:hover {
 /* for four images starts here */
 .break {
     display: flex;
-    margin: 50px;
 }
 .img1 {
     margin-left: 50px;
@@ -328,7 +327,11 @@ a:hover {
     .menuLink {
         margin-left: 160px;
         padding-left: 0px;
-    }     
+    } 
+    .footerlogo {
+        margin-left: 60px;
+        margin-right: 30px;
+    }    
 }
 @media(max-width: 1100px){
     .logo {
@@ -339,6 +342,10 @@ a:hover {
         margin-right: 50px;
         padding-left: 0px;
     } 
+    .footerlogo {
+        margin-left: 30px;
+        margin-right: 10px;
+    }
 }
 @media(max-width: 1050px){
     .menuLink {
@@ -394,9 +401,16 @@ a:hover {
     .stand {
         width: 100%;
     }
+    .team {
+        width: 100%;
+    }
+    .member {
+        width: 100%;
+    }
 
     .teamimg {
         display: block;
+        margin-left: 20px;
       
     }
     .img1 {
@@ -405,6 +419,8 @@ a:hover {
     }
     .img2 {
         margin-left: 0px;
+        margin: auto;
+        margin-bottom: 50px;
     }
     .imgagtext1 h3, .imgagtext1 p {
         text-align: center;
@@ -419,6 +435,7 @@ a:hover {
         line-height: 30px;
         padding-bottom: 50px;
     }
+
 
 
 

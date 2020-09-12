@@ -321,7 +321,7 @@ a:hover {
     background: rgba(43, 45, 60,0.2);
     border-radius: 50%;
     position: absolute;
-    left: 780px;
+    left: 755px;
     top: 1800px;  
     z-index: -1;  
 }
@@ -600,6 +600,11 @@ a:hover {
     .largeCicle1 {
         display: none;
     }
+    .footerlogo {
+        margin-left: 60px;
+        margin-right: 30px;
+    }
+   
    
     
 }
@@ -627,6 +632,10 @@ a:hover {
     }
     .btnCreate {
         margin-left: 50px;
+    }
+    .footerlogo {
+        margin-left: 30px;
+        margin-right: 10px;
     }
  
   
