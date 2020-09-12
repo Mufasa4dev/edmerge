@@ -11,64 +11,66 @@
 </head>
 
 <body>
-    <div id="logo">
-        <img src="images/edm 06.png" alt="edm-logo">
-    </div>
     <div class="container">
-
-        <div id="image">
-            <h1>image is here</h1>
-            <!-- form img here -->
+        <div id="logo">
+            <img src="images/logos/edm 06.png" alt="">
         </div>
+
+        <!-- logo div ends here -->
+
         <div id="form">
+            <div id="image">
+                <h1>image is here</h1>
+            </div>
             <div id="signup">
-                <h2>Create an account</h2>
-                <p>Welcome to unlimited access to opportunities</p>
-            </div>
-            <!-- header ends here -->
+                <div id="signin-form">
 
-            <div id="details">
-                <!-- <label for="">Organization Name </label> -->
-                <input type="text" placeholder="Type here">
 
-                <!-- <label for="">Email Address</label> -->
-                <input type="email" placeholder="Email">
+                    <div id="header">
+                        <h3>create an account</h3>
+                        <p>Welcome to unlimited access to oppourtunities</p>
+                    </div>
 
-                <!-- <label for="">Password</label> -->
-                <input type="password" placeholder="Password">
+                    <div class="signup-details">
+                        <input type="text" placeholder="Organization Name">
+                        <input type="email" placeholder="Email Address">
+                        <input type="password" placeholder="Password">
+                        <input type="text" placeholder="what kind of training can you take">
+                        <button id="btn1">Sign up as training organization</button>
 
-                <!-- <label for="">What type of training can your organization take</label> -->
-                <input type="text" placeholder="Type here...">
-                <button id="btn">
-                    Sign Up as a training Organization
-                </button>
-            </div>
-            <div id="checkbox">
-                <input type="checkbox">Yes! I want to receive notifications by text and email for latest opportunities.
-            </div>
-            <div id="end">
-                <p>By signining up,you agree to our Terms of use and privacy policy</p>
-                Already have an account? <a href="#">Sign In</a>**
-            </div>
-
-            <!-- *****login form**** -->
-            <div id="login">**
-                <div id="details">
-                    <input type="email" placeholder="email">
-                    <input type="password" placeholder="password">
-                    <button id="btn2">
-                        LogIn
-                    </button>
-                    <p>You don't have an account? <a href="#">register</a></p>**
+                    </div>
+                    <div id="checkbox">
+                        <input type="checkbox">Yes! i want to receive notifications by text and email for latest updates
+                    </div>
+                    <div id="end">
+                        <p>By signining up,you agree to our Terms of use and privacy policy</p>
+                        Already have an account? <a href="#" class="signup">Sign In</a>
+                    </div>
                 </div>
 
+                <!-- end of signup -->
 
-
+                <div class="login">
+                    <div id="login-details">
+                        <input type="email" placeholder="email">
+                        <input type="password" placeholder="password">
+                        <button id="btn2">
+                            LogIn
+                        </button>
+                        <p>You don't have an account? <a href="#" class="logIn">register</a></p>
+                    </div>
+                </div>
             </div>
+
+
+
+           
+
+
         </div>
 
-
     </div>
+    <script src="js/trainer.js"></script>
 </body>
 
 </html>
