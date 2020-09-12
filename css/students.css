@@ -70,7 +70,7 @@ margin: auto;
 }
 #bgimage{
     background: rgba(53, 25, 196, 0.281);
-    height: 650px;
+    height: 1150px;
     width: 650px;
     transition: ease-in 2s;
 }
@@ -87,4 +87,6 @@ button{
 #bgimage h1{
     
 }
-  
+#maincontainer2{
+    margin-top: 40px;
+}
