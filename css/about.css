@@ -182,13 +182,12 @@ a:hover {
     border: solid black 2px;
     transition: 1s;
 } */
-.imgag {
+.imgag img{
     width: 179px;
     height: 179px;
-    border: solid black 1px;
     transition: 1s;
 }
-.imgag:hover {
+.imgag img:hover {
     border-radius: 50%;
     transition: 1s;
     transform: scale(1.1);
@@ -224,11 +223,14 @@ a:hover {
 }
 .teamimg1 {
     display: flex;
-    width: 100%;
+    width: 75%;
+    margin: auto;
     margin-bottom: 150px;
+    margin-left: 230px;
 }
 .img3  {
-    margin: auto;
+    /* margin: auto; */
+    margin-left: 70px;
 }
 /* for four images ends here */
 
@@ -434,6 +436,9 @@ a:hover {
         padding-right: 30px;
         line-height: 30px;
         padding-bottom: 50px;
+    }
+    .teamimg1 {
+        margin-left: 0px;
     }
 
 
