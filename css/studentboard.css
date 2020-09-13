@@ -1,0 +1,263 @@
+/* DEFAULT STYLING */
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: edmerge;
+}
+button {
+    cursor: pointer;
+    border-radius: 12px;
+}
+input {
+    outline: none;
+    border-color: inherit;
+}
+@font-face {
+    font-family: edmerge;
+    src: url('../montserrat/Montserrat-Regular.ttf');
+}
+.content {
+    padding-top: 35px;
+    margin-left: 10px;
+    border: solid pink;
+}
+.container {
+    width: 84%;
+    margin: auto;
+    display: flex;
+    border: solid red;
+}
+
+/* NAVBAR STYLING */
+.navbar {
+    width: 250px;
+    height: 1000px;
+    border: solid yellow;
+}
+.menulink {
+    width: 160px;
+    height: 959px;
+    background-color: #000000;
+    margin-left: 0px;
+    margin-top: 26px;
+    border-radius: 12px;
+    position: absolute;
+}
+.logo {
+    text-align: center;
+}
+.logo img {
+    margin-top: 10px;
+}
+.up {
+    margin-bottom: 230px;
+    margin-top: 70px;
+}
+.linkbtn {
+    border: none;
+    border-radius: 0px;
+    width: 160px;
+    height: 70px;
+    background-color: #000000;
+    color: white;
+    font-size: 16px;
+    outline: none;
+}
+.img {
+    margin-right: 15px;
+    justify-content: left;
+    /* display: none; */
+}
+
+.linkbtn:hover{
+    color: black;
+    background-color: #fff;
+}
+.menulink ul li {
+    list-style: none;
+    text-align: center;
+    /* margin-top: 35px;
+    margin-bottom: 35px; */
+    /* padding-top: 20px;
+    padding-bottom: 20px; */
+}
+.menulink ul li:hover {
+    background-color: #fff;
+    color: black;
+}
+/*================ FOR LINK STYLE STARTS HERE ================*/
+/* .menulink ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+.menulink ul li a:hover {
+    background-color: #fff;
+    color: black;
+} */
+/*========== FOR LINK STYLE ENDS HERE ==========*/
+
+/* TOP NAV STYLING */
+.topnav {
+    display: flex;
+}
+.input {
+    width: 340px;
+    height: 44px;
+    border-radius: 12px;
+    border-right: none;
+    background-color: #C4C4C4;
+    color: white;
+    padding: 11px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border: none;
+}
+.sinput {
+    margin-right: 230px;
+    width: 35px;
+    border-left: none;
+    border-radius: 12px;
+    background-color: #C4C4C4;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    outline: none;
+    border: none;
+    height: 44px;
+}
+.sinput:hover{
+    cursor: pointer;
+}
+.pimg {
+    width: 42px;
+    height: 42px;
+    background-color: #c4c4c4;
+    border-radius: 50%;
+    margin-right: 22px;
+}
+.topnav h3 {
+    padding-top: 10px;
+}
+
+/* USER FILED STYLING */
+.homeface h3 {
+    padding-top: 50px;
+    padding-bottom: 5px;
+}
+
+/* HOME TECHNOLOGY */
+.hometech h3 {
+    font-size: 24px;
+    padding-top: 70px;
+    padding-bottom: 5px;
+}
+.hometech hr {
+    width: 45px;
+    margin-left: 50px;
+    margin-bottom: 45px;
+}
+.livetech {
+    display: flex;
+}
+.techbox {
+    width: 163px;
+    height: 227px;
+    background-color: #c4c4c4;
+    box-shadow: rgba(0, 0, 0, 0.2);
+    margin: 16px;
+    margin-left: 0px;
+}
+.liveimg {
+    width: 81px;
+    height: 89px;
+    background-color: black;
+    border-radius: 50%;
+    margin: auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.livetext {
+    text-align: center;
+}
+.seem {
+    margin-top: 220px;
+}
+.seem a {
+    font-size: 14px;
+    color: black;
+    text-decoration: none;
+}
+
+
+
+
+@media (max-width: 1100px){
+    body {
+        background-color: red;
+    }
+    .container {
+        margin: 0px;
+        width: 100%;
+    }
+    .input {
+        margin-right: 0px;
+    }  .sinput {
+        margin-right: 150px;
+    }
+    
+    .pimg {
+        margin-right: 25px;
+    }
+}
+@media (max-width: 1000px){
+    body {
+        background-color: green;
+    }
+      .input {
+        margin-right: 0px;
+    }
+    .sinput {
+        margin-right: 50px;
+    }
+    .pimg {
+        margin-right: 5px;
+    }
+    .livetech {
+        display: block;
+    }
+    .techbox {
+        width: 250px;
+        margin: auto;
+    }
+    .seem {
+        margin-top: 15px;
+        text-align: center;
+    }
+}
+@media (max-width: 720px){
+    body {
+        background-color: yellow;
+    }
+    .input {
+        width: 200px;
+        margin-right: 0px;
+    }
+    .sinput {
+        margin-right: 10px;
+    }
+    .menulink {
+        width: 100px;
+    }
+    .linkbtn {
+        width: 100px;
+    }
+    .sidetext {
+        display: none;
+    }
+  
+}
