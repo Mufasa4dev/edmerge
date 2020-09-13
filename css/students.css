@@ -75,9 +75,10 @@ margin: auto;
 }
 #bgimage{
     background: rgba(53, 25, 196, 0.281);
-    height: 650px;
+    height: 580px;
     width: 650px;
     transition: ease-in 2s;
+
 }
 h1{
     text-align: center;
