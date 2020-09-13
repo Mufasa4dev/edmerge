@@ -104,10 +104,28 @@ input {
     width: 340px;
     height: 44px;
     border-radius: 12px;
+    border-right: none;
     background-color: #C4C4C4;
     color: white;
     padding: 11px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border: none;
+}
+.sinput {
     margin-right: 230px;
+    width: 35px;
+    border-left: none;
+    border-radius: 12px;
+    background-color: #C4C4C4;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    outline: none;
+    border: none;
+    height: 44px;
+}
+.sinput:hover{
+    cursor: pointer;
 }
 .pimg {
     width: 42px;
@@ -174,24 +192,30 @@ input {
 
 @media (max-width: 1100px){
     body {
-        /* background-color: red; */
+        background-color: red;
     }
     .container {
         margin: 0px;
         width: 100%;
     }
     .input {
+        margin-right: 0px;
+    }  .sinput {
         margin-right: 150px;
     }
+    
     .pimg {
         margin-right: 25px;
     }
 }
 @media (max-width: 1000px){
     body {
-        /* background-color: green; */
+        background-color: green;
     }
       .input {
+        margin-right: 0px;
+    }
+    .sinput {
         margin-right: 50px;
     }
     .pimg {
@@ -211,10 +235,13 @@ input {
 }
 @media (max-width: 720px){
     body {
-        /* background-color: yellow; */
+        background-color: yellow;
     }
     .input {
         width: 200px;
+        margin-right: 0px;
+    }
+    .sinput {
         margin-right: 10px;
     }
     .menulink {
