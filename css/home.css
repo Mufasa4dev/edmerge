@@ -678,6 +678,9 @@ a:hover {
     .banner h3, .banner p {
         padding-left: 50px;
     }
+    .largeCicle {
+        z-index: -1;
+    }
     .btnCreate {
         margin-left: 50px;
     }
