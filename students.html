@@ -3,11 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Signup page for student</title>
     <link rel="stylesheet" href="css/students.css">
+    
 </head>
 <body>
     <div class="logo"><img src="images/logos/edm8.png" alt=""> </div>
+    <!-- Signup begins here -->
     <div id="maincontainer">
        
         <div id="pics">
@@ -16,7 +18,7 @@
             </div>
              
         </div>
-        <div id="contents">
+        <div class="contents">
             <h1> <strong>Create An Account</strong> </h1>
             <input type="text" placeholder=" Fullname" class="input"> <br> <br>
             <input type="email" placeholder=" Email" class="input"> <br> <br>
@@ -26,7 +28,8 @@
             <button class="input">Sign Up as a student</button> <br> <br>
             <p><input type="checkbox" >Yes! I want to receive notifications by text and email for latest opportunities </p> <br>
              <h4>By signing up, you agree to our Terms of use and Privacy Policy </h4>
-             <p>Already have an account? <a href="">Sign in</a> </p>
+             <p>Already have an account? <a href="" class="signin"> Sign in</a> </p>
+             <!-- Sign Up ends here -->
 
              <!-- This is for login -->
            
@@ -35,7 +38,7 @@
                  <h1>Welcome!</h1>
                  <p>Get the opportunities for you today</p>
              </div>
-                 <div id="details">
+                 <div class="details">
                  <form action="" >
                      <label for="" >Email Address</label> <br> <br>
                      <input type="email" placeholder=" Email" style="height: 35px; width: 300px;" required> <br> <br>
@@ -44,12 +47,13 @@
                      <a href="#"><input type="checkbox" name="" id="" required>Terms and conditions</a>  <br> <br>
                      <a href="#"> Forgot Password</a> <br> <br>
                      <button style="height: 35px; width: 300px; background-color: black; color: white;">Sign In</button> <br>
-                     <p>Don't have an account? <a href="">Sign Up</a></p>
+                     <p>Don't have an account? <a href=""class="signup">Sign Up</a></p>
          
                  </form>
              </div>
              </div>
         </div>
+        <!-- Login ends here -->
 
     </div>
 
@@ -76,8 +80,7 @@
     </div>
         </div> -->
 
-    <!-- </div> -->
 
-  
+        <script src="js/student.js"></script>
 </body>
 </html>
