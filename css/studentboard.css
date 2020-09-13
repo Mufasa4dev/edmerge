@@ -1,0 +1,60 @@
+/* DEFAULT STYLING */
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: edmerge;
+}
+button {
+    cursor: pointer;
+    border-radius: 12px;
+}
+@font-face {
+    font-family: edmerge;
+    src: url('../montserrat/Montserrat-Regular.ttf');
+}
+.content {
+    margin-left: 440px;
+    padding-top: 50px;
+    margin-right: 190px;
+}
+
+/* NAVBAR STYLING */
+.navbar {
+    width: 160px;
+    height: 959px;
+    background-color: #000000;
+    margin-left: 190px;
+    margin-top: 26px;
+    border-radius: 12px;
+    position: fixed;
+}
+.up {
+    margin-bottom: 230px;
+    margin-top: 70px;
+}
+.menulink ul li {
+    list-style: none;
+    text-align: center;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.menulink ul li:hover {
+    background-color: #fff;
+    color: black;
+}
+.menulink ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+.menulink ul li a:hover {
+    background-color: #fff;
+    color: black;
+}
