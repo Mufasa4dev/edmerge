@@ -9,25 +9,39 @@ button {
     cursor: pointer;
     border-radius: 12px;
 }
+input {
+    outline: none;
+    border-color: inherit;
+}
 @font-face {
     font-family: edmerge;
     src: url('../montserrat/Montserrat-Regular.ttf');
 }
 .content {
-    margin-left: 440px;
-    padding-top: 50px;
-    margin-right: 190px;
+    padding-top: 35px;
+    margin-right: 0px;
+}
+.container {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    border: solid red;
 }
 
 /* NAVBAR STYLING */
 .navbar {
+    width: 250px;
+    height: 1000px;
+    border: solid yellow;
+}
+.menulink {
     width: 160px;
     height: 959px;
     background-color: #000000;
-    margin-left: 190px;
+    margin-left: 0px;
     margin-top: 26px;
     border-radius: 12px;
-    position: fixed;
+    position: absolute;
 }
 .up {
     margin-bottom: 230px;
@@ -57,4 +71,89 @@ button {
 .menulink ul li a:hover {
     background-color: #fff;
     color: black;
+}
+
+/* TOP NAV STYLING */
+.topnav {
+    display: flex;
+}
+.input {
+    width: 340px;
+    height: 44px;
+    border-radius: 12px;
+    background-color: #C4C4C4;
+    color: white;
+    padding: 11px;
+    margin-right: 230px;
+}
+.pimg {
+    width: 42px;
+    height: 42px;
+    background-color: #c4c4c4;
+    border-radius: 50%;
+    margin-right: 22px;
+}
+.topnav h3 {
+    padding-top: 10px;
+}
+
+/* USER FILED STYLING */
+.homeface h3 {
+    padding-top: 50px;
+    padding-bottom: 5px;
+}
+
+/* HOME TECHNOLOGY */
+.hometech h3 {
+    font-size: 24px;
+    padding-top: 70px;
+    padding-bottom: 5px;
+}
+.hometech hr {
+    width: 45px;
+    margin-left: 50px;
+    margin-bottom: 45px;
+}
+
+
+
+
+@media (max-width: 1100px){
+    body {
+        background-color: red;
+    }
+    .container {
+        margin: 0px;
+        width: 100%;
+    }
+    .input {
+        margin-right: 150px;
+    }
+    .pimg {
+        margin-right: 25px;
+    }
+}
+@media (max-width: 1000px){
+    body {
+        background-color: green;
+    }
+      .input {
+        margin-right: 50px;
+    }
+    .pimg {
+        margin-right: 5px;
+    }
+}
+@media (max-width: 720px){
+    body {
+        background-color: yellow;
+    }
+    .input {
+        width: 200px;
+        margin-right: 10px;
+    }
+    .menulink {
+        width: 100px;
+    }
+  
 }
