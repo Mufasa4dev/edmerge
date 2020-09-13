@@ -18,16 +18,12 @@
 
 /* logo css ends */
 
-#image{
-    background-color: darkblue;
-}
-#form{
-    display: flex;
-}
+
 #signup{
     width: 40%;
+    margin: auto;
     /* height: 200px; */
-    border: solid;
+    /* border: solid; */
     padding-top: 20px;
     text-align: center;
 }
@@ -45,9 +41,10 @@
     width: 350px;
     height: 30px;
    margin-bottom: 50px;
+   padding-left: 10px;
 }
 #btn1{
-    width: 350px;
+    width: 370px;
     height: 30px;
     background-color: black;
     color: white;
