@@ -44,7 +44,7 @@ button:hover{
 margin: auto;
     width: 1200px;
     height: 1150px;
-    border: solid 1px red;
+    /* border: solid 1px red; */
     /* The styling below belongs to UI/UX I seem not to understand it 
     I am giving it mine */
     /* position: absolute;
@@ -75,9 +75,10 @@ margin: auto;
 }
 #bgimage{
     background: rgba(53, 25, 196, 0.281);
-    height: 650px;
+    height: 580px;
     width: 650px;
     transition: ease-in 2s;
+
 }
 h1{
     text-align: center;
@@ -90,5 +91,12 @@ button{
     color: white;
 }
 #maincontainer2{
-    margin-top: 40px;
+    margin-top: 60px;
+    display: none;
+}
+input{
+    outline: none;
+}
+.logo{
+   text-align: center;
 }
