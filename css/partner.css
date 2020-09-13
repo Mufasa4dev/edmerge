@@ -12,7 +12,7 @@
 
 .logo{
     width: 300px;
-    height: 100px;
+    height: 75px;
     position: absolute;
     top: 60px;
     left: 350px;
@@ -68,6 +68,7 @@ form{
     text-align: center;
     margin-top: 10px;
     font-family: montserrat;
+    font-size: 12px;
 }
  
 .form input{
@@ -102,10 +103,11 @@ form{
 }
 
 .check #box{
-    widows: 14px;
+    width: 14px;
     height: 14px;
     float: left;
-    margin-left: -90px;
+    margin-top: 30px;
+    margin-left: 75px;
 }
 
 /* .check #box p{
@@ -113,20 +115,18 @@ form{
 } */
 
 .paraOne{
-    float: right;
-    margin-right: 70px;
-    margin-top: -15px;
+    float: left;
+    margin-left: 20px;
+    margin-top: 30px;
     font-family: montserrat;
-    font-size: 12.5px;
-    /* margin-top: 20px;
-    margin-left: 20px; */
-    /* border: solid red 1px; */
+    font-size: 11px;
+
 }
 
 .term{
     text-align: center;
     font-family: montserrat;
-    font-size: 12.5px;
+    font-size: 10px;
 }
 
 #termOne{
@@ -153,4 +153,41 @@ form{
 
 .term h4 a:hover{
     color: #DB4437;
+}
+
+/* End of css for sign up */
+
+.login h2{
+    text-align: center;
+    margin-top: 30px;
+    font-family: montserrat;
+}
+
+.graph{
+    text-align: center;
+    margin-top: 10px;
+    font-family: montserrat;
+    font-size: 12px;
+}
+
+.form_input01{
+    display: block;
+    width: 350px;
+    height: 40px;
+    margin: auto;
+    /* margin-top: 15px;
+    outline: none;
+    padding-left: 15px;
+    font-family: montserrat; */ */
+}
+ 
+
+/* @media(max-width: 700px){
+    .logo{
+        width: 300px;
+        height: 130px;
+        position: absolute;
+        
+        /* margin-right: 150px; */
+    }
 }
