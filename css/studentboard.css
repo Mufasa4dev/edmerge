@@ -64,6 +64,12 @@ input {
     font-size: 16px;
     outline: none;
 }
+.img {
+    margin-right: 15px;
+    justify-content: left;
+    /* display: none; */
+}
+
 .linkbtn:hover{
     color: black;
     background-color: #fff;
@@ -249,6 +255,9 @@ input {
     }
     .linkbtn {
         width: 100px;
+    }
+    .sidetext {
+        display: none;
     }
   
 }
