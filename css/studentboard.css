@@ -19,7 +19,8 @@ input {
 }
 .content {
     padding-top: 35px;
-    margin-right: 0px;
+    margin-left: 10px;
+    border: solid pink;
 }
 .container {
     width: 84%;
