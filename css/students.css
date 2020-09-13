@@ -97,3 +97,6 @@ button{
 input{
     outline: none;
 }
+.logo{
+   text-align: center;
+}
