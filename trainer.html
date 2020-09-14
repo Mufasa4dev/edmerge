@@ -30,11 +30,15 @@
                         </div>
                         <div class="signupd">
                             <div class="signup-details">
-                                <input type="text" placeholder="Organization Name">
-                                <input type="email" placeholder="Email Address">
-                                <input type="password" placeholder="Password">
-                                <input type="text" placeholder="What kind of training can your organization take">
-                                <button id="btn1">Sign up as Training Organization</button>
+                                <form action="" name="form">
+                                    <input type="text" placeholder="Organization Name" required>
+                                    <input type="email" placeholder="Email Address" required>
+                                    <input type="password" placeholder="Password" required>
+                                    <input type="password" placeholder="Confirm Password" required>
+                                    <input type="text" placeholder="What kind of training can your organization take"
+                                        required>
+                                    <button id="btn1">Sign up as Training Organization</button>
+                                </form>
 
                             </div>
                             <div id="checkbox">
@@ -52,11 +56,19 @@
 
                     <div class="login">
                         <div id="login-details">
-                            <input type="email" placeholder="email">
-                            <input type="password" placeholder="password">
-                            <button id="btn2">
-                                Sign In
-                            </button>
+                            <form action="">
+                                <input type="email" placeholder="email" required>
+                                <input type="password" placeholder="password" required>
+                                <div id="forgot">
+                                    <input type="checkbox"> 
+                                   <p> Remember me <span>Forgot password? <a href="">click here</a></span></p>
+                                 </div>
+                                <button type="submit" id="btn2">
+                                    Sign In
+                                </button>
+                            </form>
+                            
+                           
                             <p>Don't have an account? <a href="#" class="logIn">Sign Up</a></p>
                         </div>
                     </div>
