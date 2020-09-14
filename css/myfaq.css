@@ -117,7 +117,7 @@ a:hover {
 .faqbox {
     margin: auto;
     width: 100%;
-    margin-bottom: 100px;
+    margin-bottom: 300px;
 }
 .faqcontent {
     width: 870px;
@@ -165,6 +165,61 @@ a:hover {
     box-sizing: border-box;
     border-top: none;
     margin-bottom: 20px;
+}
+.largeCicle {
+    width: 500px;
+    height: 500px;
+    background: rgba(43, 45, 60,0.1);
+    border-radius: 50%;
+    position: absolute;
+    left: -177px;
+    top: 380px;
+}
+.mCircle {
+    background: rgba(43, 45, 60,0.5);
+    border-radius: 50%;
+    position: absolute;
+    width: 99px;
+    height: 98px;
+    left: 270px;
+    top: 625px;
+}
+.sCircle {
+    background: rgba(43, 45, 60,0.5);
+    border-radius: 50%;
+    position: absolute;
+    width: 49px;
+    height: 49px;
+    left: 372px;
+    top: 660px;
+}
+.largeCicle1 {
+    width: 500px;
+    height: 500px;
+    background: rgba(43, 45, 60,0.2);
+    border-radius: 50%;
+    position: absolute;
+    left: 755px;
+    top: 1800px;  
+    z-index: -1;  
+}
+.mCircle1 {
+    background: rgba(43, 45, 60,0.6);
+    border-radius: 50%;
+    position: absolute;
+    width: 99px;
+    height: 98px;
+    right: 472px;
+    top: 1900px; 
+}
+.sCircle1 {
+    background: rgba(43, 45, 60,0.6);
+    border-radius: 50%;
+    position: absolute;
+    width: 49px;
+    height: 49px;
+    right: 580px;
+    top: 1900px; 
 }
 
 /*======================= FOOTER STYLING ======================*/
