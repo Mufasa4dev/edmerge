@@ -1,5 +1,5 @@
 let myForm = document.querySelector(".form_txt");
-let showReg = document.querySelector("signup");
+let showReg = document.querySelector(".signup");
 
 let myLogin = document.querySelector(".login");
 let showLogin = document.querySelector(".LogIn");
