@@ -40,7 +40,7 @@ input {
     height: 959px;
     background-color: #000000;
     margin-left: 0px;
-    margin-top: 26px;
+    top: 26px;
     border-radius: 12px;
     position: absolute;
 }
@@ -65,9 +65,17 @@ input {
     outline: none;
 }
 .img {
-    margin-right: 15px;
-    justify-content: left;
+    /* margin-right: 15px; */
+    /* justify-content: left; */
+    text-align: left;
+    /* width: 30px; */
+    margin-left: 0px;
     /* display: none; */
+}
+.sidetext {
+    width: 90px;
+    text-align: right;
+    margin: auto;
 }
 
 .linkbtn:hover{
@@ -101,6 +109,8 @@ input {
     color: black;
 } */
 /*========== FOR LINK STYLE ENDS HERE ==========*/
+
+/* HOME STYLING STARTS HERE */
 
 /* TOP NAV STYLING */
 .topnav {
@@ -193,9 +203,71 @@ input {
     text-decoration: none;
 }
 
+/* HOME STYLING ENDS HERE */
 
 
+/* PROFILE STYLING STARTS HERE */
+.usereye {
+    /* float: right; */
+    margin-bottom: 25px;
+    display: flex;
+}
+.usereye h4 {
+    padding-top: 15px;
+    padding-left: 22px;
+}
+.eyeimg {
+    width: 41px;
+    height: 42px;
+    background-color: #c4c4c4;
+    border-radius: 50%;
+}
+.userinfo {
+    display: flex;
+    /* margin-top: 46px; */
+}
+.userimg {
+    width: 340px;
+    height: 273px;
+    background: rgba(196, 196, 196, 0.1);
+    border: 0.5px solid rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    border-radius: 12px;
+    margin-right: 20px;
+}
+.userdetail {
+    width: 520px;
+    height: 273px;
+    background: rgba(196, 196, 196, 0.1);
+    border: 0.5px solid rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    border-radius: 12px;
+    display: flex;
+}
+.tarea {
+    width: 211px;
+    height: 205px;
+    margin: 26px 39px 42px 39px;
+    padding: 10px;
+    border: 0.5px solid rgba(0, 0, 0, 0.4);
+    box-sizing: border-box;
+    border-radius: 12px;
+}
+.cirimg {
+    width: 198px;
+    height: 198px;
+    border-radius: 50%;
+    background-color: #c4c4c4;
+    margin: auto;
+    margin-top: 20px;
+}
+.userimg h4 {
+    text-align: center;
+    padding-top: 10px;
+}
 
+
+/* RESPONSIVE STYLING */
 @media (max-width: 1100px){
     body {
         background-color: red;

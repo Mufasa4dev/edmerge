@@ -30,10 +30,10 @@
                     <li><a href="">Help</a></li>
                 </ul> -->
                 <ul class="up">
-                    <li><button class="linkbtn"><span class="img"><img src="images/homeImg/ohmome.png" alt=""></span><span class="sidetext"> Home</span></button></li>
-                    <li><button class="linkbtn"><span class="img"><img src="images/homeImg/oprogile.png" alt=""></span><span class="sidetext"> Profile</span></button></li>
+                    <li><button id="homebtn" class="linkbtn"><span class="img"><img src="images/homeImg/ohmome.png" alt=""></span><span class="sidetext"> Home</span></button></li>
+                    <li><button id="profilebtn" class="linkbtn"><span class="img"><img src="images/homeImg/oprogile.png" alt=""></span><span class="sidetext"> Profile</span></button></li>
                     <li><button class="linkbtn"><span class="img"><img src="images/homeImg/alertpng.png" alt=""></span><span class="sidetext"> Alert</span></button></li>
-                    <li><button class="linkbtn"><span class="img"><img src="images/homeImg/trainingpng.png" alt=""></span><span class="sidetext"> Ongoing trainings</span></button></li>
+                    <li><button class="linkbtn"><span class="img"><img src="images/homeImg/trainingpng.png" alt=""></span><span class="sidetext"> Ongoing <br> trainings</span></button></li>
                 </ul>
                 <ul class="down">
                     <li><button class="linkbtn"><span class="img"><img src="images/homeImg/settingspng.png" alt=""></span><span class="sidetext"> Settings</span></button></li>
@@ -54,11 +54,11 @@
                     <div class="pimg">
     
                     </div>
-                    <h3>User</h3>
+                    <h3>Chiamaka</h3>
                 </div>
                 <!-- USER FIELD-->
                 <div class="homeface">
-                    <h3>Hi! User</h3>
+                    <h3>Hi! Chiamaka</h3>
                     <p>Unlimited opportunities are here for you</p>
                 </div>
                 <!--  HOME TECNOLOGY  -->
@@ -240,7 +240,7 @@
                     <div class="livetech">
                         <div class="techbox">
                             <div class="liveimg">
-
+                                
                             </div>
                             <div class="livetext">
                               
@@ -281,12 +281,57 @@
 
             <!--================= PROFILE SECTION BEGINGS HERE =================-->
             <div class="profiledisplay">
+                <div class="usereye">
+                    <div class="eyeimg">
+
+                    </div>
+                    <h4>Chiamaka</h4>
+                </div>
+                <div class="userinfo">
+                    <div class="userimg">
+                        <div class="cirimg">
+                                    
+                        </div>
+                        <h4>Chiamaka Chukuma</h4>
+                    </div>
+                    <div class="userdetail">
+                        <div class="textarea">
+                            <textarea class="tarea" name="" id="" cols="30" rows="10" placeholder="About me"></textarea>
+                        </div>
+                        <div class="userloc">
+                            <p><img src="" alt="">Iyanapaja Lagos</p>
+                            <p><img src="" alt="">chiamaka@gmail.com</p>
+                            <p><img src="" alt="">+234123456789</p>
+                        </div>
+                    </div>
+                </div>
             </div>
 
 
         </div>
     </div>
 
+    <script>
+        let home = document.querySelector('.homedisplay');
+        let profile = document.querySelector('.profiledisplay');
+        let homebtn = document.querySelector('#homebtn');
+        let profilebtn = document.querySelector('#profilebtn');
+        homebtn.addEventListener('click', showhome);
+
+        function showhome(){
+            if(home.style.display == "none"){
+                home.style.display = "block"
+                profile.style.display = "none"
+            }
+        }
+        profilebtn.addEventListener('click', showprofile);
+        function showprofile(){
+            if(profile.style.display == "none"){
+                home.style.display = "none"
+                profile.style.display = "block"
+            }
+        }
+    </script>
 </body>
 
 </html>
