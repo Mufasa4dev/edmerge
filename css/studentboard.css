@@ -65,9 +65,17 @@ input {
     outline: none;
 }
 .img {
-    margin-right: 15px;
-    justify-content: left;
+    /* margin-right: 15px; */
+    /* justify-content: left; */
+    text-align: left;
+    /* width: 30px; */
+    margin-left: 0px;
     /* display: none; */
+}
+.sidetext {
+    width: 90px;
+    text-align: right;
+    margin: auto;
 }
 
 .linkbtn:hover{
