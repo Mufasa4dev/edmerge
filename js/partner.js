@@ -1,7 +1,7 @@
-let myForm = document.querySelector(".form_txt");
-let showReg = document.querySelector("signup");
+let myForm = document.querySelector(".singup");
+let showReg = document.querySelector(".signup");
 
-let myLogin = document.querySelector(".login");
+let myLogin = document.querySelector(".jogin");
 let showLogin = document.querySelector(".LogIn");
 
 showReg.addEventListener("click", show);

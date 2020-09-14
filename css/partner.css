@@ -10,13 +10,20 @@
     box-sizing: border-box;
 }
 
+.container{
+    height: 600px;
+    width: 500px;
+    border: solid #E5E5E5 1px;
+    margin: auto;
+    margin-top: 50px;
+
+}
+
 .logo{
     width: 300px;
     height: 75px;
-    position: absolute;
-    top: 60px;
-    left: 350px;
-    /* border: solid; */
+    margin: auto;
+    margin-top: 100px;
 }
 
 .logo img{
@@ -24,37 +31,12 @@
     height: 100%;
 }
 
-form{
-    display: flex;
-}
-
-
-.form_img{
-    background-color: blue;
-    height: 600px;
-    width: 500px;
-    border-top-left-radius: 10px;
-    border-bottom-left-radius: 10px;
-    float: left;
-    margin-top: 210px;
-    margin-left: 5px;
-    
-}
-
-.form_img #pic{
-    width: 100px;
-    height: 100px;
-}
-
 .form_txt{
     height: 600px;
-    width: 500px;
-    border: solid #E5E5E5 1px;
-    border-bottom-right-radius: 10px;
-    border-top-right-radius: 10px;
-    float: left;
-    margin-top: 210px;
-    margin-bottom: 70px;
+    width: 400px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 80px;
     
 }
 
@@ -76,8 +58,8 @@ form{
     width: 350px;
     height: 40px;
     margin: auto;
-    margin-top: 15px;
-    /* margin-left: 20px; */
+    margin-top: 20px;
+    border-radius: 6px;
     outline: none;
     padding-left: 15px;
     font-family: montserrat;
@@ -86,12 +68,13 @@ form{
 
 .btn{
     width: 350px;
-    height: 40px;
+    height: 50px;
     margin: auto;
-    margin-left: 75px;
+    margin-left: 25px;
     margin-top: 20px;
     border: none;
-    background: #000000;
+    border-radius: 6px;
+    background:  #2B2D3C;
     outline: none;
     color: #ffffff;
     cursor: pointer;
@@ -103,43 +86,45 @@ form{
 }
 
 .check #box{
-    width: 14px;
-    height: 14px;
+    width: 20px;
+    height: 20px;
     float: left;
     margin-top: 30px;
-    margin-left: 75px;
+    margin-left: 25px;
 }
-
-/* .check #box p{
-    border: solid blue 2px;
-} */
 
 .paraOne{
     float: left;
-    margin-left: 20px;
+    margin-left: 40px;
     margin-top: 30px;
     font-family: montserrat;
-    font-size: 11px;
+    font-size: 14px;
+    line-height: 18px;
 
+}
+.policy{
+    text-align: center;
+    font-family: montserrat;
+    font-size: 12.5px;
 }
 
 .term{
     text-align: center;
     font-family: montserrat;
-    font-size: 10px;
+    font-size: 14px;
 }
 
 #termOne{
-    margin-top: 99px;
+    margin-top: 80px;
     /* border: solid; */
 }
 #termOne a{
     text-decoration: none;
-    color: #2B2D3C;
+    color: #DB4437;
 }
 
 #termOne a:hover{
-    color: #DB4437;
+    color: red;
 }
 
 .term h4{
@@ -148,14 +133,35 @@ form{
 }
 .term h4 a{
     text-decoration: none;
-    color: #2B2D3C;
-}
-
-.term h4 a:hover{
     color: #DB4437;
 }
 
+.term h4 a:hover{
+    color: red;
+}
+
 /* End of css for sign up */
+
+.logoo{
+    width: 300px;
+    height: 75px;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.logoo img{
+    width: 100%;
+    height: 100%;
+}
+
+.login{
+    height: 600px;
+    width: 400px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 80px;
+}    
+
 
 .login h2{
     text-align: center;
@@ -170,24 +176,77 @@ form{
     font-size: 12px;
 }
 
-.form_input01{
+.info input{
     display: block;
     width: 350px;
     height: 40px;
     margin: auto;
-    /* margin-top: 15px;
+    margin-top: 20px;
+    border-radius: 6px;
     outline: none;
     padding-left: 15px;
-    font-family: montserrat; */ */
+    font-family: montserrat;
 }
- 
 
-/* @media(max-width: 700px){
-    .logo{
-        width: 300px;
-        height: 130px;
-        position: absolute;
-        
-        /* margin-right: 150px; */
-    }
+.checkbox{
+    display: flex;
 }
+
+.checkbox p{
+    margin: auto;
+    margin-top: 15px;
+    font-family: montserrat;
+}
+
+.checkbox #paa{
+    margin-top: 18px;
+}
+
+.checkbox #boxx{
+    width: 20px;
+    height: 20px;
+}
+
+.checkbox a{
+    text-decoration: none;
+    color: #DB4437;
+}
+
+.checkbox a:hover{
+    color: red;
+}
+
+.btn1{
+    width: 350px;
+    height: 50px;
+    margin: auto;
+    margin-left: 25px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 6px;
+    background:  #2B2D3C;
+    outline: none;
+    color: #ffffff;
+    cursor: pointer;
+    font-family: montserrat;
+}
+
+.btn1:hover{
+    background-color: #DB4437;
+}
+
+.sign p{
+    text-align: center;
+    margin-top: 15px;
+    font-family: montserrat;
+}
+
+.sign a{
+    text-decoration: none;
+    color: #DB4437;
+}
+
+.sign a:hover{
+    color: red;
+}
+
