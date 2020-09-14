@@ -212,6 +212,10 @@
     color: #DB4437;
 }
 
+.checkbox a:hover{
+    color: red;
+}
+
 .btn1{
     width: 350px;
     height: 50px;
@@ -227,6 +231,10 @@
     font-family: montserrat;
 }
 
+.btn1:hover{
+    background-color: #DB4437;
+}
+
 .sign p{
     text-align: center;
     margin-top: 15px;
@@ -236,5 +244,9 @@
 .sign a{
     text-decoration: none;
     color: #DB4437;
+}
+
+.sign a:hover{
+    color: red;
 }
 
