@@ -42,7 +42,7 @@ input {
     margin-left: 0px;
     margin-top: 26px;
     border-radius: 12px;
-    position: absolute;
+    position: fixed;
 }
 .logo {
     text-align: center;

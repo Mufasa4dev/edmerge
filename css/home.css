@@ -13,6 +13,9 @@ button {
     border-radius: 5px;
     font-size: 16px;
 }
+p {
+    font-weight: 200;
+}
 a:hover {
     cursor: pointer;
 }
@@ -37,6 +40,7 @@ a:hover {
     width: 440px;
     margin-left: 230px;
     margin-top: 20px;
+    /* border: solid red; */
 }
 .menuLink ul li {
     height: 40px;
@@ -69,12 +73,12 @@ a:hover {
     height: 50px;
     background-color: rgb(43,45,60);
     border: solid white;
-    /* border-radius: 5px; */
     outline: none;
     color: white;
     margin-top: 9px;
     font-family: edmerge;
     border-radius: 10px;
+    /* margin-left: 100px; */
 }
 .hide {
     width: 50px;
@@ -236,7 +240,7 @@ a:hover {
     display: flex;
     padding-top: 50px;
     margin: auto;
-    margin-left: 75px;
+    /* margin-left: 75px; */
     padding-bottom: 100px;
 }
 .oCard {
@@ -273,7 +277,7 @@ a:hover {
 .leave {
     width: 100%;
     margin-top: 50px;
-    margin-bottom: 150px;
+    margin-bottom: 50px;
     height: 600px;
     background-color: #2b2d3c;
     padding-top: 01px;
@@ -314,6 +318,7 @@ a:hover {
     font-size: 18px;
     font-family: edmerge;
     border: solid #2B2D3C;
+    margin-top: 70px;
 }
 .btnLog2 {
     width: 200px;
@@ -422,7 +427,7 @@ a:hover {
     color: #DB4437;
     font-size: 40px;
     font-weight: 600;
-    padding-top: 100px;
+    /* padding-top: 100px; */
     text-align: center;
 }
 .under1 {
@@ -444,7 +449,7 @@ a:hover {
     background: #2b2d3c;
     box-shadow: 0px 3px 5px rgba(43, 45, 60, 0.6);
     border-radius: 0px 24px;
-    margin-left: 190px;
+    margin-left: 100px;
 }
 .testimonyCard p{
     padding: 40px 0px 0px 50px;
@@ -464,7 +469,7 @@ a:hover {
 .alttestimony {
     display: flex;
     margin-bottom: 50px;
-    margin-left: 330px;
+    margin-left: 290px;
     position: relative;
     z-index: 1;
 }
@@ -504,6 +509,7 @@ a:hover {
     margin-top: 100px;
     margin-bottom: 50px;
     font-family: edmerge;
+    border: none;
 }
 .largeCicle2 {
     width: 500px;
@@ -512,7 +518,7 @@ a:hover {
     border-radius: 50%;
     position: absolute;
     left: -158px;
-    top: 3780px;
+    top: 2980px;
 }
 .mCircle2 {
     background: rgba(43, 45, 60,0.6);
@@ -521,7 +527,7 @@ a:hover {
     width: 99px;
     height: 98px;
     left: 280px;
-    top: 3970px;
+    top: 3120px;
 }
 .sCircle2 {
     background: rgba(43, 45, 60,0.6);
@@ -530,7 +536,7 @@ a:hover {
     width: 49px;
     height: 49px;
     left: 382px;
-    top: 3995px;
+    top: 3145px;
 }
 .textfot h3 {
     text-align: center;
@@ -559,6 +565,7 @@ a:hover {
     width: 100px;
 }
 .footertext ul {
+    margin: auto;
     margin-top: 30px;
     width: 900px;
 }
@@ -572,6 +579,10 @@ a:hover {
 .footertext ul li:hover{
     color: white;
     cursor: pointer;
+}
+.footertext ul li a {
+    text-decoration: none;
+    color: #E6E8FA;
 }
 .footersnav {
     width: 100%;
