@@ -10,52 +10,30 @@
 }
 /* This is the styling for main container  */
 #maincontainer{
-    /* display: none; */
-    display: block;
-    margin-left: 400px;
-    /* border: solid 1px red; */
-    height: 1000px;
-    width: 500px;
-    /* text-align: center; */
-    padding-top: 100px; 
+     margin: auto;
+     margin-top: 50px;
+     height: 590px;
+     /* border: solid 1px; */
+     width: 600px;
 }
-
-#details{
-    text-align: none;
-    padding: 20px;
-}
-#container{
+.display{
     text-align: center;
 }
-#details{
+.details{
+    text-align: none;
+    padding: 20px;
     display: block;
-   
 }
+.container{
+    text-align: center;
+}
+
 button:hover{
      cursor: pointer;
 }
 
 
-#maincontainer{
-    display: flex;
-    margin: auto;
-    width: 1200px;
-    height: 650px;
-    /* border: solid 1px red; */
-    /* The styling below belongs to UI/UX I seem not to understand it 
-    I am giving it mine */
-    /* position: absolute;
-    width: 538px;
-    height: 54.99px;
-    left: 440px;
-    top: 3482px;
 
-    background: #FFFFFF;
-    border: 1px solid #000000;
-    box-sizing: border-box;
-    border-radius: 5px; */
-    
-}
 #pics{
     background-image: url("images/loginimg.jpg");
     width: 650px;
@@ -63,20 +41,24 @@ button:hover{
 }
 .input{
     height: 54.99px;
-    width: 538px;
+    width: 369px;
+    border-radius: 5px;
+    /* outline: none;
+    border-radius: 5px;
+     position: absolute; 
+    width: 210px;
+    height: 35px;
+    left: 93px;
+    top: 241px;
+    padding-top: 20px;   */
+
 }
 #contents{
     display: block;
     position: relative;
     right:0px;
 }
-#bgimage{
-    background: rgba(53, 25, 196, 0.281);
-    height: 580px;
-    width: 650px;
-    transition: ease-in 2s;
 
-}
 h1{
     text-align: center;
     color: black;
@@ -84,16 +66,54 @@ h1{
 }
 button{
     border: none;
-    background-color:black;
+    background: #2B2D3C;
     color: white;
 }
 #maincontainer2{
     margin-top: 60px;
     display: none;
 }
-input{
-    outline: none;
+.boxstyle{
+    /* outline: none;
+    border-radius: 5px;
+    /* position: absolute; */
+    /* width: 210px;
+    height: 35px;
+    left: 93px;
+    top: 241px;
+    padding-top: 20px;  */
+
+   
 }
 .logo{
    text-align: center;
+ 
+}
+.contents h3{
+    padding-bottom: 30px;
+}
+.contents p{
+    padding-bottom: 20px;
+}
+h4{
+    padding-bottom: 45px;
+}
+p{
+    color: #2B2D3C;
+    /* font-family: Montserrat; */
+    font-style: normal;
+    /* font-weight: normal;
+    font-size: 20px; */
+    /* line-height: 15px; */
+}
+#display{
+    float: left;
+    padding-left: 93px;
+}
+#displays{
+    float: right;
+    padding-right: 93px;
+}
+#account{
+    margin-top: 30px;
 }
