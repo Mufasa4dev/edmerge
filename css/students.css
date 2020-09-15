@@ -12,7 +12,9 @@
 #maincontainer{
      margin: auto;
      margin-top: 50px;
-     height: 569px;
+     height: 590px;
+     /* border: solid 1px; */
+     width: 600px;
 }
 .display{
     text-align: center;
@@ -56,13 +58,7 @@ button:hover{
     position: relative;
     right:0px;
 }
-#bgimage{
-    background: rgba(53, 25, 196, 0.281);
-    height: 580px;
-    width: 650px;
-    transition: ease-in 2s;
 
-}
 h1{
     text-align: center;
     color: black;
@@ -70,7 +66,7 @@ h1{
 }
 button{
     border: none;
-    background-color:black;
+    background: #2B2D3C;
     color: white;
 }
 #maincontainer2{
@@ -91,10 +87,33 @@ button{
 }
 .logo{
    text-align: center;
+ 
 }
 .contents h3{
     padding-bottom: 30px;
 }
 .contents p{
     padding-bottom: 20px;
+}
+h4{
+    padding-bottom: 45px;
+}
+p{
+    color: #2B2D3C;
+    /* font-family: Montserrat; */
+    font-style: normal;
+    /* font-weight: normal;
+    font-size: 20px; */
+    /* line-height: 15px; */
+}
+#display{
+    float: left;
+    padding-left: 93px;
+}
+#displays{
+    float: right;
+    padding-right: 93px;
+}
+#account{
+    margin-top: 30px;
 }
