@@ -10,7 +10,9 @@
 }
 /* This is the styling for main container  */
 #maincontainer{
-   
+     margin: auto;
+     margin-top: 50px;
+     height: 569px;
 }
 .display{
     text-align: center;
@@ -37,7 +39,17 @@ button:hover{
 }
 .input{
     height: 54.99px;
-    width: 538px;
+    width: 369px;
+    border-radius: 5px;
+    /* outline: none;
+    border-radius: 5px;
+     position: absolute; 
+    width: 210px;
+    height: 35px;
+    left: 93px;
+    top: 241px;
+    padding-top: 20px;   */
+
 }
 #contents{
     display: block;
@@ -66,17 +78,23 @@ button{
     display: none;
 }
 .boxstyle{
-    outline: none;
+    /* outline: none;
     border-radius: 5px;
     /* position: absolute; */
-    width: 269px;
+    /* width: 210px;
     height: 35px;
     left: 93px;
     top: 241px;
-    padding-top: 20px;
+    padding-top: 20px;  */
 
    
 }
 .logo{
    text-align: center;
+}
+.contents h3{
+    padding-bottom: 30px;
+}
+.contents p{
+    padding-bottom: 20px;
 }
