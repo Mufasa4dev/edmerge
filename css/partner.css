@@ -11,7 +11,7 @@
 }
 
 .container{
-    height: 600px;
+    height: 700px;
     width: 500px;
     border: solid #E5E5E5 1px;
     margin: auto;
@@ -198,13 +198,19 @@
     font-family: montserrat;
 }
 
-.checkbox #paa{
-    margin-top: 18px;
+.checkbox .paa{
+    margin-top: 15px;
 }
 
-.checkbox #boxx{
+.checkbox .par{
+    margin-right: 45px;
+}
+
+.checkbox .boxx{
     width: 20px;
     height: 20px;
+    margin-top: 15px;
+    margin-left: 25px;
 }
 
 .checkbox a{
