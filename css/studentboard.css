@@ -37,12 +37,12 @@ input {
 }
 .menulink {
     width: 160px;
-    height: 959px;
+    height: 100vh;
     background-color: #000000;
     margin-left: 0px;
-    top: 26px;
+    /* top: 26px; */
     border-radius: 12px;
-    position: absolute;
+    position: fixed;
 }
 .logo {
     text-align: center;
@@ -51,8 +51,8 @@ input {
     margin-top: 10px;
 }
 .up {
-    margin-bottom: 230px;
-    margin-top: 70px;
+    margin-bottom: 0px;
+    margin-top: 50px;
 }
 .linkbtn {
     border: none;

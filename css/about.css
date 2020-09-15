@@ -179,7 +179,6 @@ a:hover {
     width: 560px;
     height: 417px;
     margin: auto;
-    border: solid black 2px;
     margin-right: 134px;
 
 }
@@ -187,7 +186,6 @@ a:hover {
     width: 560px;
     height: 417px;
     margin: auto;
-    border: solid black 2px;
     margin-left: 134px;
 
 }
@@ -214,10 +212,9 @@ a:hover {
     font-style: normal;
 }
 .trackimg {
-    width: 550px;
-    height: 400px;
+    width: 560px;
+    height: 417px;
     margin-bottom: 130px;
-    border: solid black 1px;
 }
 
 
@@ -250,6 +247,9 @@ a:hover {
     border: solid black 2px;
     transition: 1s;
 } */
+.imgag {
+    margin-bottom: 0px;
+}
 .imgag img{
     width: 179px;
     height: 179px;
@@ -264,9 +264,11 @@ a:hover {
     font-size: 16px;
     font-weight: bolder;
     color: black;
-    padding-top: 24px;
+    padding-top: 5px;
     padding-bottom: 5px;
-    line-height: 24px;
+}
+.imgagtext p {
+    padding-top: 0px;
 }
 .member {
     width: 60%;
@@ -280,8 +282,14 @@ a:hover {
 }
 
 /* for four images starts here */
-.break {
+.break, .break1 {
     display: flex;
+}
+.break {
+    margin-bottom: 0px;
+}
+.break1 {
+    margin-top: 0px;
 }
 .img1 {
     margin-left: 50px;
