@@ -178,7 +178,8 @@ a:hover {
     margin: auto;
     width: 870px;
     height: 120px;
-    background-color: #c4c4c4;
+    background-color: #2b2d3c;
+    opacity: 0.9;
     border: 1px solid #000000;
     box-sizing: border-box;
     border-top: none;
