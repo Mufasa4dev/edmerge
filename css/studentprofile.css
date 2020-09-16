@@ -30,11 +30,75 @@ input {
 }
 
 /* NAVBAR STYLING */
-/* .navbar {
-    width: 250px;
-    height: 1000px;
-    border: solid yellow;
-} */
+.lcircle {
+    width: 550px;
+    height: 550px;
+    left: -181px;
+    top: 166.84px;
+    border-radius: 50%;
+    position: absolute;
+    background: rgba(43, 45, 60, 0.6);
+    mix-blend-mode: normal;
+    opacity: 0.5;
+}
+.mcircle {
+    position: absolute;
+    width: 99px;
+    height: 98px;
+    left: 294.55px;
+    top: 455.53px;
+    border-radius: 50%;
+    background: rgba(43, 45, 60, 0.6);
+    mix-blend-mode: normal;
+    opacity: 0.5;
+}
+.scircle {
+    position: absolute;
+    width: 49px;
+    height: 49px;
+    left: 404.64px;
+    top: 483.55px;
+    border-radius: 50%;
+    background: rgba(43, 45, 60, 0.6);
+    mix-blend-mode: normal;
+    opacity: 0.5;
+    z-index: 2;
+}
+.lcircle1 {
+    clip-path: circle(50% at 100% 73%);
+    position: absolute;
+    width: 459px;
+    height: 455px;
+    left: 814.02px;
+    top: 700.56px;
+    background: rgba(43, 45, 60, 0.6);
+    mix-blend-mode: normal;
+    z-index: -1;
+    opacity: 0.5;
+}
+.mcircle1 {
+    position: absolute;
+    width: 99px;
+    height: 98px;
+    left: 1000.22px;
+    top: 962.68px;
+    border-radius: 50%;
+    background: rgba(43, 45, 60, 0.6);
+    mix-blend-mode: normal;
+    opacity: 0.5;
+
+}
+.scircle1 {
+    position: absolute;
+    width: 49px;
+    height: 49px;
+    left: 950.43px;
+    top: 984.82px;
+    border-radius: 50%;
+    background: rgba(43, 45, 60, 0.6);
+    mix-blend-mode: normal;
+    opacity: 0.5;
+}
 .menulink {
     width: 200px;
     height: 100vh;
@@ -61,7 +125,7 @@ input {
     padding-bottom: 20px;
 }
 .menulink ul li:hover {
-    background-color: #fff;
+    background: #E6E8FA;
     color: black;
 }
 .menulink ul li a{
@@ -73,7 +137,7 @@ input {
     padding-bottom: 20px;
 }
 .menulink ul li a:hover {
-    background-color: #fff;
+    background: #E6E8FA;
     color: black;
 }
 .up img, .down img {
@@ -98,7 +162,7 @@ input {
 .bio {
     width: 500px;
     height: 280px;
-    background: #D9D9D9;
+    background: #E6E8FA;
     margin-right: 30px;
     margin-left: 65px;
     display: flex;
@@ -106,19 +170,15 @@ input {
 .bioimg {
     width: 180px;
     height: 176px;
-    background: #F1F0EF;
+    background: #E6E8FA;
     border-radius: 5px;
     margin-top: 34px;
     margin-left: 10px;
 }
-.bioimg img {
-    margin-left: 30px;
-    margin-top: 32px;
-}
 .verify {
     width: 250px;
     height: 280px;
-    background: #D9D9D9;
+    background: #E6E8FA;
 }
 .spantext {
     display: flex;
@@ -132,15 +192,18 @@ input {
     width: 77px;
     height: 19px;
     font-size: 12px;
-    background-color: #000000;
+    background: #DB4437;
     color: white;
     border-radius: 0px;
+    outline: none;
 }
 textarea {
     width: 232px;
     height: 158px;
     margin-top: 24px;
     margin-left: 43px;
+    padding: 10px;
+    background: #E6E8FA;
 }
 .verify h4 {
     font-size: 18px;
@@ -189,32 +252,48 @@ textarea {
 .eduback {
     width: 500px;
     height: 174px;
-    background: #D9D9D9;
+    background: #E6E8FA;
     margin-right: 30px;
     margin-left: 65px;
 }
+.eduback h3, .skill h3, .experience h3, .interest h3 {
+    padding: 17px 0px 17px 19px;
+}
+.eduback img {
+    margin-left: 200px;
+}
+
 .skill {
     width: 250px;
     height: 174px;
-    background: #D9D9D9;
+    background: #E6E8FA;
 }
-
+.experience img {
+    margin-left: 320px;
+}
+.skill img {
+    margin-left: 135px;
+}
+.interest img {
+    margin-left: 110px;
+}
 .exint {
     display: flex;
     margin-top: 23px;
     top: 200px;
+    margin-bottom: 250px;
 }
 .experience {
     width: 500px;
     height: 174px;
-    background: #D9D9D9;
+    background: #E6E8FA;
     margin-right: 30px;
     margin-left: 65px;
 }
 .interest {
     width: 250px;
     height: 174px;
-    background: #D9D9D9;
+    background: #E6E8FA;
 } 
 
 
@@ -247,7 +326,6 @@ textarea {
     .bio {
         width: 500px;
         height: 280px;
-        background: #D9D9D9;
         margin-right: 30px;
         margin-left: 5px;
         display: flex;
@@ -255,21 +333,41 @@ textarea {
     .eduback {
         width: 500px;
         height: 174px;
-        background: #D9D9D9;
         margin-right: 30px;
         margin-left: 5px;
     }
     .experience {
         width: 500px;
         height: 174px;
-        background: #D9D9D9;
         margin-right: 30px;
         margin-left: 5px;
+    }
+    .contbio {
+        display: block;
+    }
+    .verify, .skill, .interest {
+        margin: auto;
+        margin-top: 20px;
+    }
+    .edu, .exint {
+        display: block;
+    }
+    .lcircle {
+        z-index: -1;
+    }
+    .scircle1, .mcircle1, .lcircle1 {
+        display: none;
     }
 }
 @media (max-width: 1000px){
     body {
         background-color: green;
+    }
+    .profile {
+        margin-left: 250px;
+    }
+    .menulink {
+        margin-left: 20px;
     }
       .input {
         margin-right: 0px;
@@ -307,22 +405,29 @@ textarea {
         width: 200px;
         margin-right: 0px;
     }
+    .profile {
+        margin-left: 120px;
+    }
     .sinput {
         margin-right: 10px;
     }
     .menulink {
         width: 100px;
+        margin-left: 0px;
     }
     .linkbtn {
         width: 100px;
     }
-    .sidetext {
+    .navtex {
         display: none;
     }
     .bio {
         display: block;
         width: auto;
         height: auto;
+    }
+    .contbio {
+        width: 350px;
     }
     .bioimg {
         margin: auto;
@@ -331,6 +436,18 @@ textarea {
     .bioedt {
         margin: auto;
         margin-right: 25px;
+    }
+    .experience, .eduback {
+        width: 350px;
+    }
+    .edu, .exint {
+        width: 350px;
+    }
+    .experience img {
+        margin-left: 170px;
+    }
+    .eduback img {
+        margin-left: 50px;
     }
   
 }
