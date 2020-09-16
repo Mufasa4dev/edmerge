@@ -1,0 +1,62 @@
+<?php
+include "database.php";
+?>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <div class="contain">
+       <section>
+           <div class="box">
+               <form action="search.php" method="POST">
+<input type="text"placeholder="ITEMNAME" name="item">
+   <button type="submit" name="search">SEARCH</button>
+
+               </form>
+               <table>
+                   <?php
+                 
+               $sql="SELECT* FROM app";
+               $result=mysqli_query($con, $sql);
+        ?>
+      <tr>
+      <th style="border: solid 1px; padding:20px;">id</th>
+          <th style="border: solid 1px; padding:20px;">productname</th>
+          <th style="border: solid 1px; padding:20px;">location</th>
+      </tr>
+      <?php
+      if (isset($_POST["search"])){ 
+        $itemName= $_POST["item"];
+        $sql= "SELECT * FROM app WHERE productname='$itemName'";
+       $result=mysqli_query($con, $sql);
+      }
+       ?>
+       <?php
+       while($row=mysqli_fetch_array($result)){?>
+           <tr>
+        <td><?php echo $row["id"] ?></td>
+       <td><?php echo $row["productname"] ?></td> 
+       <td><?php echo $row["productarea"] ?></td>
+           </tr>
+    <?php }
+       ?>
+      <?php
+      while ($row=mysqli_fetch_assoc($result)){ ?>
+      <tr>
+      <td><?php echo $row["id"] ?></td>
+       <td><?php echo $row["productname"] ?></td> 
+       <td><?php echo $row["productarea"] ?></td>
+       </tr> 
+     <?php }
+      ?>
+               </table>       
+           </div>
+       </section>
+   </div> 
+</body>
+</html>
