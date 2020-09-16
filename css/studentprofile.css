@@ -18,28 +18,28 @@ input {
     src: url('../montserrat/Montserrat-Regular.ttf');
 }
 .content {
-    padding-top: 35px;
-    margin-left: 10px;
+    margin-left: 366px;
+    width: 910px;
     border: solid pink;
 }
 .container {
-    width: 84%;
+    width: 100%;
     margin: auto;
     display: flex;
     border: solid red;
 }
 
 /* NAVBAR STYLING */
-.navbar {
+/* .navbar {
     width: 250px;
     height: 1000px;
     border: solid yellow;
-}
+} */
 .menulink {
-    width: 160px;
+    width: 200px;
     height: 100vh;
-    background-color: #000000;
-    margin-left: 0px;
+    background: #2B2D3C;
+    margin-left: 120px;
     border-radius: 12px;
     position: fixed;
 }
@@ -51,7 +51,7 @@ input {
 }
 .menulink .up {
     margin-top: 30px;
-    margin-bottom: 70px;
+    margin-bottom: 200px;
 }
 .menulink ul li {
     text-align: right;
@@ -83,6 +83,7 @@ input {
 /*  BIODATA AND VERIFICATION STYLING  */
 .profile {
     width: 1200px;
+    margin-left: 340px;
 }
 .banner {
     width: 100%;
@@ -91,15 +92,15 @@ input {
 }
 .contbio {
     display: flex;
-    position: absolute;
-    top: 200px;
+    position: relative;
+    top: -70px;
 }
 .bio {
     width: 500px;
     height: 280px;
     background: #D9D9D9;
     margin-right: 30px;
-    margin-left: 45px;
+    margin-left: 65px;
     display: flex;
 }
 .bioimg {
@@ -181,18 +182,16 @@ textarea {
     color: black;
 }
 /* EDUCATIONAL BACKGROUND */
-.edu {
+ .edu {
     display: flex;
-    /* margin-top: 23px; */
-    position: relative;
-    top: 200px;
+    margin-top: -45px;
 }
 .eduback {
     width: 500px;
     height: 174px;
     background: #D9D9D9;
     margin-right: 30px;
-    margin-left: 45px;
+    margin-left: 65px;
 }
 .skill {
     width: 250px;
@@ -200,24 +199,23 @@ textarea {
     background: #D9D9D9;
 }
 
-.edu1 {
+.exint {
     display: flex;
     margin-top: 23px;
-    position: relative;
     top: 200px;
 }
-.eduback1 {
+.experience {
     width: 500px;
     height: 174px;
     background: #D9D9D9;
     margin-right: 30px;
-    margin-left: 45px;
+    margin-left: 65px;
 }
-.skill1 {
+.interest {
     width: 250px;
     height: 174px;
     background: #D9D9D9;
-}
+} 
 
 
 
@@ -229,7 +227,7 @@ textarea {
 
 
 
-@media (max-width: 1100px){
+@media (max-width: 1200px){
     body {
         background-color: red;
     }
@@ -245,6 +243,28 @@ textarea {
     
     .pimg {
         margin-right: 25px;
+    }
+    .bio {
+        width: 500px;
+        height: 280px;
+        background: #D9D9D9;
+        margin-right: 30px;
+        margin-left: 5px;
+        display: flex;
+    }
+    .eduback {
+        width: 500px;
+        height: 174px;
+        background: #D9D9D9;
+        margin-right: 30px;
+        margin-left: 5px;
+    }
+    .experience {
+        width: 500px;
+        height: 174px;
+        background: #D9D9D9;
+        margin-right: 30px;
+        margin-left: 5px;
     }
 }
 @media (max-width: 1000px){

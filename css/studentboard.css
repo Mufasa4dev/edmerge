@@ -18,30 +18,28 @@ input {
     src: url('../montserrat/Montserrat-Regular.ttf');
 }
 .content {
-    padding-top: 35px;
-    margin-left: 10px;
+    margin-left: 366px;
+    width: 910px;
     border: solid pink;
 }
 .container {
-    width: 84%;
+    width: 100%;
     margin: auto;
     display: flex;
     border: solid red;
 }
 
 /* NAVBAR STYLING */
-.navbar {
-    width: 250px;
-    height: 1000px;
-    border: solid yellow;
-}
 .menulink {
-    width: 160px;
+    width: 216px;
     height: 100vh;
     background-color: #000000;
-    margin-left: 0px;
+    margin-left: 130px;
     border-radius: 12px;
     position: fixed;
+}
+.homedisplay {
+    width: 750px;
 }
 .logo {
     text-align: center;
@@ -51,7 +49,7 @@ input {
 }
 .menulink .up {
     margin-top: 30px;
-    margin-bottom: 70px;
+    margin-bottom: 200px;
 }
 .menulink ul li {
     list-style: none;
@@ -82,25 +80,38 @@ input {
 /* TOP NAV STYLING */
 .topnav {
     display: flex;
+    width: 900px;
+    height: 160px;
+    background: rgba(43, 45, 60, 0.3);
+    margin-top: 0px;
+}
+.userfield {
+    margin: auto;
+    margin-left: 100px;
+    width: 720px;
+    border: solid grey;
 }
 .input {
     width: 340px;
     height: 44px;
     border-radius: 12px;
     border-right: none;
-    background-color: #C4C4C4;
+    background: #787878;
     color: white;
     padding: 11px;
     border-top-left-radius: 0px;
     border-bottom-left-radius: 0px;
     border: none;
     margin-right: 230px;
+    margin-top: 53px;
 }
 .sinput {
     width: 35px;
+    margin-top: 53px;
+    margin-left: 70px;
     border-left: none;
     border-radius: 12px;
-    background-color: #C4C4C4;
+    background: #787878;
     border-top-right-radius: 0px;
     border-bottom-right-radius: 0px;
     outline: none;
@@ -113,22 +124,29 @@ input {
 .pimg {
     width: 42px;
     height: 42px;
-    background-color: #c4c4c4;
+    background-color: black;
     border-radius: 50%;
     margin-right: 22px;
+    margin-top: 53px;
 }
 .topnav h3 {
-    padding-top: 10px;
+    padding-top: 63px;
 }
 
 /* USER FILED STYLING */
+.homeface {
+    margin: auto;
+}
 .homeface h3 {
     padding-top: 50px;
     padding-bottom: 5px;
 }
 
 /* HOME TECHNOLOGY */
-.hometech h3 {
+.hometech, .art {
+    margin: auto;
+}
+.hometech h3, .art h3 {
     font-size: 24px;
     padding-top: 70px;
     padding-bottom: 5px;
@@ -136,6 +154,11 @@ input {
 .hometech hr {
     width: 45px;
     margin-left: 50px;
+    margin-bottom: 45px;
+}
+.art hr {
+    width: 45px;
+    margin-left: 5px;
     margin-bottom: 45px;
 }
 .livetech {
@@ -170,10 +193,68 @@ input {
     margin-bottom: 50px;
 }
 
+/*======================= FOOTER STYLING ======================*/
+.footer {
+    width: 75%;
+    height: 170px;
+    margin-left: 216px;
+    background: #2B2D3C;
+}
+.footernav {
+    display: flex;
+    height: 65px;
+    margin-bottom: 34px;
+}
+.footerlogo {
+    margin-top: 15px;
+    margin-left: 137px;
+    margin-right: 100px;
+    width: 100px;
+}
+.footertext ul {
+    margin-top: 30px;
+    width: 900px;
+}
+.footertext ul li {
+    display: inline-block;
+    padding: 15px;
+    font-size: 16px;
+    line-height: 20px;
+    color: #E6E8FA;
+}
+.footertext ul li a {
+    text-decoration: none;
+    color: #E6E8FA;
+}
+.footertext ul li:hover{
+    color: white;
+    cursor: pointer;
+}
+.footersnav {
+    width: 100%;
+    height: 60px;
+    display: flex;
+}
+.social {
+    width: 200px;
+    height: 60px;
+    margin-left: 480px;
+}
+.social svg {
+    margin: auto;
+    margin-left: 17px;
+    margin-top: 12px;
+}
+.socialtext p {
+    color: #E6E8FA;
+    padding-top: 20px;
+    margin-right: 150px;
+}
+
 
 
 /* RESPONSIVE STYLING */
-@media (max-width: 1100px){
+@media (max-width: 1200px){
     body {
         background-color: red;
     }
@@ -182,30 +263,41 @@ input {
         width: 100%;
     }
     .input {
-        margin-right: 0px;
-    }  .sinput {
         margin-right: 150px;
+    }  .sinput {
+        margin-right: 0px;
+        margin-left: 50px;
+    }
+    .userfield {
+        margin: 0px;
+    }
+    .menulink {
+        margin-left: 100px;
     }
     
     .pimg {
         margin-right: 25px;
     }
 }
-@media (max-width: 1000px){
+@media (max-width: 1100px){
     body {
         background-color: green;
     }
       .input {
-        margin-right: 0px;
+        margin-right: 50px;
     }
     .sinput {
-        margin-right: 50px;
+        margin-right: 0px;
+        margin-left: 10px;
     }
     .pimg {
         margin-right: 5px;
     }
     .livetech {
         display: block;
+    }
+    .userfield {
+        width: 600px;
     }
     .techbox {
         width: 250px;
@@ -215,17 +307,34 @@ input {
         margin-top: 15px;
         text-align: center;
     }
+    .content {
+        margin-left: 330px;
+        width: 580px;
+    }
+    .userfield {
+        width: 500px;
+    }
 }
-@media (max-width: 720px){
+@media (max-width: 920px){
     body {
         background-color: yellow;
     }
+    .content {
+        margin-left: 120px;
+        width: 430px;
+    }
+    .menulink {
+        margin-left: 0px;
+    }
     .input {
         width: 200px;
-        margin-right: 0px;
+        margin-right: 10px;
+    }
+    .userfield {
+        width: 380px;
     }
     .sinput {
-        margin-right: 10px;
+        margin-right: 0px;
     }
     .menulink {
         width: 100px;
@@ -233,8 +342,47 @@ input {
     .linkbtn {
         width: 100px;
     }
-    .sidetext {
+    .navtex {
         display: none;
     }
+    .hometech{
+        margin: 0px;
+    }
+
+        /* FOOTER MOBILE RESPONSIVE */
+        .footer {
+            background-color: #2b2d3c;
+            height: auto;
+    
+        }
+        .footernav {
+            display: block;
+            height: auto;
+        }
+        .footertext ul li {
+            display: block;
+            text-align: center;
+        }
+        .footerlogo {
+            margin-top: 15px;
+            margin-left: 0px;
+            margin-right: 0px;
+            margin: auto;
+        }
+        .footertext ul {
+            width: 200px;
+            margin: auto;
+        }
+        .social {
+            margin: auto;
+            margin-left: 0px;
+            border: solid red;
+        }
+        .socialtext p {
+            color: #E6E8FA;
+            padding-top: 20px;
+            margin-right: 0px;
+            margin: auto;
+        }
   
 }
