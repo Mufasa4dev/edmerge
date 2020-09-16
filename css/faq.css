@@ -191,9 +191,7 @@ a:hover {
 
 
 
-.faqAnswer{
 
-}
 
 
 
@@ -213,7 +211,8 @@ a:hover {
     .footerlogo {
         margin-left: 60px;
         margin-right: 30px;
-    }    
+    }  
+
 }
 @media(max-width: 1100px){
     .logo {
@@ -282,4 +281,9 @@ a:hover {
         position: absolute;
         display: none;
     }
+    .largeCircle1 {
+        display: none;
+    }
+
+}
     /* NAVBAR STYLING ENDS HERE */
