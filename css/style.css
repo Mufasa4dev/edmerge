@@ -1,8 +1,12 @@
 *{
     padding: 0px;
     margin: 0px;
+    font-family: edmerge;
 }
-
+@font-face{
+    font-family: edmerge;
+    src: url("../montserrat/Montserrat-Regular.ttf");
+}
 /* logo css */
 #logo{
     width:356px ;
@@ -32,7 +36,7 @@
     /* height: 200px; */
     border: solid;
 }
-#header p{
+.header p{
     padding-top: 10px;
     padding-bottom: 20px;
 }
@@ -61,33 +65,42 @@
 
 /* END OF SIGNUP CSS */
 
-#login-details input{
-    display: block;
-    margin: auto;
-    width: 300px;
-    height: 30px;
-   margin-bottom: 30px;
-   padding-left: 10px;
-   
-}
-
-#forgot input {
-    width: 15px;
-    height: 15px;
-    margin: 0px;
-    width: 100%;
-}
-#btn2{
-    width: 300px;
-    height: 30px;
-    background-color: black;
-    color: white;
-
-}
-.login{
+ /* beginning of login css */
+ .login{
     display: none;
-}
-
-       
-
-
+    border: solid;
+ }
+ .details2 input{
+     display: block;
+     margin: auto;
+     width: 300px;
+     height: 30px;
+     padding-left: 10px;
+     margin-bottom: 20px;
+ }
+ #btn2{
+     width: 300px;
+     height: 30px;
+     background-color: black;
+     color: white;
+     margin-bottom: 20px;
+ }
+ #btn2:hover{
+     cursor: pointer;
+     background-color: red;
+ }
+ .box{
+     display: flex;
+    margin: auto;
+    padding-left: 180px;
+    margin-bottom: 20px;
+ }
+ #text2{
+     padding-left: 10px;
+     text-decoration: none;
+ }
+ 
+ 
+          
+ 
+ 
