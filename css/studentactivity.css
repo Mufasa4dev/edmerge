@@ -81,31 +81,98 @@ input {
     margin-right: 20px;
 }
 
-/* EMPTYBAR STYLE */
+/* BAR AND TRAINING DASHBOARD STYLING */
 .body{
     width: 760px;
     margin-left: 346px;
 }
-.bar{
+.Nbar{
     width: 750px;
     height: 279px;
     background: rgba(43, 45, 60, 0.3);
     /* margin-left: 346px; */
     /* border: solid blue 3px; */
 }
-.alertIcon{
-    width: 300px;
-    height: 300px;
-    border: solid 1px;
-    margin: auto;
-    margin-top: 50px;
+.trainingDash{
+    display: flex;
+    margin: 25px;
+    /* border: solid; */
+    
 }
-.alertpara{
-    text-align: center;
-    margin-top: 30px;
-    /* margin-left: 100px; */
 
+.dash{
+    width: 335px;
+    height: 193px;
+    border: solid 1px;
+    background-color: #c4c4c4;
 }
+
+.dash1{
+    width: 335px;
+    height: 193px;
+    border: solid 1px;
+    background-color: #c4c4c4;
+    margin-left: 20px;
+}
+
+.bar{
+    display: flex;
+    padding-left: 30px;
+    padding-top: 10px;
+}
+
+.blackbar{
+    width: 146px;
+    height: 17px;
+    border: solid 1px;
+    background-color: black;
+}
+
+.dash h5{
+    padding-left: 30px;
+    padding-top: 15px;
+}
+
+.dash p{
+    padding-left: 30px;
+    padding-top: 10px;
+    font-size: 12.5px;
+}
+
+.whitebar{
+    width: 105px;
+    height: 17px;
+    border: solid 1px;
+    background-color: white;
+}
+
+.bar1{
+    padding-left: 30px;
+    padding-top: 10px;
+}
+
+.blackbar_1{
+    width: 251px;
+    height: 17px;
+    border: solid 1px;
+    background-color: black;
+}
+
+.dash1 h5{
+    padding-left: 30px;
+    padding-top: 15px;
+}
+
+.dash1 p{
+    padding-left: 30px;
+    padding-top: 10px;
+    font-size: 12.5px;
+}
+
+
+
+
+
 
 
 
