@@ -83,11 +83,11 @@ input {
 
 /* EMPTYBAR STYLE */
 .body{
-    width: 760px;
-    margin-left: 346px;
+    width: 100%;
+    margin-left: 226px;
 }
 .bar{
-    width: 750px;
+    width: 900px;
     height: 279px;
     background: rgba(43, 45, 60, 0.3);
     /* margin-left: 346px; */
@@ -133,6 +133,9 @@ input {
     .pimg {
         margin-right: 25px;
     }
+    .bar {
+        width: 700px;
+    }
 }
 @media (max-width: 1000px){
     body {
@@ -164,6 +167,12 @@ input {
     .verify {
         margin: auto;
         margin-top: 20px;
+    }
+    .bar {
+        width: 600px;
+    }
+    .menulink {
+        margin-left: 140px;
     }
 }
 @media (max-width: 720px){
@@ -198,6 +207,18 @@ input {
     .bioedt {
         margin: auto;
         margin-right: 25px;
+    }
+    .bar {
+        width: 360px;
+    }
+    .body {
+        margin-left: -40px;
+    }
+    .menulink {
+        margin-left: 0px;
+    }
+    .navtex {
+        display: none;
     }
   
 }

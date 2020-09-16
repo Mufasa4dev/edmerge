@@ -82,8 +82,16 @@ input {
     display: flex;
     width: 900px;
     height: 160px;
-    background: rgba(43, 45, 60, 0.3);
+    background: url('../images/homeImg/homebanner.png');
     margin-top: 0px;
+}
+.topnavcover {
+    width: 900px;
+    height: 160px;
+    background-color: #2b2d3c;
+    opacity: 0.5;
+    position: absolute;
+    z-index: 1;
 }
 .userfield {
     margin: auto;
@@ -96,7 +104,7 @@ input {
     height: 44px;
     border-radius: 12px;
     border-right: none;
-    background: #787878;
+    background: #E6E8FA;
     color: white;
     padding: 11px;
     border-top-left-radius: 0px;
@@ -104,6 +112,7 @@ input {
     border: none;
     margin-right: 230px;
     margin-top: 53px;
+    z-index: 2;
 }
 .sinput {
     width: 35px;
@@ -111,12 +120,13 @@ input {
     margin-left: 70px;
     border-left: none;
     border-radius: 12px;
-    background: #787878;
+    background: #E6E8FA;
     border-top-right-radius: 0px;
     border-bottom-right-radius: 0px;
     outline: none;
     border: none;
     height: 44px;
+    z-index: 2;
 }
 .sinput:hover{
     cursor: pointer;
@@ -124,13 +134,16 @@ input {
 .pimg {
     width: 42px;
     height: 42px;
-    background-color: black;
+    background-color: #E6E8FA;
     border-radius: 50%;
     margin-right: 22px;
     margin-top: 53px;
+    z-index: 2;
 }
 .topnav h3 {
-    padding-top: 63px;
+    padding-top: 60px;
+    color: #E6E8FA;
+    z-index: 2;
 }
 
 /* USER FILED STYLING */
