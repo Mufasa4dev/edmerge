@@ -332,6 +332,12 @@ a:hover {
     }
 }
 @media(max-width: 1050px){
+     .how p, .how h3{
+        z-index: 1;
+    }
+    .facecover {
+        z-index: 2;
+    }
     .menuLink {
         display: none;
     } 
@@ -340,9 +346,11 @@ a:hover {
     }
     .hide {
         display: block;
+        z-index: 2;
     }
     .showMenu {
         display: block;
+        z-index: 2;
     }
     .banner h3, .banner p {
         padding-left: 50px;
