@@ -11,12 +11,22 @@
 }
 
 .container{
-    height: 700px;
-    width: 500px;
-    border: solid #E5E5E5 1px;
+    display: flex;
     margin: auto;
     margin-top: 50px;
+    margin-left: 120px;
+}
 
+.loginImg{
+    width: 450px;
+    height: 700px;
+    /* border: solid #E5E5E5 1px; */
+}
+
+.form{
+    width: 400px;
+    height: 700px;
+    border: solid #E5E5E5 1px;
 }
 
 .logo{
@@ -145,7 +155,7 @@ input .passbtn{
     color: red;
 }
 
-/* End of css for sign up */
+/* END OF CSS FOR SIGN UP */
 
 .logoo{
     width: 300px;
@@ -157,6 +167,11 @@ input .passbtn{
 .logoo img{
     width: 100%;
     height: 100%;
+}
+.form1{
+    width: 400px;
+    height: 700px;
+    border: solid #E5E5E5 1px;
 }
 
 .login{
