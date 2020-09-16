@@ -342,10 +342,10 @@ a:hover {
 .largeCicle1 {
     width: 500px;
     height: 500px;
+    clip-path: circle(50.1% at 80% 51%);
     background: rgba(43, 45, 60,0.2);
-    border-radius: 50%;
     position: absolute;
-    left: 755px;
+    left: 779px;
     top: 1800px;  
     z-index: -1;  
 }
@@ -355,8 +355,8 @@ a:hover {
     position: absolute;
     width: 99px;
     height: 98px;
-    right: 472px;
-    top: 1900px; 
+    right: 342px;
+    top: 1950px; 
 }
 .sCircle1 {
     background: rgba(43, 45, 60,0.6);
@@ -364,8 +364,8 @@ a:hover {
     position: absolute;
     width: 49px;
     height: 49px;
-    right: 580px;
-    top: 1900px; 
+    right: 440px;
+    top: 1970px; 
 }
 
 /*************** GET STARTED SECTION  STYLING ****************/

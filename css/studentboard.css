@@ -37,12 +37,11 @@ input {
 }
 .menulink {
     width: 160px;
-    height: 959px;
+    height: 100vh;
     background-color: #000000;
     margin-left: 0px;
-    top: 26px;
     border-radius: 12px;
-    position: absolute;
+    position: fixed;
 }
 .logo {
     text-align: center;
@@ -50,68 +49,36 @@ input {
 .logo img {
     margin-top: 10px;
 }
-.up {
-    margin-bottom: 230px;
-    margin-top: 70px;
-}
-.linkbtn {
-    border: none;
-    border-radius: 0px;
-    width: 160px;
-    height: 70px;
-    background-color: #000000;
-    color: white;
-    font-size: 16px;
-    outline: none;
-}
-.img {
-    /* margin-right: 15px; */
-    /* justify-content: left; */
-    text-align: left;
-    /* width: 30px; */
-    margin-left: 0px;
-    /* display: none; */
-}
-.sidetext {
-    width: 90px;
-    text-align: right;
-    margin: auto;
-}
-
-.linkbtn:hover{
-    color: black;
-    background-color: #fff;
+.menulink .up {
+    margin-top: 30px;
+    margin-bottom: 70px;
 }
 .menulink ul li {
     list-style: none;
     text-align: center;
-    /* margin-top: 35px;
-    margin-bottom: 35px; */
-    /* padding-top: 20px;
-    padding-bottom: 20px; */
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 .menulink ul li:hover {
     background-color: #fff;
     color: black;
 }
-/*================ FOR LINK STYLE STARTS HERE ================*/
-/* .menulink ul li a{
+.menulink ul li a{
     text-decoration: none;
     color: white;
     font-size: 16px;
     font-weight: 600;
     padding-top: 20px;
     padding-bottom: 20px;
-
 }
 .menulink ul li a:hover {
     background-color: #fff;
     color: black;
-} */
-/*========== FOR LINK STYLE ENDS HERE ==========*/
-
-/* HOME STYLING STARTS HERE */
-
+}
+.up img, .down img {
+    text-align: left;
+    margin-right: 20px;
+}
 /* TOP NAV STYLING */
 .topnav {
     display: flex;
@@ -124,18 +91,18 @@ input {
     background-color: #C4C4C4;
     color: white;
     padding: 11px;
-    border-top-right-radius: 0px;
-    border-bottom-right-radius: 0px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
     border: none;
+    margin-right: 230px;
 }
 .sinput {
-    margin-right: 230px;
     width: 35px;
     border-left: none;
     border-radius: 12px;
     background-color: #C4C4C4;
-    border-top-left-radius: 0px;
-    border-bottom-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
     outline: none;
     border: none;
     height: 44px;
@@ -194,77 +161,15 @@ input {
 .livetext {
     text-align: center;
 }
-.seem {
-    margin-top: 220px;
-}
 .seem a {
     font-size: 14px;
     color: black;
     text-decoration: none;
 }
+.space {
+    margin-bottom: 50px;
+}
 
-/* HOME STYLING ENDS HERE */
-
-
-/* PROFILE STYLING STARTS HERE */
-.usereye {
-    /* float: right; */
-    margin-bottom: 25px;
-    display: flex;
-}
-.usereye h4 {
-    padding-top: 15px;
-    padding-left: 22px;
-}
-.eyeimg {
-    width: 41px;
-    height: 42px;
-    background-color: #c4c4c4;
-    border-radius: 50%;
-}
-.userinfo {
-    display: flex;
-    /* margin-top: 46px; */
-}
-.userimg {
-    width: 340px;
-    height: 273px;
-    background: rgba(196, 196, 196, 0.1);
-    border: 0.5px solid rgba(0, 0, 0, 0.1);
-    box-sizing: border-box;
-    border-radius: 12px;
-    margin-right: 20px;
-}
-.userdetail {
-    width: 520px;
-    height: 273px;
-    background: rgba(196, 196, 196, 0.1);
-    border: 0.5px solid rgba(0, 0, 0, 0.1);
-    box-sizing: border-box;
-    border-radius: 12px;
-    display: flex;
-}
-.tarea {
-    width: 211px;
-    height: 205px;
-    margin: 26px 39px 42px 39px;
-    padding: 10px;
-    border: 0.5px solid rgba(0, 0, 0, 0.4);
-    box-sizing: border-box;
-    border-radius: 12px;
-}
-.cirimg {
-    width: 198px;
-    height: 198px;
-    border-radius: 50%;
-    background-color: #c4c4c4;
-    margin: auto;
-    margin-top: 20px;
-}
-.userimg h4 {
-    text-align: center;
-    padding-top: 10px;
-}
 
 
 /* RESPONSIVE STYLING */

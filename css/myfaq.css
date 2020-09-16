@@ -122,7 +122,8 @@ a:hover {
 .faqcontent {
     width: 870px;
     height: 120px;
-    background-color: #c4c4c4;
+    background-color: #2b2d3c;
+    color: white;
     margin: auto;
     display: flex;
     border: 1px solid #000000;
@@ -151,7 +152,7 @@ a:hover {
     height: 50px;
     margin-right: 20px;
     margin-top: 35px;
-    background-color: #c4c4cc;
+    background-color: #2b2d3c;
     border: 0px;
     outline: none;
 
@@ -172,7 +173,7 @@ a:hover {
     background: rgba(43, 45, 60,0.1);
     border-radius: 50%;
     position: absolute;
-    left: -177px;
+    left: -351px;
     top: 380px;
 }
 .mCircle {
@@ -181,7 +182,7 @@ a:hover {
     position: absolute;
     width: 99px;
     height: 98px;
-    left: 270px;
+    left: 120px;
     top: 625px;
 }
 .sCircle {
@@ -190,17 +191,17 @@ a:hover {
     position: absolute;
     width: 49px;
     height: 49px;
-    left: 372px;
+    left: 212px;
     top: 660px;
 }
 .largeCicle1 {
     width: 500px;
     height: 500px;
+    clip-path: circle(50.1% at 98% 51%);
     background: rgba(43, 45, 60,0.2);
-    border-radius: 50%;
     position: absolute;
-    left: 755px;
-    top: 1800px;  
+    left: 780px;
+    top: 1700px;  
     z-index: -1;  
 }
 .mCircle1 {
@@ -209,7 +210,7 @@ a:hover {
     position: absolute;
     width: 99px;
     height: 98px;
-    right: 472px;
+    right: 242px;
     top: 1900px; 
 }
 .sCircle1 {
@@ -218,8 +219,8 @@ a:hover {
     position: absolute;
     width: 49px;
     height: 49px;
-    right: 580px;
-    top: 1900px; 
+    right: 335px;
+    top: 1930px; 
 }
 
 /*======================= FOOTER STYLING ======================*/

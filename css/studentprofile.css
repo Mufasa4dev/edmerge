@@ -1,0 +1,316 @@
+/* DEFAULT STYLING */
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: edmerge;
+}
+button {
+    cursor: pointer;
+    border-radius: 12px;
+}
+input {
+    outline: none;
+    border-color: inherit;
+}
+@font-face {
+    font-family: edmerge;
+    src: url('../montserrat/Montserrat-Regular.ttf');
+}
+.content {
+    padding-top: 35px;
+    margin-left: 10px;
+    border: solid pink;
+}
+.container {
+    width: 84%;
+    margin: auto;
+    display: flex;
+    border: solid red;
+}
+
+/* NAVBAR STYLING */
+.navbar {
+    width: 250px;
+    height: 1000px;
+    border: solid yellow;
+}
+.menulink {
+    width: 160px;
+    height: 100vh;
+    background-color: #000000;
+    margin-left: 0px;
+    border-radius: 12px;
+    position: fixed;
+}
+.logo {
+    text-align: center;
+}
+.logo img {
+    margin-top: 10px;
+}
+.menulink .up {
+    margin-top: 30px;
+    margin-bottom: 70px;
+}
+.menulink ul li {
+    text-align: right;
+    list-style: none;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.menulink ul li:hover {
+    background-color: #fff;
+    color: black;
+}
+.menulink ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.menulink ul li a:hover {
+    background-color: #fff;
+    color: black;
+}
+.up img, .down img {
+    text-align: left;
+    margin-right: 20px;
+}
+/*  BIODATA AND VERIFICATION STYLING  */
+.profile {
+    width: 1200px;
+}
+.banner {
+    width: 100%;
+    height: 297px;
+    background: rgba(43, 45, 60, 0.3);
+}
+.contbio {
+    display: flex;
+    position: absolute;
+    top: 200px;
+}
+.bio {
+    width: 500px;
+    height: 280px;
+    background: #D9D9D9;
+    margin-right: 30px;
+    margin-left: 45px;
+    display: flex;
+}
+.bioimg {
+    width: 180px;
+    height: 176px;
+    background: #F1F0EF;
+    border-radius: 5px;
+    margin-top: 34px;
+    margin-left: 10px;
+}
+.bioimg img {
+    margin-left: 30px;
+    margin-top: 32px;
+}
+.verify {
+    width: 250px;
+    height: 280px;
+    background: #D9D9D9;
+}
+.spantext {
+    display: flex;
+    margin-top: 34px;
+    margin-left: 40px;
+}
+.spantext h3 {
+    margin-right: 79px;
+}
+.edtbtn button {
+    width: 77px;
+    height: 19px;
+    font-size: 12px;
+    background-color: #000000;
+    color: white;
+    border-radius: 0px;
+}
+textarea {
+    width: 232px;
+    height: 158px;
+    margin-top: 24px;
+    margin-left: 43px;
+}
+.verify h4 {
+    font-size: 18px;
+    font-weight: 600;
+    padding-top: 33px;
+    padding-left: 21px;
+    padding-bottom: 10px;
+}
+.verify .img {
+    margin-left: 75px;
+}
+.verify hr {
+    margin: auto;
+    width: 215px;
+}
+.verify .img1 {
+    margin-right: 10px;
+} 
+.verify p {
+    font-size: 12px;
+    margin-top: 26px;
+    padding-left: 23px;
+}
+.verify .small {
+    color: #c4c4c4;
+    padding-left: 24px;
+}
+.small1 {
+    padding-left: 30px;
+}
+.small2 {
+    padding-left: 36px;
+}
+.small3 {
+    padding-left: 98px;
+}
+.verify a {
+    text-decoration: none;
+    color: black;
+}
+/* EDUCATIONAL BACKGROUND */
+.edu {
+    display: flex;
+    /* margin-top: 23px; */
+    position: relative;
+    top: 200px;
+}
+.eduback {
+    width: 500px;
+    height: 174px;
+    background: #D9D9D9;
+    margin-right: 30px;
+    margin-left: 45px;
+}
+.skill {
+    width: 250px;
+    height: 174px;
+    background: #D9D9D9;
+}
+
+.edu1 {
+    display: flex;
+    margin-top: 23px;
+    position: relative;
+    top: 200px;
+}
+.eduback1 {
+    width: 500px;
+    height: 174px;
+    background: #D9D9D9;
+    margin-right: 30px;
+    margin-left: 45px;
+}
+.skill1 {
+    width: 250px;
+    height: 174px;
+    background: #D9D9D9;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 1100px){
+    body {
+        background-color: red;
+    }
+    .container {
+        margin: 0px;
+        width: 100%;
+    }
+    .input {
+        margin-right: 0px;
+    }  .sinput {
+        margin-right: 150px;
+    }
+    
+    .pimg {
+        margin-right: 25px;
+    }
+}
+@media (max-width: 1000px){
+    body {
+        background-color: green;
+    }
+      .input {
+        margin-right: 0px;
+    }
+    .sinput {
+        margin-right: 50px;
+    }
+    .pimg {
+        margin-right: 5px;
+    }
+    .livetech {
+        display: block;
+    }
+    .techbox {
+        width: 250px;
+        margin: auto;
+    }
+    .seem {
+        margin-top: 15px;
+        text-align: center;
+    }
+    .contbio {
+        display: block;
+    }
+    .verify {
+        margin: auto;
+        margin-top: 20px;
+    }
+}
+@media (max-width: 720px){
+    body {
+        background-color: yellow;
+    }
+    .input {
+        width: 200px;
+        margin-right: 0px;
+    }
+    .sinput {
+        margin-right: 10px;
+    }
+    .menulink {
+        width: 100px;
+    }
+    .linkbtn {
+        width: 100px;
+    }
+    .sidetext {
+        display: none;
+    }
+    .bio {
+        display: block;
+        width: auto;
+        height: auto;
+    }
+    .bioimg {
+        margin: auto;
+        margin-top: 20px;
+    }
+    .bioedt {
+        margin: auto;
+        margin-right: 25px;
+    }
+  
+}
