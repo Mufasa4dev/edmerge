@@ -1,0 +1,270 @@
+/* DEFAULT STYLING */
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: edmerge;
+}
+button {
+    cursor: pointer;
+    border-radius: 12px;
+}
+input {
+    outline: none;
+    border-color: inherit;
+}
+@font-face {
+    font-family: edmerge;
+    src: url('../montserrat/Montserrat-Regular.ttf');
+}
+.content {
+    padding-top: 35px;
+    margin-left: 10px;
+    border: solid pink;
+}
+.container {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    /* border: solid red; */
+}
+
+/* NAVBAR STYLING */
+.navbar {
+    width: 250px;
+    height: 1000px;
+    /* border: solid yellow; */
+}
+.menulink {
+    width: 216px;
+    height: 100vh;
+    background-color: #000000;
+    margin-left: 130px;
+    border-radius: 12px;
+    position: fixed;
+}
+.logo {
+    text-align: center;
+}
+.logo img {
+    margin-top: 10px;
+}
+.menulink .up {
+    margin-top: 30px;
+    margin-bottom: 200px;
+}
+.menulink ul li {
+    text-align: right;
+    list-style: none;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.menulink ul li:hover {
+    background-color: #fff;
+    color: black;
+}
+.menulink ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.menulink ul li a:hover {
+    background-color: #fff;
+    color: black;
+}
+.up img, .down img {
+    text-align: left;
+    margin-right: 20px;
+}
+
+/* BAR AND TRAINING DASHBOARD STYLING */
+.body{
+    width: 760px;
+    margin-left: 346px;
+}
+.Nbar{
+    width: 750px;
+    height: 279px;
+    background: rgba(43, 45, 60, 0.3);
+    /* margin-left: 346px; */
+    /* border: solid blue 3px; */
+}
+.trainingDash{
+    display: flex;
+    margin: 25px;
+    /* border: solid; */
+    
+}
+
+.dash{
+    width: 335px;
+    height: 193px;
+    border: solid 1px;
+    background-color: #c4c4c4;
+}
+
+.dash1{
+    width: 335px;
+    height: 193px;
+    border: solid 1px;
+    background-color: #c4c4c4;
+    margin-left: 20px;
+}
+
+.bar{
+    display: flex;
+    padding-left: 30px;
+    padding-top: 10px;
+}
+
+.blackbar{
+    width: 146px;
+    height: 17px;
+    border: solid 1px;
+    background-color: black;
+}
+
+.dash h5{
+    padding-left: 30px;
+    padding-top: 15px;
+}
+
+.dash p{
+    padding-left: 30px;
+    padding-top: 10px;
+    font-size: 12.5px;
+}
+
+.whitebar{
+    width: 105px;
+    height: 17px;
+    border: solid 1px;
+    background-color: white;
+}
+
+.bar1{
+    padding-left: 30px;
+    padding-top: 10px;
+}
+
+.blackbar_1{
+    width: 251px;
+    height: 17px;
+    border: solid 1px;
+    background-color: black;
+}
+
+.dash1 h5{
+    padding-left: 30px;
+    padding-top: 15px;
+}
+
+.dash1 p{
+    padding-left: 30px;
+    padding-top: 10px;
+    font-size: 12.5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 1100px){
+    body {
+        background-color: red;
+    }
+    .container {
+        margin: 0px;
+        width: 100%;
+    }
+    .input {
+        margin-right: 0px;
+    }  .sinput {
+        margin-right: 150px;
+    }
+    
+    .pimg {
+        margin-right: 25px;
+    }
+}
+@media (max-width: 1000px){
+    body {
+        background-color: green;
+    }
+      .input {
+        margin-right: 0px;
+    }
+    .sinput {
+        margin-right: 50px;
+    }
+    .pimg {
+        margin-right: 5px;
+    }
+    .livetech {
+        display: block;
+    }
+    .techbox {
+        width: 250px;
+        margin: auto;
+    }
+    .seem {
+        margin-top: 15px;
+        text-align: center;
+    }
+    .contbio {
+        display: block;
+    }
+    .verify {
+        margin: auto;
+        margin-top: 20px;
+    }
+}
+@media (max-width: 720px){
+    body {
+        background-color: yellow;
+    }
+    .input {
+        width: 200px;
+        margin-right: 0px;
+    }
+    .sinput {
+        margin-right: 10px;
+    }
+    .menulink {
+        width: 100px;
+    }
+    .linkbtn {
+        width: 100px;
+    }
+    .sidetext {
+        display: none;
+    }
+    .bio {
+        display: block;
+        width: auto;
+        height: auto;
+    }
+    .bioimg {
+        margin: auto;
+        margin-top: 20px;
+    }
+    .bioedt {
+        margin: auto;
+        margin-right: 25px;
+    }
+  
+}
