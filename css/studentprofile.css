@@ -104,7 +104,7 @@ input {
     height: 100vh;
     background: #2B2D3C;
     margin-left: 120px;
-    border-radius: 12px;
+    /* border-radius: 12px; */
     position: fixed;
 }
 .logo {

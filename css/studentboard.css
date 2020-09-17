@@ -33,9 +33,9 @@ input {
 .menulink {
     width: 216px;
     height: 100vh;
-    background-color: #000000;
+    background-color: #2b2d3c;
     margin-left: 130px;
-    border-radius: 12px;
+    /* border-radius: 12px; */
     position: fixed;
 }
 .homedisplay {
@@ -58,7 +58,7 @@ input {
     padding-bottom: 20px;
 }
 .menulink ul li:hover {
-    background-color: #fff;
+    background: #E6E8FA;
     color: black;
 }
 .menulink ul li a{
@@ -70,7 +70,7 @@ input {
     padding-bottom: 20px;
 }
 .menulink ul li a:hover {
-    background-color: #fff;
+    background: #E6E8FA;
     color: black;
 }
 .up img, .down img {

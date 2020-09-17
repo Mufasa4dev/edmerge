@@ -40,7 +40,7 @@ input {
     height: 100vh;
     background-color: #000000;
     margin-left: 130px;
-    border-radius: 12px;
+    /* border-radius: 12px; */
     position: fixed;
 }
 .logo {
