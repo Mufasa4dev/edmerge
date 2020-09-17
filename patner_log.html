@@ -11,10 +11,11 @@
 
 <body>
     <!-- ************************ sectionOne ******************** -->
-    <div class="singup">
+    <div class="singup" style="display: none;">
         <div class="container">
             <!-- *********************** logo end here and sectionTwo start ****************** -->
             <div class="loginImg">
+                <div class="cover"></div>
                 <img src="images/signuplogo/logo700.png" alt="">
             </div>
 
@@ -27,37 +28,43 @@
                     <h2>Create an account</h2>
                     <p class="para">Welcome to unlimited access to opportunities</p>
                     <div class="form_input">
-                        <input type="username" placeholder="Username" required>
-                        <input type="email" placeholder="Email" required>
-                        <input class="passbtn" type="password" placeholder="Password" required>
-                        <!-- <button class="eyeBtn">cl</button> -->
-                    </div>
-                    <div class="check">
-                        <p><input id="box" type="checkbox"></p>
-                        <p class="paraOne">Yes! I want to receive notifications for <br>
-                            latest opportunities</p>
-                    </div>
-                    <div class="policy">
-                        <p id="termOne">I agree to your <a href="#">Terms of Use and Privacy Policy</a>
-                        </p>
-                    </div>
-                    <button class="btn">CREATE AN ACCOUNT</button>
-                    <div class="term">
-                        <h4>Already have an account? <a href="#" class="signup">Sign In</a></h4>
+                        <form action="">
+                            <input type="username" placeholder="Username" required>
+                            <input type="email" placeholder="Email" required>
+                            <div class="java">
+                                <input class="passbtn" type="password" placeholder="Password" required>
+                                <button type="button" class="eyeBtn"><img src="images/svg/eyepass.svg" alt=""></button>
+                           
+                        </form>
                     </div>
                 </div>
+                <div class="check">
+                    <p><input id="box" type="checkbox"></p>
+                    <p class="paraOne">Yes! I want to receive notifications for <br>
+                        latest opportunities</p>
+                </div>
+                <div class="policy">
+                    <p id="termOne">I agree to your <a href="#">Terms of Use and Privacy Policy</a>
+                    </p>
+                </div>
+                <button class="btn">CREATE AN ACCOUNT</button>
+                <div class="term">
+                    <h4>Already have an account? <a href="#" class="signup">Sign In</a></h4>
+                </div>
             </div>
-
         </div>
+
+    </div>
     </div>
 
 
 
     <!-- login partner section -->
-    <div class="jogin" style="display: none;">
+    <div class="jogin">
         <div class="container">
             <!-- *********** section one *********** -->
             <div class="logooImg">
+                <div class="cover"></div>
                 <img src="images/signuplogo/passImg700.png" alt="">
 
             </div>
@@ -68,10 +75,15 @@
                 <div class="login">
                     <h2>Welcome!</h2>
                     <p class="graph">Get the best opportunities for you today</p>
+                    <form action="">
                     <div class="info">
                         <input type="email" placeholder="Email" required>
-                        <input type="password" placeholder="Password" required>
+                        <div class="java1">
+                            <input class="passbtn1" type="password" placeholder="Password" required>
+                            <button type="button" class="eyeBtn1"><img src="images/svg/eyepass.svg" alt=""></button>
+                       
                     </div>
+                </form>
                     <div class="checkbox">
                         <input class="boxx" type="checkbox">
                         <p class="par">Remember me.</p>
