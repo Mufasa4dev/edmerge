@@ -83,11 +83,11 @@ input {
 
 /* BAR AND TRAINING DASHBOARD STYLING */
 .body{
-    width: 760px;
-    margin-left: 346px;
+    width: 1000px;
+    margin-left: 120px;
 }
 .Nbar{
-    width: 750px;
+    width: 1000px;
     height: 279px;
     background: rgba(43, 45, 60, 0.3);
     /* margin-left: 346px; */
@@ -95,7 +95,8 @@ input {
 }
 .trainingDash{
     display: flex;
-    margin: 25px;
+    margin-top: 25px;
+    margin-left: 150px;
     /* border: solid; */
     
 }
