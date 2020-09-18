@@ -40,7 +40,7 @@ input {
     height: 100vh;
     background-color: #000000;
     margin-left: 130px;
-    border-radius: 12px;
+  
     position: fixed;
 }
 .logo {
@@ -181,7 +181,22 @@ input {
     padding-top: 10px;
     font-size: 12.5px;
 }
-
+.big-img{
+    position: absolute;
+}
+.small-img{
+    position: absolute;
+    float: right;
+    margin-left: 700px;
+}
+.Nbar{
+    background-image: url('../images/s-img.png');
+}
+#faint{
+    width: 1075px;
+    height: 280px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
 
 
 
@@ -279,5 +294,6 @@ input {
         margin: auto;
         margin-right: 25px;
     }
+
   
 }
