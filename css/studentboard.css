@@ -20,16 +20,88 @@ input {
 .content {
     margin-left: 366px;
     width: 910px;
-    border: solid pink;
+    /* border: solid pink; */
 }
 .container {
     width: 100%;
     margin: auto;
     display: flex;
-    border: solid red;
+    /* border: solid red; */
 }
 
 /* NAVBAR STYLING */
+.lcircle {
+    width: 550px;
+    height: 550px;
+    left: -181px;
+    top: 166.84px;
+    border-radius: 50%;
+    position: absolute;
+    background: rgba(43, 45, 60, 0.6);
+    mix-blend-mode: normal;
+    opacity: 0.5;
+}
+.mcircle {
+    position: absolute;
+    width: 99px;
+    height: 98px;
+    left: 294.55px;
+    top: 455.53px;
+    border-radius: 50%;
+    background: rgba(43, 45, 60, 0.6);
+    mix-blend-mode: normal;
+    opacity: 0.5;
+}
+.scircle {
+    position: absolute;
+    width: 49px;
+    height: 49px;
+    left: 404.64px;
+    top: 483.55px;
+    border-radius: 50%;
+    background: rgba(43, 45, 60, 0.6);
+    mix-blend-mode: normal;
+    opacity: 0.5;
+    z-index: 2;
+}
+.lcircle1 {
+    clip-path: circle(46.6% at 98% 51%);
+    position: absolute;
+    width: 459px;
+    height: 455px;
+    left: 814.02px;
+    top: 1000.56px;
+    background: rgba(43, 45, 60, 0.6);
+    mix-blend-mode: normal;
+    z-index: -1;
+    opacity: 0.5;
+    z-index: -1;
+}
+.mcircle1 {
+    position: absolute;
+    width: 99px;
+    height: 98px;
+    left: 1000.22px;
+    top: 1262.68px;
+    border-radius: 50%;
+    background: rgba(43, 45, 60, 0.6);
+    mix-blend-mode: normal;
+    opacity: 0.5;
+    z-index: -1;
+
+}
+.scircle1 {
+    position: absolute;
+    width: 49px;
+    height: 49px;
+    left: 950.43px;
+    top: 1274.82px;
+    border-radius: 50%;
+    background: rgba(43, 45, 60, 0.6);
+    mix-blend-mode: normal;
+    opacity: 0.5;
+    z-index: -1;
+}
 .menulink {
     width: 216px;
     height: 100vh;
@@ -80,13 +152,13 @@ input {
 /* TOP NAV STYLING */
 .topnav {
     display: flex;
-    width: 900px;
+    width: 910px;
     height: 160px;
     background: url('../images/homeImg/homebanner.png');
     margin-top: 0px;
 }
 .topnavcover {
-    width: 900px;
+    width: 910px;
     height: 160px;
     background-color: #2b2d3c;
     opacity: 0.5;
@@ -97,7 +169,7 @@ input {
     margin: auto;
     margin-left: 100px;
     width: 720px;
-    border: solid grey;
+    /* border: solid grey; */
 }
 .input {
     width: 340px;
@@ -178,7 +250,7 @@ input {
     display: flex;
 }
 .techbox {
-    width: 163px;
+    width: 153.7px;
     height: 227px;
     background-color: #c4c4c4;
     box-shadow: rgba(0, 0, 0, 0.2);
@@ -188,11 +260,11 @@ input {
 .liveimg {
     width: 81px;
     height: 89px;
-    background-color: black;
-    border-radius: 50%;
+    /* background-color: black; */
+    /* border-radius: 50%;
     margin: auto;
     margin-top: 25px;
-    margin-bottom: 25px;
+    margin-bottom: 25px; */
 }
 .livetext {
     text-align: center;
@@ -268,9 +340,9 @@ input {
 
 /* RESPONSIVE STYLING */
 @media (max-width: 1200px){
-    body {
+    /* body {
         background-color: red;
-    }
+    } */
     .container {
         margin: 0px;
         width: 100%;
@@ -293,9 +365,9 @@ input {
     }
 }
 @media (max-width: 1100px){
-    body {
+    /* body {
         background-color: green;
-    }
+    } */
       .input {
         margin-right: 50px;
     }
@@ -327,11 +399,24 @@ input {
     .userfield {
         width: 500px;
     }
+    .lcircle {
+        display: none;
+    }
+    .scircle, .mcircle {
+        z-index: -1;
+    }
+    .techbox {
+        margin-bottom: 20px;
+    }
+    .liveimg img {
+        width: 250px;
+        height: 89px;
+    }
 }
 @media (max-width: 920px){
-    body {
+    /* body {
         background-color: yellow;
-    }
+    } */
     .content {
         margin-left: 120px;
         width: 380px;
@@ -361,6 +446,13 @@ input {
     .hometech{
         margin: 0px;
     }
+    .techbox {
+        margin-bottom: 20px;
+    }
+    .liveimg img {
+        width: 250px;
+        height: 89px;
+    }
 
         /* FOOTER MOBILE RESPONSIVE */
         .footer {
@@ -389,7 +481,7 @@ input {
         .social {
             margin: auto;
             margin-left: 0px;
-            border: solid red;
+            /* border: solid red; */
         }
         .socialtext p {
             color: #E6E8FA;
@@ -397,5 +489,6 @@ input {
             margin-right: 0px;
             margin: auto;
         }
+
   
 }

@@ -26,7 +26,7 @@ input {
     width: 100%;
     margin: auto;
     display: flex;
-    border: solid red;
+    /* border: solid red; */
 }
 
 /* NAVBAR STYLING */
