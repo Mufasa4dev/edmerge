@@ -106,14 +106,14 @@ input {
 .dash{
     width: 335px;
     height: 193px;
-    border: solid 1px;
+   
     background-color: #c4c4c4;
 }
 
 .dash1{
     width: 335px;
     height: 193px;
-    border: solid 1px;
+ 
     background-color: #c4c4c4;
     margin-left: 20px;
 }
@@ -145,7 +145,7 @@ input {
 .whitebar{
     width: 105px;
     height: 17px;
-    border: solid 1px;
+    
     background-color: white;
 }
 
@@ -157,7 +157,7 @@ input {
 .blackbar_1{
     width: 251px;
     height: 17px;
-    border: solid 1px;
+   
     background-color: #DB4437;
     /* margin-left: 50px; */
 
@@ -165,7 +165,7 @@ input {
 .bar3{
     width: 251px;
     height: 17px;
-    border: solid 1px;
+
     background-color: black;
     margin-left: 30px;
     margin-top: 10px;
