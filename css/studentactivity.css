@@ -97,6 +97,8 @@ input {
     display: flex;
     margin-top: 25px;
     margin-left: 150px;
+     
+    
     /* border: solid; */
     
 }
@@ -157,6 +159,15 @@ input {
     height: 17px;
     border: solid 1px;
     background-color: black;
+    /* margin-left: 50px; */
+}
+.bar3{
+    width: 251px;
+    height: 17px;
+    border: solid 1px;
+    background-color: black;
+    margin-left: 30px;
+    margin-top: 10px;
 }
 
 .dash1 h5{
