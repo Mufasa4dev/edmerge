@@ -40,7 +40,7 @@ input {
     height: 100vh;
     background-color: #000000;
     margin-left: 130px;
-    border-radius: 12px;
+  
     position: fixed;
 }
 .logo {
@@ -106,14 +106,14 @@ input {
 .dash{
     width: 335px;
     height: 193px;
-    border: solid 1px;
+   
     background-color: #c4c4c4;
 }
 
 .dash1{
     width: 335px;
     height: 193px;
-    border: solid 1px;
+ 
     background-color: #c4c4c4;
     margin-left: 20px;
 }
@@ -145,7 +145,7 @@ input {
 .whitebar{
     width: 105px;
     height: 17px;
-    border: solid 1px;
+    
     background-color: white;
 }
 
@@ -157,14 +157,15 @@ input {
 .blackbar_1{
     width: 251px;
     height: 17px;
-    border: solid 1px;
-    background-color: black;
+   
+    background-color: #DB4437;
     /* margin-left: 50px; */
+
 }
 .bar3{
     width: 251px;
     height: 17px;
-    border: solid 1px;
+
     background-color: black;
     margin-left: 30px;
     margin-top: 10px;
@@ -180,10 +181,65 @@ input {
     padding-top: 10px;
     font-size: 12.5px;
 }
+.big-img{
+    position: absolute;
+}
+.small-img{
+    position: absolute;
+    float: right;
+    margin-left: 700px;
+}
+.Nbar{
+    background-image: url('../images/s-img.png');
+    /* position: fixed; */
+}
+#faint{
+    width: 1001px;
+    height: 280px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.flex{
+    display: flex;
+    padding-top: 70px;
+}
+.searchbar{
+    height: 44px;
+    width: 340px;
+    position: relative;
+    right: -160px;
+    top: 120px;
+    border-radius: 10px;
+}
+.word{
+    margin-left: 750px;
+    margin-top: 15px;
+    color: white
+}
+#lcircle {
+    width: 750px;
+    height: 250px;
+   
+    border-radius: 100%;
+    position: relative;
+    background: rgba(43, 45, 60, 0.6);
+    mix-blend-mode: normal;
+    opacity: 0.5;
+    
+    z-index: 2px;
+    border: solid 1px;
+    
+}
+#Navtex{
+    width: 217px;
+    height: 60px;
+    background-color: white;
+    color: black;
+   
 
-
-
-
+}
+.navtexsep{
+    color: black;
+}
 
 
 
@@ -244,6 +300,7 @@ input {
         margin: auto;
         margin-top: 20px;
     }
+    
 }
 @media (max-width: 720px){
     body {
@@ -278,5 +335,6 @@ input {
         margin: auto;
         margin-right: 25px;
     }
+
   
 }
