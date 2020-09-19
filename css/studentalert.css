@@ -146,8 +146,13 @@ input {
 }
 .bar{
     width: 910px;
+
+    height: 279px;
+    background: rgba(43, 45, 60, 0.3);
+
     height: 159px;
     background: rgba(0, 0, 0, 0.5);
+
     /* margin-left: 346px; */
     /* border: solid blue 3px; */
 }
