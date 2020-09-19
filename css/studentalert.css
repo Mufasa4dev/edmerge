@@ -30,6 +30,64 @@ input {
 }
 
 /* NAVBAR STYLING */
+.lcircle {
+    width: 550px;
+    height: 550px;
+    left: -181px;
+    top: 166.84px;
+    border-radius: 50%;
+    position: absolute;
+    background: rgba(43, 45, 60, 0.6);
+    mix-blend-mode: normal;
+    opacity: 0.5;
+}
+.mcircle {
+    position: absolute;
+    width: 99px;
+    height: 98px;
+    left: 294.55px;
+    top: 455.53px;
+    border-radius: 50%;
+    background: rgba(43, 45, 60, 0.6);
+    mix-blend-mode: normal;
+    opacity: 0.5;
+}
+.scircle {
+    position: absolute;
+    width: 49px;
+    height: 49px;
+    left: 404.64px;
+    top: 483.55px;
+    border-radius: 50%;
+    background: rgba(43, 45, 60, 0.6);
+    mix-blend-mode: normal;
+    opacity: 0.5;
+    z-index: 2;
+}
+.lcircle1 {
+    clip-path: circle(50% at 100% 73%);
+    position: absolute;
+    width: 459px;
+    height: 455px;
+    left: 814.02px;
+    top: 700.56px;
+    background: rgba(43, 45, 60, 0.6);
+    mix-blend-mode: normal;
+    z-index: -1;
+    opacity: 0.5;
+}
+.mcircle1 {
+    position: absolute;
+    width: 99px;
+    height: 98px;
+    left: 1000.22px;
+    top: 962.68px;
+    border-radius: 50%;
+    background: rgba(43, 45, 60, 0.6);
+    mix-blend-mode: normal;
+    opacity: 0.5;
+
+}
 .navbar {
     width: 250px;
     height: 1000px;
@@ -38,7 +96,7 @@ input {
 .menulink {
     width: 216px;
     height: 100vh;
-    background-color: #000000;
+    background-color: #2b2d3c;
     margin-left: 130px;
     /* border-radius: 12px; */
     position: fixed;
@@ -87,26 +145,61 @@ input {
     margin-left: 226px;
 }
 .bar{
-    width: 950px;
-    height: 279px;
-    background: rgba(43, 45, 60, 0.3);
+    width: 910px;
+    height: 159px;
+    background: rgba(0, 0, 0, 0.5);
     /* margin-left: 346px; */
     /* border: solid blue 3px; */
 }
 .alertIcon{
     width: 300px;
     height: 300px;
-    border: solid 1px;
     margin: auto;
-    margin-top: 50px;
+    margin-top: 100px;
 }
 .alertpara{
     text-align: center;
-    margin-top: 30px;
+    margin-top: 100px;
     /* margin-left: 100px; */
 
 }
 
+.Nbar{
+    background-image: url(../images/dashboard.png);
+}
+
+.faint{
+    width: 910px;
+    height: 159px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.flex{
+    display: flex;
+    padding-top: 20px;
+}
+
+.search_bar{
+    height: 44px;
+    width: 350px;
+    position: relative;
+    right: -160px;
+    top: 40px;
+    border-radius: 10px;
+}
+
+.letter{
+    margin-left: 370px;
+    margin-top: 35px;
+    color: #fff;
+}
+
+.small-img{
+    position: absolute;
+    float: right;
+    margin-top: 20px;
+    margin-left: 316px;
+}
 
 
 

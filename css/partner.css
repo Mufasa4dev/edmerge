@@ -30,6 +30,35 @@
     position: absolute;
 }
 
+.largeCicle {
+    clip-path: circle(42.4% at 51% 100%);
+    width: 500px;
+    height: 500px;
+    background: rgba(43, 45, 60,0.1);
+    border-radius: 50%;
+    position: absolute;
+    right: 100px;
+    top: 380px;
+}
+.mCircle {
+    background: rgba(43, 45, 60,0.5);
+    border-radius: 50%;
+    position: absolute;
+    width: 99px;
+    height: 98px;
+    left: 270px;
+    top: 625px;
+}
+.sCircle {
+    background: rgba(43, 45, 60,0.5);
+    border-radius: 50%;
+    position: absolute;
+    width: 49px;
+    height: 49px;
+    left: 372px;
+    top: 660px;
+}
+
 .form{
     width: 400px;
     height: 700px;
