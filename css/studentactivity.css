@@ -191,15 +191,55 @@ input {
 }
 .Nbar{
     background-image: url('../images/s-img.png');
+    /* position: fixed; */
 }
 #faint{
-    width: 1075px;
+    width: 1001px;
     height: 280px;
     background-color: rgba(0, 0, 0, 0.5);
 }
+.flex{
+    display: flex;
+    padding-top: 70px;
+}
+.searchbar{
+    height: 44px;
+    width: 340px;
+    position: relative;
+    right: -160px;
+    top: 120px;
+    border-radius: 10px;
+}
+.word{
+    margin-left: 750px;
+    margin-top: 15px;
+    color: white
+}
+#lcircle {
+    width: 750px;
+    height: 250px;
+   
+    border-radius: 100%;
+    position: relative;
+    background: rgba(43, 45, 60, 0.6);
+    mix-blend-mode: normal;
+    opacity: 0.5;
+    
+    z-index: 2px;
+    border: solid 1px;
+    
+}
+#Navtex{
+    width: 217px;
+    height: 60px;
+    background-color: white;
+    color: black;
+   
 
-
-
+}
+.navtexsep{
+    color: black;
+}
 
 
 
@@ -260,6 +300,7 @@ input {
         margin: auto;
         margin-top: 20px;
     }
+    
 }
 @media (max-width: 720px){
     body {
