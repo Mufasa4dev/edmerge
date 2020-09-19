@@ -269,6 +269,13 @@ input {
 .livetext {
     text-align: center;
 }
+.livetext hr {
+    margin: 0px;
+    margin-top: 10px;
+    width: 120px;
+    /* text-align: center; */
+    border: solid 1px black;
+}
 .seem a {
     font-size: 14px;
     color: black;
