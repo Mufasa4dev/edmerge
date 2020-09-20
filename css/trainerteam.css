@@ -1,0 +1,414 @@
+/* DEFAULT STYLING */
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: edmerge;
+}
+button {
+    cursor: pointer;
+    border-radius: 12px;
+}
+input {
+    outline: none;
+    border-color: inherit;
+}
+@font-face {
+    font-family: edmerge;
+    src: url('../montserrat/Montserrat-Regular.ttf');
+}
+.content {
+    padding-top: 35px;
+    margin-left: 10px;
+    border: solid pink;
+}
+.container {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    /* border: solid red; */
+}
+
+/* NAVBAR STYLING */
+.lcircle {
+    width: 550px;
+    height: 550px;
+    left: -181px;
+    top: 166.84px;
+    border-radius: 50%;
+    position: absolute;
+    background: rgba(43, 45, 60, 0.6);
+    mix-blend-mode: normal;
+    opacity: 0.5;
+}
+.mcircle {
+    position: absolute;
+    width: 99px;
+    height: 98px;
+    left: 294.55px;
+    top: 455.53px;
+    border-radius: 50%;
+    background: rgba(43, 45, 60, 0.6);
+    mix-blend-mode: normal;
+    opacity: 0.5;
+}
+.scircle {
+    position: absolute;
+    width: 49px;
+    height: 49px;
+    left: 404.64px;
+    top: 483.55px;
+    border-radius: 50%;
+    background: rgba(43, 45, 60, 0.6);
+    mix-blend-mode: normal;
+    opacity: 0.5;
+    z-index: 2;
+}
+.lcircle1 {
+    clip-path: circle(50% at 100% 73%);
+    position: absolute;
+    width: 459px;
+    height: 455px;
+    left: 814.02px;
+    top: 700.56px;
+    background: rgba(43, 45, 60, 0.6);
+    mix-blend-mode: normal;
+    z-index: -1;
+    opacity: 0.5;
+}
+.mcircle1 {
+    position: absolute;
+    width: 99px;
+    height: 98px;
+    left: 1000.22px;
+    top: 962.68px;
+    border-radius: 50%;
+    background: rgba(43, 45, 60, 0.6);
+    mix-blend-mode: normal;
+    opacity: 0.5;
+
+}
+.navbar {
+    width: 250px;
+    height: 1000px;
+    /* border: solid yellow; */
+}
+.menulink {
+    width: 216px;
+    height: 100vh;
+    background-color: #2b2d3c;
+    margin-left: 130px;
+    /* border-radius: 12px; */
+    position: fixed;
+}
+.logo {
+    text-align: center;
+}
+.logo img {
+    margin-top: 10px;
+}
+.menulink .up {
+    margin-top: 30px;
+    margin-bottom: 200px;
+}
+.menulink ul li {
+    text-align: right;
+    list-style: none;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.menulink ul li:hover {
+    background-color: #fff;
+    color: black;
+}
+.menulink ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.menulink ul li a:hover {
+    background-color: #fff;
+    color: black;
+}
+.up img, .down img {
+    text-align: left;
+    margin-right: 20px;
+}
+
+/* EMPTYBAR STYLE */
+.body{
+    width: 100%;
+    margin-left: 226px;
+}
+.bar{
+    width: 905px;
+
+    height: 279px;
+    background: rgba(43, 45, 60, 0.3);
+
+    height: 159px;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.Nbar{
+    background-image: url(../images/dashboard.png);
+}
+
+.faint{
+    width: 910px;
+    height: 159px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.flex{
+    display: flex;
+    padding-top: 20px;
+}
+
+.letter{
+    margin-left: 700px;
+    margin-top: 45px;
+    color: #fff;
+}
+
+.small-img{
+    position: absolute;
+    float: right;
+    margin-top: 30px;
+    margin-left: 650px;
+}
+
+.contain_info{
+    display: flex;
+    margin-top: 80px;
+    margin-left: 130px;
+}
+
+.team{
+    width: 350px;
+    height: 720px;
+    background-color: #E6E8FA;
+}
+
+.calendar{
+    width: 350px;
+    height: 400px;
+    margin-left: 20px;
+    background-color: #E6E8FA;
+}
+
+.reminder{
+    width: 350px;
+    height: 300px;
+    margin-top: 20px;
+    margin-left: 20px;
+    background-color: #E6E8FA;
+}
+
+.team h4{
+    font-size: 14px;
+    padding-left: 30px;
+    padding-top: 15px;
+    color: #DB4437;
+}
+
+.vec_1{
+    padding-top: 25px;
+    padding-left: 90px;
+}
+
+.vec_2{
+    padding-top: 25px;
+    padding-left: 8px;
+}
+
+.name_flex{
+    display: flex;
+}
+
+.circle{
+    background: #fff;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.circle_1{
+    background: #fff;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.circle_2{
+    background: #fff;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+.lead{
+    padding-top: 30px;
+    padding-left: 60px;
+}
+
+.lead_1{
+    padding-top: 30px;
+    padding-left: 90px;
+}
+
+.lead_2{
+    padding-top: 30px;
+    padding-left: 60px;
+}
+
+.lead_3{
+    padding-top: 30px;
+    padding-left: 80px;
+}
+
+.lead_4{
+    padding-top: 30px;
+    padding-left: 60px;
+}
+
+.lead_5{
+    padding-top: 30px;
+    padding-left: 90px;
+}
+
+.lead_6{
+    padding-top: 30px;
+    padding-left: 60px;
+}
+
+.lead_7{
+    padding-top: 30px;
+    padding-left: 80px;
+}
+
+
+
+
+
+
+
+@media (max-width: 1100px){
+    body {
+        background-color: red;
+    }
+    .container {
+        margin: 0px;
+        width: 100%;
+    }
+    .input {
+        margin-right: 0px;
+    }  .sinput {
+        margin-right: 150px;
+    }
+    
+    .pimg {
+        margin-right: 25px;
+    }
+    .bar {
+        width: 700px;
+    }
+}
+@media (max-width: 1000px){
+    body {
+        background-color: green;
+    }
+      .input {
+        margin-right: 0px;
+    }
+    .sinput {
+        margin-right: 50px;
+    }
+    .pimg {
+        margin-right: 5px;
+    }
+    .livetech {
+        display: block;
+    }
+    .techbox {
+        width: 250px;
+        margin: auto;
+    }
+    .seem {
+        margin-top: 15px;
+        text-align: center;
+    }
+    .contbio {
+        display: block;
+    }
+    .verify {
+        margin: auto;
+        margin-top: 20px;
+    }
+    .bar {
+        width: 600px;
+    }
+    .menulink {
+        margin-left: 140px;
+    }
+}
+@media (max-width: 720px){
+    body {
+        background-color: yellow;
+    }
+    .input {
+        width: 200px;
+        margin-right: 0px;
+    }
+    .sinput {
+        margin-right: 10px;
+    }
+    .menulink {
+        width: 100px;
+    }
+    .linkbtn {
+        width: 100px;
+    }
+    .sidetext {
+        display: none;
+    }
+    .bio {
+        display: block;
+        width: auto;
+        height: auto;
+    }
+    .bioimg {
+        margin: auto;
+        margin-top: 20px;
+    }
+    .bioedt {
+        margin: auto;
+        margin-right: 25px;
+    }
+    .bar {
+        width: 360px;
+    }
+    .body {
+        margin-left: -40px;
+    }
+    .menulink {
+        margin-left: 0px;
+    }
+    .navtex {
+        display: none;
+    }
+  
+}
