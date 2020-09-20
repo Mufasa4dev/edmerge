@@ -1,0 +1,80 @@
+.calbody {
+	width: 419px;
+	height: 459px;
+}
+.cal {
+	color: #DB4437;
+	font-size: 25px;
+	padding: 14px 0px 0px 17px;
+}
+.center, .calendar-week-day{
+	color: #DB4437;
+}
+.calendar-day-number {
+	color: #2b2d3c;
+}
+.calendar-day-selected {
+	color: #2b2d3c;
+}
+.calendar-day-today {
+	color: #DB4437;
+}
+.md .calendar-day.calendar-day-selected .calendar-day-number {
+    background: #2b2d3c;
+    color: #fff;
+}
+.calendar-day[data-date = "2020-8-25"] {
+	background-color: #DB4437;
+	width: 32px;
+	height: 32px;
+	margin: auto;
+	border-radius: 50%;
+}
+span.calendar-day-number[data-date = "2020-8-25"] {
+		color: #FBBEBE;
+}
+.calendar-day[data-date = "2020-8-30"] {
+	background-color: #DB4437;
+	color: #FBBEBE;
+	width: 32px;
+	height: 32px;
+	margin: auto;
+	border-radius: 50%;
+}
+.btn {
+	display: flex;
+	margin: auto;
+	margin-top: 26px;
+}
+.year, .week {
+	color: #DB4437;
+	background: #FBBEBE;
+	width: 106px;
+	height: 26px;
+	margin: auto;
+	border: 0px;
+	cursor: pointer;
+	outline: none;
+}
+.month {
+	color: #E6E8FA;
+	background: #DB4437;
+	width: 106px;
+	height: 26px;
+	margin: auto;
+	border: 0px;
+	cursor: pointer;
+	outline: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
