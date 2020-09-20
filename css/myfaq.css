@@ -46,6 +46,11 @@ a:hover {
     transition: 1s;
     cursor: pointer;
 }
+li .active , a .active{
+    border-bottom: 5px solid rgb(219, 68, 55);
+    transition: 1s;
+    cursor: pointer;
+}
 .menuLink ul li a {
     text-decoration: none;
     padding: 10px;
