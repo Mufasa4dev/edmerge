@@ -72,6 +72,16 @@ $('.owl-carousel1').owlCarousel({
 // }
 
 
+// function active(e) {
+//     let list = document.querySelector(".active");
+//     if (list !==null){
+//         list.classList.remove(".active");
+//     } else {
+
+//     }
+//     e.target.className = "active"
+// }
+
 
 
 
