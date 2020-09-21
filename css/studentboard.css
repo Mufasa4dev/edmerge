@@ -292,6 +292,9 @@ input {
 .livetext1 button {
     left: 30px;
 }
+.seem {
+    margin-top: 20px;
+}
 .seem a {
     font-size: 14px;
     color: black;
