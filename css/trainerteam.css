@@ -7,7 +7,7 @@
 }
 button {
     cursor: pointer;
-    border-radius: 12px;
+    /* border-radius: 12px; */
 }
 input {
     outline: none;
@@ -282,8 +282,48 @@ h3 .add {
 .cal {
     width: 419px;
     height: 459px;
+    margin: auto;
     margin-bottom: 32px;
     background-color: #e6e8fa;
+}
+.cal h3 {
+    color: #db4437;
+    padding: 14px 0px 0px 38px;
+    font-size: 25px;
+}
+.year, .week {
+	color: #DB4437;
+	background: #FBBEBE;
+	width: 106px;
+	height: 26px;
+	margin: auto;
+	border: 0px;
+	cursor: pointer;
+    outline: none;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.week {
+    margin-left: 40px;
+}
+.month {
+	color: #E6E8FA;
+	background: #DB4437;
+	width: 106px;
+	height: 26px;
+	margin: auto;
+	border: 0px;
+	cursor: pointer;
+    outline: none;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.cal img {
+    margin-top: 20px;
+    margin-left: 30px;
 }
 /* Reminder section */
 .rem {
@@ -301,8 +341,8 @@ h3 .add {
 }
 .belhead {
     position: absolute;
-    top: 726.5px;
-    right: 117px;
+    top: 722.5px;
+    right: 119px;
 }
 .rem p {
     font-size: 14px;
@@ -354,6 +394,9 @@ h3 .add {
     }
     .sinput {
         margin-left: 20px;
+    }
+    .cal {
+        margin-left: 0px;
     }
 }
 
