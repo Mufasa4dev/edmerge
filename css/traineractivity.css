@@ -1,0 +1,225 @@
+/* DEFAULT STYLING */
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: edmerge;
+}
+button {
+    cursor: pointer;
+    border-radius: 12px;
+}
+input {
+    outline: none;
+    border-color: inherit;
+}
+@font-face {
+    font-family: edmerge;
+    src: url('../montserrat/Montserrat-Regular.ttf');
+}
+.content {
+    padding-top: 35px;
+    margin-left: 10px;
+    border: solid pink;
+}
+.container {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    /* border: solid red; */
+}
+
+/* NAVBAR STYLING */
+.navbar {
+    width: 250px;
+    height: 1000px;
+    /* border: solid yellow;  */
+}
+.menulink {
+    width: 216px;
+    height: 100vh;
+    color: #E6E8FA;
+
+    background-color: #2B2D3C;
+    margin-left: 130px;
+    /* border-radius: 12px; */
+    position: fixed;
+}
+.logo {
+    text-align: center;
+}
+.logo img {
+    margin-top: 10px;
+}
+.menulink .up {
+    margin-top: 30px;
+    margin-bottom: 200px;
+}
+.menulink ul li {
+    text-align: right;
+    list-style: none;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.menulink ul li:hover {
+    background-color: #fff;
+    color: black;
+}
+.menulink ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.menulink ul li a:hover {
+    background-color: #fff;
+    color: black;
+}
+.up img, .down img {
+    text-align: left;
+    margin-right: 20px;
+}
+
+/* EMPTYBAR STYLE */
+.body{
+    width: 100%;
+    margin-left: 226px;
+}
+.bar{
+    width: 910px;
+    height: 131px;
+    background: #2B2D3C;
+    display: flex;
+    /* background-image: url(../images/dashboard.png); */  
+}
+.search{
+    display: flex;
+}
+
+.input {
+    width: 340px;
+    height: 44px;
+    background-color: #e6e8fa;
+    border-radius: 12px;
+    margin-top: 52px;
+    /* margin-left: 80px; */
+
+    border-left: none;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+.search1{
+    border-right: none;
+    border-radius: 5px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    outline: none;
+    width: 70px; 
+    height: 46px;
+    margin-top: 52px;
+     margin-left: 80px; 
+     background-color: #e6e8fa;
+     border-top-left-radius: 12px;
+     border-bottom-left-radius: 12px;
+     /* border-radius: 12px; */
+     
+}
+
+.tech h4{
+    color: #E6E8FA;
+    margin-top: 50px;
+    margin-left: 300px;
+}
+.circle{
+    height: 42px;
+width: 41px;
+/* left: 1162px; */
+/* top: 35px; */
+border-radius: 50%;
+background-color: white;
+}
+
+/* *all div* */
+
+.all-div{
+  width:910px ;  
+  margin: auto;
+  height: 300px;
+}
+.div1{
+    /* border: solid; */
+    display: flex;
+   margin-top: 25px;
+border-radius: 0px;
+}
+.div1-1{
+    height: 234px;
+width: 406px;
+margin: auto;
+margin-right: 20px;
+ /* border: solid red; */
+background: #E6E8FA;
+
+
+}
+.div1-2{
+    height: 234px;
+width: 406px;
+margin: auto;
+/* border: solid blue; */
+background: #E6E8FA;
+
+}
+
+/* end of div 1 */
+
+.div2{
+    /* border: solid; */
+    display: flex;
+   margin-top: 25px;
+border-radius: 0px;
+}
+.div2-1{
+    height: 234px;
+width: 406px;
+margin: auto;
+ /* border: solid red;  */
+background: #E6E8FA;
+
+
+}
+.div2-2{
+    height: 234px;
+width: 406px;
+margin: auto;
+ /* border: solid blue; */
+background: #E6E8FA;
+}
+
+/* end of div 2 */
+
+.div3{
+    /* border: solid; */
+    display: flex;
+   margin-top: 25px;
+border-radius: 0px;
+}
+.div3-1{
+    height: 234px;
+width: 406px;
+margin: auto;
+/* border: solid red; */
+background: #E6E8FA;
+
+
+}
+.div3-2{
+    height: 234px;
+width: 406px;
+margin: auto;
+/* border: solid blue; */
+background: #E6E8FA;
+}
