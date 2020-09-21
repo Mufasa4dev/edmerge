@@ -117,10 +117,20 @@ input {
     text-align: center;
     padding-top: 20px;
     padding-bottom: 20px;
+    width: 216px;
+    /* border: solid red; */
 }
 .menulink ul li:hover {
-    background-color: #fff;
+    background-color: #e6e8fa;
     color: black;
+}
+li .active {
+    background-color: #e6e8fa;
+    color: black;
+}
+.link .active {
+    color: black;
+    background-color: #e6e8fa;
 }
 .menulink ul li a{
     text-decoration: none;
@@ -130,8 +140,13 @@ input {
     padding-top: 20px;
     padding-bottom: 20px;
 }
+.menulink ul li .active {
+    background: #E6E8FA;
+    color: black;
+    padding: 20px 63.5px 20px 63.5px;
+}
 .menulink ul li a:hover {
-    background-color: #fff;
+    background-color: #e6e8fa;
     color: black;
 }
 .up img, .down img {

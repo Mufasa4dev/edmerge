@@ -74,7 +74,8 @@
                                 <img src="images/homeImg/tech1.png" alt="">
                             </div>
                             <div class="livetext">
-                                <hr><br> <hr><br> <hr> <br> <hr> <br> <hr>
+                                <p>UI/UX design <br> 6Wks <br> Online</p>
+                                <button>Apply</button>
                             </div>
                         </div>
                         <div class="techbox">
@@ -82,24 +83,24 @@
                                 <img src="images/homeImg/tech3.png" alt="">
                             </div>
                             <div class="livetext">
-                                <hr><br> <hr><br> <hr> <br> <hr> <br> <hr>
-                            </div>
+                                <p>Cyber security <br> 4Wks <br> Online</p>
+                                <button>Apply</button>                            </div>
                         </div>
                         <div class="techbox">
                             <div class="liveimg">
                                 <img src="images/homeImg/tech2.png" alt="">
                             </div>
                             <div class="livetext">
-                                <hr><br> <hr><br> <hr> <br> <hr> <br> <hr>
-                            </div>
+                                <p>Web development <br> 5Wks <br> Online</p>
+                                <button>Apply</button>                             </div>
                         </div>
                         <div class="techbox">
                             <div class="liveimg">
                                 <img src="images/homeImg/tech4.png" alt="">
                             </div>
                             <div class="livetext">
-                                <hr><br> <hr><br> <hr> <br> <hr> <br> <hr>
-                            </div>
+                                <p>Digital training <br> 4Wks <br> Online</p>
+                                <button>Apply</button>                             </div>
                         </div>
 
                     </div>
@@ -118,16 +119,16 @@
                                 <img src="images/homeImg/agric1.png" alt="">
                             </div>
                             <div class="livetext">
-                                <hr><br> <hr><br> <hr> <br> <hr> <br> <hr>
-                            </div>
+                                <p>Snail farming <br> 6Wks <br> Online</p>
+                                <button>Apply</button>                             </div>
                         </div>
                         <div class="techbox">
                             <div class="liveimg">
                                <img src="images/homeImg/agric2.png" alt="">     
                             </div>
                             <div class="livetext">
-                                <hr><br> <hr><br> <hr> <br> <hr> <br> <hr>
-                            </div>
+                                <p>Rice production <br> 6Wks <br> Online</p>
+                                <button>Apply</button>                             </div>
                         </div>
                         <div class="techbox">
                             <div class="liveimg">
@@ -206,7 +207,7 @@
                                 <img src="images/homeImg/art1.png" alt="">
                             </div>
                             <div class="livetext">
-                                <hr><br> <hr><br> <hr> <br> <hr> <br> <hr>
+
                             </div>
                         </div>
                         <div class="techbox">
@@ -342,7 +343,16 @@
 
 
     </div>
-    
+    <script>
+        const currentLocation = location.href;
+        const menuItem = document.querySelectorAll('a');
+        const menuLength = menuItem.length;
+        for (let i = 0; i< menuLength; i++){
+            if(menuItem[i].href === currentLocation){
+                menuItem[i].className = "active"
+            }
+        }
+    </script>
 </body>
 
 </html>
