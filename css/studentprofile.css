@@ -301,8 +301,47 @@ textarea {
     width: 250px;
     height: 174px;
     background: #E6E8FA;
-} 
+}
 
+.btn{
+    width: 90px;
+    margin-top: 6px;
+    margin-left: 10px;
+    background-color: #2B2D3C;
+    color: #c4c4c4;
+    cursor: pointer;
+    outline: none;
+}
+
+.btn_1{
+    width: 110px;
+    margin-top: 6px;
+    margin-left: 3px;
+    background-color: #2B2D3C;
+    color: #c4c4c4;
+    cursor: pointer;
+    outline: none;
+}
+
+.btn_2{
+    width: 90px;
+    margin-top: 6px;
+    margin-left: 10px;
+    background-color: #2B2D3C;
+    color: #c4c4c4;
+    cursor: pointer;
+    outline: none;
+}
+
+.btn_3{
+    width: 40px;
+    margin-top: 6px;
+    margin-left: 5px;
+    background-color: #2B2D3C;
+    color: #c4c4c4;
+    cursor: pointer;
+    outline: none;
+}
 
 
 
