@@ -450,9 +450,13 @@ li .active , a .active{
 
 @media (max-width: 550px) {
     .hide {
-        top: 30px;
-        right: 20px;
+        top: 20px;
+        right: 50px;
         bottom: 100px;
+    }
+    .logo img {
+        width: 150px;
+        margin-left: 0px;
     }
     .footersnav {
         display: block;
@@ -476,5 +480,22 @@ li .active , a .active{
         font-size: 14px;
         padding-bottom: 0px;
         width: auto;
+    }
+    .how h3 {
+        font-size: 30px;
+    }
+    .how img {
+        width: 50px;
+        height: 50px;
+    }
+    .faqcontent, .faqans {
+        width: 400px;
+    }
+    .faqbtn{
+        margin-left: 0px;
+    }
+    .faqtext p, .faqans p {
+        width: 350px;
+        font-size: 12px;
     }
 }

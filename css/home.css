@@ -838,12 +838,13 @@ a .active {
 
 @media (max-width: 550px){
     .hide {
-        top: 30px;
-        right: 20px;
+        top: 20px;
+        right: 50px;
         bottom: 100px;
     }
-    .hide {
-        display: block;
+    .logo img {
+        width: 150px;
+        margin-left: 0px;
     }
     .showMenu {
         display: block;
