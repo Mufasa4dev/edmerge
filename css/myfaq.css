@@ -149,7 +149,7 @@ li .active , a .active{
     color: white;
     margin: auto;
     display: flex;
-    border: 1px solid #000000;
+    border: 3px solid #e6e8fa;
     box-sizing: border-box;
     border-bottom: none;
 }
@@ -174,19 +174,18 @@ li .active , a .active{
     width: 50px;
     height: 50px;
     margin-right: 20px;
-    margin-top: 35px;
+    margin-top: 0px;
     background-color: #2b2d3c;
     border: 0px;
     outline: none;
-
 }
 .faqans {
     margin: auto;
     width: 870px;
     height: 120px;
-    background-color: #2b2d3c;
+    background-color: #E6E8FA;
     opacity: 0.9;
-    border: 1px solid #000000;
+    border: 3px solid #e6e8fa;
     box-sizing: border-box;
     border-top: none;
     margin-bottom: 20px;

@@ -18,8 +18,9 @@ input {
     src: url('../montserrat/Montserrat-Regular.ttf');
 }
 .content {
-    margin-left: 366px;
-    width: 910px;
+    margin-left: 30px;
+    width: 73.2%;
+    /* width: 910px; */
     /* border: solid pink; */
 }
 .container {
@@ -27,6 +28,9 @@ input {
     margin: auto;
     display: flex;
     /* border: solid red; */
+}
+.navbar {
+    width: 26.8%;
 }
 
 /* NAVBAR STYLING */
@@ -288,6 +292,8 @@ input {
     position: relative;
     border-radius: 5px;
     top: 20px;
+    outline: none;
+    border: none;
 }
 .livetext1 button {
     left: 30px;

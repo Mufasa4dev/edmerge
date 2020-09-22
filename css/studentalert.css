@@ -28,6 +28,12 @@ input {
     display: flex;
     /* border: solid red; */
 }
+.navbar {
+    width: 26.8%;
+}
+.body {
+    width: 73.2%;
+}
 
 /* NAVBAR STYLING */
 .lcircle {
@@ -89,7 +95,7 @@ input {
 
 }
 .navbar {
-    width: 250px;
+    /* width: 250px; */
     height: 1000px;
     /* border: solid yellow; */
 }
@@ -156,8 +162,7 @@ li .active {
 
 /* EMPTYBAR STYLE */
 .body{
-    width: 100%;
-    margin-left: 226px;
+    margin-left: 30px;
 }
 .bar{
     width: 910px;

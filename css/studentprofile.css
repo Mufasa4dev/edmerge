@@ -17,6 +17,9 @@ input {
     font-family: edmerge;
     src: url('../montserrat/Montserrat-Regular.ttf');
 }
+.navbar {
+    width: 26.8%;
+}
 .content {
     margin-left: 366px;
     width: 910px;
@@ -152,8 +155,8 @@ input {
 }
 /*  BIODATA AND VERIFICATION STYLING  */
 .profile {
-    width: 1200px;
-    margin-left: 340px;
+    width: 73.2%;
+    /* margin-left: 340px; */
 }
 .banner {
     background: url('../images/homeImg/profilebanner2.png');
@@ -162,7 +165,7 @@ input {
 }
 .bannercover {
     height: 297px;
-    width: 73%;
+    width: 73.2%;
     background-color: #2b2d3c;
     opacity: 0.5;
     position: absolute;
@@ -185,8 +188,11 @@ input {
     height: 176px;
     background: #E6E8FA;
     border-radius: 5px;
-    margin-top: 34px;
-    margin-left: 10px;
+    margin-top: 62px;
+    margin-left: 25px;
+}
+.bioimg img {
+    border-radius: 50%;
 }
 .verify {
     width: 250px;
@@ -198,8 +204,9 @@ input {
     margin-top: 34px;
     margin-left: 40px;
 }
-.spantext h3 {
-    margin-right: 79px;
+.spantext h4 {
+    margin-right: 20px;
+    font-size: 20px;
 }
 .edtbtn button {
     width: 77px;
@@ -207,6 +214,7 @@ input {
     font-size: 12px;
     background: #DB4437;
     color: white;
+    border: none;
     border-radius: 0px;
     outline: none;
 }
