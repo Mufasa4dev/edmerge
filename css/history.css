@@ -165,19 +165,31 @@ input {
     display: flex;
     margin-top: 25px;
     margin-left: 150px;
+    padding: 10px
      
     
-    /* border: solid; */
+  
     
 }
 
 .img1{
-    width: 335px;
-    height: 193px;
+    width: 456px;
+    height: 220px;
    
     background-color: #E6E8FA;
-    ;
     display: flex;
+    margin-right: 40px;
+    padding: 5px;
+}
+.img2{
+    width: 456px;
+    height: 220px;
+   
+    background-color: #E6E8FA;
+    display: flex;
+    margin-right: 70px;
+    /* border: solid; */
+    padding: 5px;
 }
 .color2{
 color:#2B2D3C;
@@ -185,7 +197,7 @@ color:#2B2D3C;
 }
 .color1{
     color: #DB4437;
-    padding-top: ;: 10px;
+    padding-top: 10px;
 
 }
 p{
