@@ -171,14 +171,32 @@ input {
     
 }
 
-.dash{
+.img1{
     width: 335px;
     height: 193px;
    
     background-color: #E6E8FA;
     ;
+    display: flex;
 }
+.color2{
+color:#2B2D3C;
+;
+}
+.color1{
+    color: #DB4437;
+    padding-top: ;: 10px;
 
+}
+p{
+    padding-top: 10px;
+}
+h4{
+    margin-bottom: 15px;
+}
+h5, h6{
+    padding-top: 10px;
+}
 .dash1{
     width: 335px;
     height: 193px;
