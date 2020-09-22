@@ -163,8 +163,9 @@ input {
 }
 .trainingDash{
     display: flex;
+    margin: auto;
     margin-top: 25px;
-    margin-left: 150px;
+    margin-left: 50px;
     padding: 10px
      
     
@@ -173,23 +174,26 @@ input {
 }
 
 .img1{
-    width: 456px;
-    height: 220px;
-   
+    width: 406px;
+    height: 234px;
     background-color: #E6E8FA;
     display: flex;
     margin-right: 40px;
-    padding: 5px;
+    /* padding: 5px; */
 }
 .img2{
-    width: 456px;
-    height: 220px;
-   
+    width: 406px;
+    height: 234px;
     background-color: #E6E8FA;
     display: flex;
     margin-right: 70px;
-    /* border: solid; */
-    padding: 5px;
+    /* padding: 5px; */
+}
+#imgdash img {
+    margin: 24px 9px 23px 22px;
+}
+#words {
+    margin-top: 24px;
 }
 .color2{
 color:#2B2D3C;
