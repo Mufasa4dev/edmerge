@@ -111,8 +111,12 @@ a .active {
     height: 620px;
     display: flex;
 }
+.banner {
+    width: 50%;
+}
 .banner2 {
-    width: 600px;
+    width: 50%;
+    /* width: 650px; */
     height: 620px;
     background-image: url('../images/homeImg/illustration.png');
     background-repeat: no-repeat;
@@ -222,6 +226,9 @@ a .active {
     width: 90%;
     height: 40px;
     margin-left: 25px;
+}
+.oppor {
+    width: 100%;
 }
 .opporHeader h3 {
     text-align: center;
