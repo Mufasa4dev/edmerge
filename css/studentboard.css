@@ -133,6 +133,11 @@ input {
     background: #E6E8FA;
     color: black;
 }
+ .menulink ul li .active {
+    background: #E6E8FA;
+    color: black;
+    padding: 20px 62.5px 20px 62.5px;
+}
 .menulink ul li a{
     text-decoration: none;
     color: white;
@@ -252,7 +257,7 @@ input {
 .techbox {
     width: 153.7px;
     height: 227px;
-    background-color: #c4c4c4;
+    background-color: #e6e8fa;
     box-shadow: rgba(0, 0, 0, 0.2);
     margin: 16px;
     margin-left: 0px;
@@ -260,21 +265,35 @@ input {
 .liveimg {
     width: 81px;
     height: 89px;
-    /* background-color: black; */
-    /* border-radius: 50%;
-    margin: auto;
-    margin-top: 25px;
-    margin-bottom: 25px; */
 }
 .livetext {
     text-align: center;
 }
-.livetext hr {
-    margin: 0px;
-    margin-top: 10px;
-    width: 120px;
-    /* text-align: center; */
-    border: solid 1px black;
+.livetext p, .livetext1 p {
+    padding-top: 30px;
+    padding-left: 10px;
+    text-align: left;
+    color: #2B2D3C;
+    font-size: 14px;
+    line-height: 24.07px;
+}
+.livetext1 p {
+    font-size: 12px;
+}
+.livetext button, .livetext1 button {
+    background-color: #2B2D3C;
+    color: #E6E8FA;
+    width: 94px;
+    height: 34px;
+    position: relative;
+    border-radius: 5px;
+    top: 20px;
+}
+.livetext1 button {
+    left: 30px;
+}
+.seem {
+    margin-top: 20px;
 }
 .seem a {
     font-size: 14px;
@@ -282,7 +301,7 @@ input {
     text-decoration: none;
 }
 .space {
-    margin-bottom: 50px;
+    margin-bottom: 150px;
 }
 
 /*======================= FOOTER STYLING ======================*/

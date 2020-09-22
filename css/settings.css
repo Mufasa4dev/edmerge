@@ -63,8 +63,14 @@ input {
     padding-bottom: 20px;
 }
 .menulink ul li:hover {
-    background-color: #fff;
+    background-color: #e6e8fa;
     color: black;
+}
+.menulink ul li .active {
+    background: #E6E8FA;
+    color: black;
+    padding: 20px 54px 20px 54px;
+
 }
 .menulink ul li a{
     text-decoration: none;
@@ -75,7 +81,7 @@ input {
     padding-bottom: 20px;
 }
 .menulink ul li a:hover {
-    background-color: #fff;
+    background-color: #e6e8fa;
     color: black;
 }
 .up img, .down img {
