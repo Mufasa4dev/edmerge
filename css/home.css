@@ -881,7 +881,8 @@ a .active {
         margin-left: 20px;
     }
     .btop {
-        right: 80px;
+        right: 30px;
+        bottom: 30px;
     }
     
     .btnCreate {
@@ -897,6 +898,9 @@ a .active {
         margin: auto;
         /* margin-left: 5px;
         margin-right: 0px; */
+    }
+    .testimonyCard {
+        margin-right: 0px;
     }
     .testimonyCard p, .alCard p {
         padding: 10px;

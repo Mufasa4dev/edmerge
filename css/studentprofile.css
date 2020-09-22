@@ -19,6 +19,7 @@ input {
 }
 .navbar {
     width: 26.8%;
+    position: relative;
 }
 .content {
     margin-left: 366px;
@@ -134,7 +135,7 @@ input {
 .menulink ul li .active {
     background: #E6E8FA;
     color: black;
-    padding: 20px 53px 20px 53px;
+    padding: 22px 53px 20px 53px;
 
 }
 .menulink ul li a{
@@ -156,6 +157,7 @@ input {
 /*  BIODATA AND VERIFICATION STYLING  */
 .profile {
     width: 73.2%;
+    /* position: relative; */
     /* margin-left: 340px; */
 }
 .banner {
@@ -165,7 +167,8 @@ input {
 }
 .bannercover {
     height: 297px;
-    width: 73.2%;
+    /* width: auto; */
+    /* width: 73.2%; */
     background-color: #2b2d3c;
     opacity: 0.5;
     position: absolute;
@@ -368,7 +371,10 @@ textarea {
 
 @media (max-width: 1200px){
     body {
-        background-color: red;
+        /* background-color: red; */
+    }
+    .profile {
+        margin-left: 100px;
     }
     .container {
         margin: 0px;
@@ -421,10 +427,10 @@ textarea {
 }
 @media (max-width: 1000px){
     body {
-        background-color: green;
+        /* background-color: green; */
     }
     .profile {
-        margin-left: 250px;
+        /* margin-left: 250px; */
     }
     .menulink {
         margin-left: 20px;
@@ -459,7 +465,7 @@ textarea {
 }
 @media (max-width: 720px){
     body {
-        background-color: yellow;
+        /* background-color: yellow; */
     }
     .input {
         width: 200px;
@@ -509,5 +515,52 @@ textarea {
     .eduback img {
         margin-left: 50px;
     }
+    .menulink ul li .active {
+        background: #E6E8FA;
+        color: black;
+        padding: 22px 31px 20px 32px;
+    
+    }
   
+}
+
+@media(max-width: 500px){
+
+    .profile {
+        margin-left: 50px;
+    }
+    .contbio {
+        width: 300px;
+    }
+    .bioimg {
+        margin: auto;
+        margin-top: 20px;
+    }
+    .bioedt {
+        margin: auto;
+        margin-right: 25px;
+    }
+    .experience, .eduback {
+        width: 280px;
+    }
+    .eduback h3 {
+        margin-left: 0px;
+        font-size: 16px;
+    }
+    .edu, .exint {
+        width: 300px;
+    }
+    textarea {
+        margin-left: 15px;
+    }
+    .lcircle, .mcircle, .scircle {
+        display: none;
+    }
+    .menulink {
+        height: auto;
+    }
+    .logo img {
+        width: 50px;
+        height: 50px;
+    }
 }
