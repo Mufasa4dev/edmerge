@@ -248,10 +248,10 @@ a .active {
     line-height: 30px;
 }
 .card {
+    width: 100%;
     display: flex;
     padding-top: 50px;
     margin: auto;
-    /* margin-left: 75px; */
     padding-bottom: 100px;
 }
 .oCard {
