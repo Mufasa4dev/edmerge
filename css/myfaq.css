@@ -446,3 +446,35 @@ li .active , a .active{
             margin: auto;
         }
 }
+
+
+@media (max-width: 550px) {
+    .hide {
+        top: 30px;
+        right: 20px;
+        bottom: 100px;
+    }
+    .footersnav {
+        display: block;
+        height: auto;
+    }
+    .social {
+        margin-left: 70px;
+    }
+    .socialtext {
+        text-align: center;
+        padding-bottom: 20px;
+    }
+    .menuLink ul li a{
+        color: white;
+        text-align: none;
+        z-index: 1;
+        position: relative;
+        transition: 2s;
+        top: 50px;
+        right: 200px;
+        font-size: 14px;
+        padding-bottom: 0px;
+        width: auto;
+    }
+}

@@ -194,6 +194,11 @@ li .active , a .active{
     margin-left: 134px;
 
 }
+.visimg img {
+    width: 430px;
+    height: 417px;
+    margin-right: 134px;
+}
 /* TRACK YOUR BENEFICIARY */
 .track {
     display: flex;
@@ -220,6 +225,11 @@ li .active , a .active{
     width: 560px;
     height: 417px;
     margin-bottom: 130px;
+}
+.trackimg img {
+    width: 430px;
+    height: 417px;
+    margin-left: 134px;
 }
 
 
@@ -607,3 +617,64 @@ li .active , a .active{
     
    
 } 
+
+@media (max-width: 550px) {
+    .hide {
+        top: 30px;
+        right: 20px;
+        bottom: 100px;
+    }
+    .footersnav {
+        display: block;
+        height: auto;
+    }
+    .social {
+        margin-left: 70px;
+    }
+    .socialtext {
+        text-align: center;
+        padding-bottom: 20px;
+    }
+    .menuLink ul li a{
+        color: white;
+        text-align: none;
+        z-index: 1;
+        position: relative;
+        transition: 2s;
+        top: 50px;
+        right: 200px;
+        font-size: 14px;
+        padding-bottom: 0px;
+        width: auto;
+    }
+    .misimg img, .visimg img, .trackimg img {
+        width: 300px;
+        height: 300px;
+        margin: auto;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .vistext p, .vistext h3 {
+        text-align: left;
+    }
+    .trackimg img {
+        margin: auto;
+        width: 300px;
+        margin-left: 20px;
+    }
+    .track .stand2 {
+        width: 350px;
+        margin-bottom: 150px;
+    }
+    .stand2 p {
+        font-size: 16px;
+    }
+    .teamimg {
+        margin: auto;
+        margin-left: 10px;
+        margin-right: 0px;
+    }
+    .teamimg1 {
+        margin: auto;
+    }
+}
