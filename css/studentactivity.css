@@ -69,7 +69,8 @@ input {
     position: absolute;
     width: 459px;
     height: 455px;
-    left: 814.02px;
+    right: 0%;
+    /* left: 814.02px; */
     top: 700.56px;
     background: rgba(43, 45, 60, 0.6);
     mix-blend-mode: normal;
