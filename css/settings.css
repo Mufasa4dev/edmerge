@@ -336,6 +336,14 @@ input {
         margin: auto;
         margin-top: 20px;
     }
+    .lcircle,
+    .mcircle,
+    .scircle,
+    .lcircle1,
+    .mcircle1,
+    .scircle1 {
+        display: none;
+    }
     /* .bar {
         width: 600px;
     } */
@@ -420,5 +428,8 @@ input {
     }
     .btn1 input {
         width: auto;
+    }
+    .form2 .file, .form1 .file {
+        width: 200px;
     }
 }
