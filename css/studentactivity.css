@@ -344,6 +344,17 @@ input {
     .pimg {
         margin-right: 25px;
     }
+    .lcircle, .lcircle1,
+    .mcircle, .mcircle1,
+    .scircle, .scircle1 {
+        display: none;
+    }
+    .menulink {
+        margin-left: 0px;
+    }
+    .body {
+        margin-left: 0px;
+    }
 }
 @media (max-width: 1000px){
     body {
