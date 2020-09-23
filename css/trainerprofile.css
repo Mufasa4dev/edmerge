@@ -19,7 +19,8 @@ input {
 }
 .content {
     margin-left: 366px;
-    width: 910px;
+    width: 73.2%;
+    /* width: 910px; */
     border: solid pink;
 }
 .container {
@@ -27,6 +28,9 @@ input {
     margin: auto;
     display: flex;
     /* border: solid red; */
+}
+.navbar {
+    width: 26.8%;
 }
 
 /* NAVBAR STYLING */
@@ -69,7 +73,8 @@ input {
     position: absolute;
     width: 459px;
     height: 455px;
-    left: 814.02px;
+    right: 0%;
+    /* left: 814.02px; */
     top: 700.56px;
     background: rgba(43, 45, 60, 0.6);
     mix-blend-mode: normal;
@@ -124,6 +129,12 @@ input {
     padding-top: 20px;
     padding-bottom: 20px;
 }
+.menulink ul li .active {
+    background: #E6E8FA;
+    color: black;
+    padding: 22px 53px 20px 53px;
+
+}
 .menulink ul li:hover {
     background: #E6E8FA;
     color: black;
@@ -146,21 +157,22 @@ input {
 }
 /*  BIODATA AND VERIFICATION STYLING  */
 .profile {
-    width: 1200px;
-    margin-left: 340px;
+    width: 72.2%;
+    /* width: 1200px; */
+    margin-left: 1%;
 }
 .banner {
-    background: url('../images/homeImg/profilebanner2.png');
+    background: url('../images/homeImg/bigbanner.png');
     width: 100%;
     height: 297px;
 }
-.bannercover {
+/* .bannercover {
     height: 297px;
     width: 73%;
     background-color: #2b2d3c;
     opacity: 0.5;
     position: absolute;
-}
+} */
 .contbio {
     display: flex;
     position: relative;
@@ -203,6 +215,7 @@ input {
     color: white;
     border-radius: 0px;
     outline: none;
+    border: none;
 }
 textarea {
     width: 232px;
@@ -265,6 +278,16 @@ textarea {
 }
 .eduback h3, .skill h3, .experience h3, .interest h3 {
     padding: 17px 0px 17px 19px;
+}
+.eduback p, .experience p {
+    font-size: 14px;
+    line-height: 20px;
+    padding-top: 14px;
+    padding-left: 21px;
+}
+.experience p {
+    padding-top: 0px;
+    line-height: 24px;
 }
 .eduback img {
     margin-left: 200px;
@@ -525,5 +548,61 @@ textarea {
     .eduback img {
         margin-left: 50px;
     }
+    .menulink ul li .active {
+        background: #E6E8FA;
+        color: black;
+        padding: 22px 31px 20px 32px;
+    
+    }
   
+}
+@media(max-width: 500px){
+
+    .profile {
+        margin-left: 50px;
+    }
+    .contbio {
+        width: 300px;
+    }
+    .bioimg {
+        margin: auto;
+        margin-top: 20px;
+    }
+    .bioedt {
+        margin: auto;
+        margin-right: 25px;
+    }
+    .experience, .eduback {
+        width: 280px;
+    }
+    .eduback h3 {
+        margin-left: 0px;
+        font-size: 16px;
+    }
+    .edu, .exint {
+        width: 300px;
+    }
+    textarea {
+        margin-left: 15px;
+    }
+    .lcircle, .mcircle, .scircle {
+        display: none;
+    }
+    .menulink {
+        height: auto;
+    }
+    .logo img {
+        width: 50px;
+        height: 50px;
+    }
+    .eduback, .experience {
+        height: auto;
+        width: auto;
+    }
+    .spantext {
+        margin-left: 20px;
+    }
+    .spantext h3 {
+        margin-right: 55px;
+    }
 }
