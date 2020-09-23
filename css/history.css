@@ -180,6 +180,7 @@ input {
     display: flex;
     margin-right: 40px;
     /* padding: 5px; */
+    margin-left: 80px;
 }
 .img2{
     width: 406px;
