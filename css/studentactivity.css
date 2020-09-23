@@ -11,7 +11,7 @@ button {
 }
 input {
     outline: none;
-    border-color: inherit;
+    /* border-color: inherit; */
 }
 @font-face {
     font-family: edmerge;
@@ -69,7 +69,8 @@ input {
     position: absolute;
     width: 459px;
     height: 455px;
-    left: 814.02px;
+    right: 0%;
+    /* left: 814.02px; */
     top: 700.56px;
     background: rgba(43, 45, 60, 0.6);
     mix-blend-mode: normal;
@@ -170,8 +171,11 @@ input {
 }
 .trainingDash{
     display: flex;
+    width: 73.2%;
+    margin: auto;
     margin-top: 25px;
-    margin-left: 150px;
+    /* margin-top: 25px;
+    margin-left: 150px; */
      
     
     /* border: solid; */
@@ -181,7 +185,7 @@ input {
 .dash{
     width: 335px;
     height: 193px;
-   
+    margin-right: 50px;
     background-color: #E6E8FA;
     ;
 }
@@ -191,7 +195,7 @@ input {
     height: 193px;
  
     background: #E6E8FA;
-    margin-left: 20px;
+    /* margin-left: 20px; */
 }
 
 .bar{
@@ -242,7 +246,7 @@ input {
     width: 251px;
     height: 17px;
 
-    background-color: black;
+    /* background-color: black; */
     margin-left: 30px;
     margin-top: 10px;
 }
@@ -270,8 +274,9 @@ input {
     /* position: fixed; */
 }
 #faint{
-    width: 910px;
+    width: auto;
     height: 159px;
+    position: relative;
     background-color: rgba(0, 0, 0, 0.5);
 }
 .flex{
@@ -331,6 +336,25 @@ input {
     body {
         background-color: red;
     }
+    .Nbar {
+        width: auto;
+    }
+    #faint {
+        position: relative;
+        width: auto;
+    }
+    .flex img {
+        margin-left: 470px;
+    }
+    .flex p {
+        display: none;
+    }
+    .searchbar {
+        left: 50px;
+    }
+    /* .trainingDash {
+        margin: auto;
+    } */
     .container {
         margin: 0px;
         width: 100%;
@@ -359,6 +383,19 @@ input {
 @media (max-width: 1000px){
     body {
         background-color: green;
+    }
+    .Nbar {
+        width: auto;
+    }
+    #faint {
+        position: relative;
+        width: auto;
+    }
+    .trainingDash {
+        display: block;
+    }
+    .dash1 {
+        margin-top: 20px;
     }
       .input {
         margin-right: 0px;
@@ -392,6 +429,13 @@ input {
 @media (max-width: 720px){
     body {
         background-color: yellow;
+    }
+    .Nbar {
+        width: auto;
+    }
+    #faint {
+        position: relative;
+        width: auto;
     }
     .input {
         width: 200px;
@@ -452,15 +496,28 @@ input {
     .dash1, .dash {
         width: 240px;
     }
-    .bar, .bar1 .blackbar_1{
-        width: 200px;
+    .bar{
+        width: 225px;
     }
-    .bar3 {
-        width: 0px;
-        /* display: none; */
+    .bar3 .blackbar_1, .bar1 .blackbar_1{
+        width: 200px;
     }
     .searchbar {
         width: 150px;
         left: 20px;
     }
+    .flex img {
+        margin-left: 190px;
+    }
+    .flex p {
+        display: none;
+    }
+    .Nbar {
+        width: auto;
+    }
+    #faint {
+        position: relative;
+        width: auto;
+    }
+
 }

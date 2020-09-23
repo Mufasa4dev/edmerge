@@ -25,11 +25,14 @@
                     <img src="images/logos/edm03.png" alt="">
                 </div>
                 <ul class="up">
-                    <li><a href="studentboard.html"> <img src="images/homeImg/ohmome.png" alt=""> <span class="navtex"> Home</span></a>
+                    <li><a href="studentboard.html"> <img src="images/homeImg/ohmome.png" alt=""> <span class="navtex">
+                                Home</span></a>
                     </li>
-                    <li><a href="studentprofile.html"> <img src="images/homeImg/oprogile.png" alt=""> <span class="navtex">
+                    <li><a href="studentprofile.html"> <img src="images/homeImg/oprogile.png" alt=""> <span
+                                class="navtex">
                                 Profile</span></a></li>
-                    <li><a href="studentalert.html"> <img src="images/homeImg/alertpng.png" alt=""> <span class="navtex">
+                    <li><a href="studentalert.html"> <img src="images/homeImg/alertpng.png" alt=""> <span
+                                class="navtex">
                                 Alerts</span></a></li>
                     <li><a href="studentactivity.html"> <img src="images/homeImg/trainingpng.png" alt=""> <span
                                 class="navtex">Activity</span></a></li>
@@ -37,7 +40,8 @@
                 <ul class="down">
                     <li><a href="settings.html"><img src="images/homeImg/settingspng.png" alt=""> <span class="navtex">
                                 Settings</span></a></li>
-                    <li><a href="index.html"> <img src="images/homeImg/olog.png" alt=""> <span class="navtex"> Log out</span></a>
+                    <li><a href="index.html"> <img src="images/homeImg/olog.png" alt=""> <span class="navtex"> Log
+                                out</span></a>
                     </li>
                 </ul>
             </div>
@@ -46,33 +50,31 @@
         <div class="body">
             <div class="bar">
                 <div class="Nbar">
-                    <div class="faint">
+                    <!-- <div class="faint"> -->
                         <div class="flex">
                             <input type="search" placeholder="Search" class="search_bar">
                             <div class="flex">
-                                <img src="images/Ellipse 11.png" alt="" class="small-img">
+                                <img src="images/homeImg/chiamaka.png" alt="" class="small-img">
                                 <p class="letter">Chiamaka</p>
                             </div>
                         </div>
-                    </div>
-
+                    <!-- </div> -->
+                </div>
 
             </div>
-                <div class="alertIcon">
-                    <img src="images/ion_notifications-off.png" alt="">
-                </div>
-                <div class="alertpara">
-                    <h3>You currently have no notifications</h3>
-                </div>
-
+            <div class="alertIcon">
+                <img src="images/ion_notifications-off.png" alt="">
+            </div>
+            <div class="alertpara">
+                <h3>You currently have no notifications</h3>
             </div>
         </div>
         <script>
             const currentLocation = location.href;
             const menuItem = document.querySelectorAll('a');
             const menuLength = menuItem.length;
-            for (let i = 0; i< menuLength; i++){
-                if(menuItem[i].href === currentLocation){
+            for (let i = 0; i < menuLength; i++) {
+                if (menuItem[i].href === currentLocation) {
                     menuItem[i].className = "active"
                 }
             }

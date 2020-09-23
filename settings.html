@@ -10,6 +10,13 @@
 
 <body>
     <div class="container">
+        <div class="container">
+            <div class="lcircle"></div>
+            <div class="mcircle"></div>
+            <div class="scircle"></div>
+            <div class="lcircle1"></div>
+            <div class="mcircle1"></div>
+            <div class="scircle1"></div>
 
         <!--===================== SIDE NAVBAR SECTION =====================-->
         <div class="navbar">
@@ -41,16 +48,16 @@
 
         <div class="body">
             <div class="bar">
-                <div id="bar-cover">
+                <!-- <div id="bar-cove">
 
-                </div>
+                </div> -->
                 <h3>Account Settings</h3>
             </div>
 
             <!-- *general info* -->
             <div class="general">
                 <div id="text">
-                    <h4>General Info <a href="#"><img src="images/homeImg/redpen.png" alt=""></a></h4>
+                    <h4>General Info <a href="#"><img class="pen1" src="images/homeImg/redpen.png" alt=""></a></h4>
                     <p>Setup your accout,edit profile details and change password</p>
                 </div>
                 <!-- *form* -->
@@ -59,15 +66,21 @@
                     <input type="text" placeholder="chiamaka">
                     <label for="">Last Name</label>
                     <input type="text" placeholder="ige">
-                    <label for="">Username</label>
-                    <input type="text" placeholder="chiamaka">
+                    <label for="">Phone Number</label>
+                    <input type="text" placeholder="+234 7000 0000 00">
+                    <label for="">Address</label>
+                    <input type="text" placeholder="No 22 Lagos state">
+                    <label for="">Means of identification</label>
+                    <input type="text" placeholder="National I.D Card">
+                    <label for="">Upload I.D</label>
+                    <input class="file" type="file" placeholder="Jpeg, Png, PDF">
                 </form>
 
 
                 <!-- *account info* -->
                 <div class="account">
                     <div id="text">
-                        <h4>Account Info <a href="#"><img src="images/homeImg/redpen.png" alt=""></a></h4>
+                        <h4>Account Info <a href="#"><img class="pen2" src="images/homeImg/redpen.png" alt=""></a></h4>
                         <p>Change your password, manage your email and daily reports</p>
                     </div>
                     <!-- *form* -->
@@ -84,6 +97,10 @@
                             <input class="input1" type="password" placeholder="******">
                             <button type="button" class="btneye1"><img src="images/svg/eyepass.svg" alt=""></button>
                         </div>
+                        <label for="">Udate Bio</label>
+                        <input type="text" placeholder="Not morethan 250 char">
+                        <label for="">Upload Profile Image 50KB or less</label>
+                        <input class="file" type="file" placeholder="Jpeg format 50KB or less">
                        
                     </form>
                 </div>
@@ -127,6 +144,7 @@
                 menuItem[i].className = "active"
             }
         }
+        
     </script>
 </body>
 
