@@ -30,6 +30,7 @@ input {
 }
 .navbar {
     width: 26.8%;
+    height: 100vh;
 }
 .body {
     width: 73.2%;
@@ -75,7 +76,8 @@ input {
     position: absolute;
     width: 459px;
     height: 455px;
-    left: 814.02px;
+    right: 0%;
+    /* left: 814.02px; */
     top: 700.56px;
     background: rgba(43, 45, 60, 0.6);
     mix-blend-mode: normal;
@@ -96,7 +98,7 @@ input {
 }
 .navbar {
     /* width: 250px; */
-    height: 1000px;
+    
     /* border: solid yellow; */
 }
 .menulink {
@@ -165,7 +167,7 @@ li .active {
     margin-left: 30px;
 }
 .bar{
-    width: 910px;
+    width: 100%;
 
     height: 279px;
     background: rgba(43, 45, 60, 0.3);
@@ -190,14 +192,15 @@ li .active {
 }
 
 .Nbar{
-    background-image: url(../images/dashboard.png);
+    height: 159px;
+    width: 100%;
+    background-image: url('../images/homeImg/bigbanner.png');
 }
 
-.faint{
+/* .faint{
     width: 100%;
-    height: 159px;
     background-color: rgba(0, 0, 0, 0.5);
-}
+} */
 
 .flex{
     display: flex;
@@ -207,23 +210,26 @@ li .active {
 .search_bar{
     height: 44px;
     width: 350px;
-    position: relative;
-    right: -160px;
-    top: 40px;
-    border-radius: 10px;
+    padding: 10px;
+    /* position: relative; */
+    margin-left: 60px;
+    margin-right: 300px;
+    margin-top: 40px;
+    border-radius: 5px;
+    outline: none;
 }
 
 .letter{
-    margin-left: 370px;
+    margin-left: 20px;
     margin-top: 35px;
     color: #fff;
 }
 
 .small-img{
-    position: absolute;
-    float: right;
+    /* position: absolute; */
+    /* float: right; */
     margin-top: 20px;
-    margin-left: 316px;
+    /* margin-left: 516px; */
 }
 
 
@@ -236,7 +242,7 @@ li .active {
 
 @media (max-width: 1100px){
     body {
-        /* background-color: red; */
+        background-color: red;
     }
     .container {
         margin: 0px;
@@ -252,7 +258,7 @@ li .active {
         margin-right: 25px;
     }
     .bar {
-        width: 700px;
+        width: auto;
     }
     .lcircle, .mcircle, .scircle {
         display: none;
@@ -263,10 +269,14 @@ li .active {
 }
 @media (max-width: 1000px){
     body {
-        /* background-color: green; */
+        background-color: green;
     }
       .input {
         margin-right: 0px;
+    }
+    .search_bar {
+        width: 200px;
+        margin-right: 50px;
     }
     .sinput {
         margin-right: 50px;
@@ -292,17 +302,17 @@ li .active {
         margin: auto;
         margin-top: 20px;
     }
-    .bar {
+    /* .bar {
         width: 600px;
-    }
+    } */
     .menulink {
-        margin-left: 140px;
+        margin-left: 0px;
     }
 
 }
 @media (max-width: 720px){
     body {
-        /* background-color: yellow; */
+        background-color: yellow;
     }
     .input {
         width: 200px;
@@ -331,13 +341,14 @@ li .active {
         margin-right: 25px;
     }
     .bar {
-        width: 360px;
+        width: 100%;
     }
     .body {
         margin-left: -40px;
     }
     .menulink {
         margin-left: 0px;
+        margin-right: 50px;
     }
     .navtex {
         display: none;
@@ -345,6 +356,9 @@ li .active {
     li img {
         margin-left: 0px;
         text-align: left;
+    }
+    .navbar {
+        width: 100%;
     }
     
     .menulink ul li .active {
@@ -367,6 +381,9 @@ li .active {
         left: 50px;
         width: 150px;
     }
+    .navbar {
+        width: 100%;
+    }
     .letter {
         margin-left: 70px;
     }
@@ -376,6 +393,9 @@ li .active {
     }
     .alertpara {
         font-size: 13px;
+    }
+    .flex p {
+        display: none;
     }
 
 }

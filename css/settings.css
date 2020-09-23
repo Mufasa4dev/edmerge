@@ -120,7 +120,7 @@ input {
 .general{
     width: 90%;
     /* width: 831px; */
-    height: 899px;
+    height: auto;
     margin: auto;
     margin-top: 20px;
     /* border: solid purple; */
@@ -165,6 +165,7 @@ input {
     }
     .form2{
     padding-top: 40px;
+    padding-bottom: 50px;
     }
     .form2 input{
         display: block;  
@@ -283,7 +284,8 @@ input {
     
     }
     .input {
-        width: 200px;
+        width: auto;
+        /* width: 200px; */
         margin-right: 0px;
     }
     .sinput {

@@ -23,7 +23,8 @@ input {
 }
 .content {
     margin-left: 366px;
-    width: 910px;
+    width: 73.2%;
+    /* width: 910px; */
     border: solid pink;
 }
 .container {
@@ -73,7 +74,8 @@ input {
     position: absolute;
     width: 459px;
     height: 455px;
-    left: 814.02px;
+    right: 0%;
+    /* left: 814.02px; */
     top: 700.56px;
     background: rgba(43, 45, 60, 0.6);
     mix-blend-mode: normal;
@@ -161,18 +163,18 @@ input {
     /* margin-left: 340px; */
 }
 .banner {
-    background: url('../images/homeImg/profilebanner2.png');
+    background: url('../images/homeImg/bigbanner.png');
     width: 100%;
     height: 297px;
 }
-.bannercover {
+/* .bannercover {
     height: 297px;
-    /* width: auto; */
-    /* width: 73.2%; */
+    width: auto;
+    width: 73.2%;
     background-color: #2b2d3c;
     opacity: 0.5;
     position: absolute;
-}
+} */
 .contbio {
     display: flex;
     position: relative;
@@ -282,6 +284,10 @@ textarea {
 }
 .eduback h3, .skill h3, .experience h3, .interest h3 {
     padding: 17px 0px 17px 19px;
+}
+.eduback p, .exint p {
+    font-size: 14px;
+    padding: 22px 0px 0px 20px;
 }
 .eduback img {
     margin-left: 200px;
