@@ -37,18 +37,18 @@ a:hover {
     margin-top: 20px;
 }
 .menuLink ul li {
-    height: 40px;
+    height: 34px;
     display: inline-block;
     list-style: none;
 }
 .menuLink ul li:hover{
     border-bottom: 5px solid rgb(219, 68, 55);
-    transition: 1s;
+    transition: 0.2s;
     cursor: pointer;
 }
 li .active , a .active{
     border-bottom: 5px solid rgb(219, 68, 55);
-    transition: 1s;
+    transition: 0.2s;
     cursor: pointer;
 }
 .menuLink ul li a {
@@ -60,7 +60,7 @@ li .active , a .active{
     transition: 0.6ms;
     font-size: 16px;
 }
-.menuLink ul li:nth-child(4) {
+.menuLink .trai {
     color: #DB4437;
 }
 .menuLink ul li a:hover{
@@ -182,7 +182,7 @@ li .active , a .active{
 .faqans {
     margin: auto;
     width: 870px;
-    height: 120px;
+    height: 140px;
     background-color: #E6E8FA;
     opacity: 0.9;
     border: 3px solid #e6e8fa;
@@ -223,7 +223,7 @@ li .active , a .active{
     clip-path: circle(50.1% at 98% 51%);
     background: rgba(43, 45, 60,0.2);
     position: absolute;
-    left: 780px;
+    right: 0%;
     top: 1700px;  
     z-index: -1;  
 }

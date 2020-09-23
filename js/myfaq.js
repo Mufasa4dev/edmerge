@@ -121,3 +121,16 @@
             }
         
         }
+
+        let faqans10= document.querySelector('#ans10');
+        let faqbtn10 = document.querySelector('#farqbtn10');
+        faqbtn10.addEventListener('click', showans10);
+
+        function showans10(){
+            if (faqans10.style.display == "none"){
+            faqans10.style.display = "block"
+            } else {
+                faqans10.style.display = "none";
+            }
+        
+        }
