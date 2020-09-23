@@ -191,7 +191,7 @@ input {
     height: 176px;
     background: #E6E8FA;
     border-radius: 5px;
-    margin-top: 34px;
+    margin-top: 104px;
     margin-left: 10px;
 }
 .verify {
@@ -604,5 +604,8 @@ textarea {
     }
     .spantext h3 {
         margin-right: 55px;
+    }
+    .bioimg img {
+        margin-top: 84px;
     }
 }
