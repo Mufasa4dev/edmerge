@@ -406,7 +406,7 @@ input {
     .linkbtn {
         width: 100px;
     }
-    .sidetext {
+    .navtex {
         display: none;
     }
     .bio {
@@ -422,6 +422,45 @@ input {
         margin: auto;
         margin-right: 25px;
     }
+    .logo img {
+        width: 50px;
+        height: 50px;
+    }
+    .menulink ul li .active {
+        background: #E6E8FA;
+        color: black;
+        padding: 22px 31px 20px 32px;
+    
+    }
+    .trainingDash {
+        display: block;
+        margin: auto;
+        margin-top: 20px;
+    }
+    .dash1 {
+        margin-left: 0px;
+        margin-bottom: 20px;
+    }
+    .dash {
+        margin-bottom: 20px;
+    }
+    
 
   
+}
+@media(max-width: 550px){
+    .dash1, .dash {
+        width: 240px;
+    }
+    .bar, .bar1 .blackbar_1{
+        width: 200px;
+    }
+    .bar3 {
+        width: 0px;
+        /* display: none; */
+    }
+    .searchbar {
+        width: 150px;
+        left: 20px;
+    }
 }

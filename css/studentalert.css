@@ -317,9 +317,6 @@ li .active {
     .linkbtn {
         width: 100px;
     }
-    .sidetext {
-        display: none;
-    }
     .bio {
         display: block;
         width: auto;
@@ -344,6 +341,10 @@ li .active {
     }
     .navtex {
         display: none;
+    }
+    li img {
+        margin-left: 0px;
+        text-align: left;
     }
     
     .menulink ul li .active {
