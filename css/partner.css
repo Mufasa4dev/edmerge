@@ -12,13 +12,14 @@
 
 .container{
     display: flex;
-    margin: auto;
-    margin-top: 5px;
-    margin-left: 220px;
+    /* width: 100%; */
+    /* margin: auto; */
+    /* margin-top: 5px; */
+    /* margin-left: 220px; */
 }
 
 .loginImg{
-    width: 450px;
+    width: 50%;
     height: 700px;
     /* border: solid #E5E5E5 1px; */
 }
@@ -30,7 +31,7 @@
     position: absolute;
 }
 
-.largeCicle {
+/* .largeCicle {
     clip-path: circle(42.4% at 51% 100%);
     width: 500px;
     height: 500px;
@@ -57,10 +58,10 @@
     height: 49px;
     left: 372px;
     top: 660px;
-}
+} */
 
 .form{
-    width: 400px;
+    width: 50%;
     height: 700px;
     border: solid #E5E5E5 1px;
 }
@@ -152,6 +153,18 @@
     cursor: pointer;
 }
 
+.java input{
+    display: block;
+    width: 350px;
+    height: 40px;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 6px;
+    outline: none;
+    padding-left: 15px;
+    font-family: edmerge;
+}
+
 .btn:hover{
     background-color: #DB4437;
 }
@@ -202,30 +215,36 @@
     margin-top: 15px;
     font-family: edmerge;
 }
-.term h4 a{
+.term p a{
     text-decoration: none;
     color: #DB4437;
 }
 
-.term h4 a:hover{
+.term p a:hover{
     color: red;
 }
 
 /* END OF CSS FOR SIGN UP */
+.jogin {
+    width: 100%;
+}
+.logooImg {
+    width: 50%;
+
+}
 
 .logoo{
-    width: 300px;
     height: 75px;
     margin: auto;
     margin-top: 100px;
 }
 
 .logoo img{
-    width: 100%;
+    /* width: 100%; */
     height: 100%;
 }
 .form1{
-    width: 400px;
+    width: 50%;
     height: 700px;
     border: solid #E5E5E5 1px;
 }
