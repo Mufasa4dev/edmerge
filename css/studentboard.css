@@ -18,8 +18,9 @@ input {
     src: url('../montserrat/Montserrat-Regular.ttf');
 }
 .content {
-    margin-left: 366px;
-    width: 910px;
+    margin-left: 30px;
+    width: 73.2%;
+    /* width: 910px; */
     /* border: solid pink; */
 }
 .container {
@@ -27,6 +28,9 @@ input {
     margin: auto;
     display: flex;
     /* border: solid red; */
+}
+.navbar {
+    width: 26.8%;
 }
 
 /* NAVBAR STYLING */
@@ -110,9 +114,9 @@ input {
     /* border-radius: 12px; */
     position: fixed;
 }
-.homedisplay {
+/* .homedisplay {
     width: 750px;
-}
+} */
 .logo {
     text-align: center;
 }
@@ -288,6 +292,8 @@ input {
     position: relative;
     border-radius: 5px;
     top: 20px;
+    outline: none;
+    border: none;
 }
 .livetext1 button {
     left: 30px;
@@ -479,6 +485,12 @@ input {
         width: 250px;
         height: 89px;
     }
+    .menulink ul li .active {
+        background: #E6E8FA;
+        color: black;
+        padding: 22px 31px 20px 32px;
+    
+    }
 
         /* FOOTER MOBILE RESPONSIVE */
         .footer {
@@ -515,6 +527,43 @@ input {
             margin-right: 0px;
             margin: auto;
         }
+        .lcircle, .lcircle1,
+        .mcircle, .mcircle1,
+        .scircle, .scircle1 {
+            display: none;
+        }
 
   
+}
+@media(max-width: 500px){
+    .logo img {
+        width: 50px;
+        height: 50px;
+    }
+    .techbox {
+        width: 230px;
+        margin-left: 0px;
+        margin-bottom: 50px;
+    }
+    .techbox img {
+        width: 230px;
+    }
+    .homeface h3 {
+        font-size: 16px;
+    }
+    .homeface p {
+        font-size: 11.5px;
+    }
+    .topnav h3 {
+        display: none;
+    }
+    .input {
+        width: 120px;
+    }
+    .topnav {
+        width: 80%;
+    }
+    .topnavcover {
+        width: 75%;
+    }
 }

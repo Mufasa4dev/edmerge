@@ -670,7 +670,6 @@ a .active {
     } 
     .card {
         display: block; 
-        margin-left: 300px;
     }
     .banner2 {
         display: none;
@@ -719,7 +718,6 @@ a .active {
         display: block;
         padding-top: 50px;
         margin: auto;
-        margin-left: 75px;
     }
     .menuLink ul {
         transition: 2s;
@@ -832,6 +830,108 @@ a .active {
 
 
    
+}
+
+
+
+
+
+@media (max-width: 550px){
+    .hide {
+        top: 20px;
+        right: 50px;
+        bottom: 100px;
+    }
+    .logo img {
+        width: 150px;
+        margin-left: 0px;
+    }
+    .showMenu {
+        display: block;
+    }
+    .banner h3, .banner p {
+        padding-left: 50px;
+    }
+    .largeCicle {
+        z-index: -1;
+    }
+    .btnCreate {
+        margin-left: 50px;
+    }
+    .card {
+        /* display: block;
+        padding-top: 50px;
+        margin: auto; */
+        margin-left: 0px;
+    }
+   .sCircle, .mCircle, .largeCicle, .mCircle2, .sCircle2, .mCircle1 {
+       display: none;
+   }
+    .banner h3 {
+        font-size: 24px;
+        width: 450px;
+        padding-left: 20px;
+    }
+    .banner p {
+        width: 380px;
+        padding-left: 20px;
+        font-size: 14px;
+    }
+    .logo {
+        margin-left: 20px;
+    }
+    .btop {
+        right: 30px;
+        bottom: 30px;
+    }
+    
+    .btnCreate {
+        margin-left: 90px;
+        margin-right: 0px;
+        margin-bottom: 20px;
+    }
+    .btnLog {
+        margin-left: 90px;
+    }
+    .oCard {
+        width: 350px;
+        margin: auto;
+        /* margin-left: 5px;
+        margin-right: 0px; */
+    }
+    .testimonyCard {
+        margin-right: 0px;
+    }
+    .testimonyCard p, .alCard p {
+        padding: 10px;
+        font-size: 12px;
+    }
+    .footersnav {
+        display: block;
+        height: auto;
+    }
+    .social {
+        margin-left: 70px;
+    }
+    .socialtext {
+        text-align: center;
+        padding-bottom: 20px;
+    }
+    .menuLink ul li a{
+        color: white;
+        text-align: none;
+        z-index: 1;
+        position: relative;
+        transition: 2s;
+        top: 50px;
+        right: 200px;
+        font-size: 14px;
+        padding-bottom: 0px;
+        width: auto;
+    }
+    .facecover {
+        display: none;
+    }
 }
 
 

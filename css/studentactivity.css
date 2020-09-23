@@ -100,7 +100,8 @@ input {
     opacity: 0.5;
 }
 .navbar {
-    width: 250px;
+    width: 26.8%;
+    /* width: 250px; */
     height: 1000px;
     /* border: solid yellow; */
 }
@@ -135,7 +136,7 @@ input {
 .menulink ul li .active {
     background: #E6E8FA;
     color: black;
-    padding: 20px 56.5px 20px 56.5px;
+    padding: 22px 56.5px 20px 56.5px;
 }
 .menulink ul li a{
     text-decoration: none;
@@ -156,8 +157,9 @@ input {
 
 /* BAR AND TRAINING DASHBOARD STYLING */
 .body{
-    width: 910px;
-    margin-left: 120px;
+    width: 73.2%;
+    /* width: 910px; */
+    margin-left: 32px;
 }
 .Nbar{
     width: 910px;
@@ -342,6 +344,17 @@ input {
     .pimg {
         margin-right: 25px;
     }
+    .lcircle, .lcircle1,
+    .mcircle, .mcircle1,
+    .scircle, .scircle1 {
+        display: none;
+    }
+    .menulink {
+        margin-left: 0px;
+    }
+    .body {
+        margin-left: 0px;
+    }
 }
 @media (max-width: 1000px){
     body {
@@ -393,7 +406,7 @@ input {
     .linkbtn {
         width: 100px;
     }
-    .sidetext {
+    .navtex {
         display: none;
     }
     .bio {
@@ -409,6 +422,45 @@ input {
         margin: auto;
         margin-right: 25px;
     }
+    .logo img {
+        width: 50px;
+        height: 50px;
+    }
+    .menulink ul li .active {
+        background: #E6E8FA;
+        color: black;
+        padding: 22px 31px 20px 32px;
+    
+    }
+    .trainingDash {
+        display: block;
+        margin: auto;
+        margin-top: 20px;
+    }
+    .dash1 {
+        margin-left: 0px;
+        margin-bottom: 20px;
+    }
+    .dash {
+        margin-bottom: 20px;
+    }
+    
 
   
+}
+@media(max-width: 550px){
+    .dash1, .dash {
+        width: 240px;
+    }
+    .bar, .bar1 .blackbar_1{
+        width: 200px;
+    }
+    .bar3 {
+        width: 0px;
+        /* display: none; */
+    }
+    .searchbar {
+        width: 150px;
+        left: 20px;
+    }
 }

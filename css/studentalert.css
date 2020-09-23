@@ -28,6 +28,12 @@ input {
     display: flex;
     /* border: solid red; */
 }
+.navbar {
+    width: 26.8%;
+}
+.body {
+    width: 73.2%;
+}
 
 /* NAVBAR STYLING */
 .lcircle {
@@ -89,7 +95,7 @@ input {
 
 }
 .navbar {
-    width: 250px;
+    /* width: 250px; */
     height: 1000px;
     /* border: solid yellow; */
 }
@@ -156,8 +162,7 @@ li .active {
 
 /* EMPTYBAR STYLE */
 .body{
-    width: 100%;
-    margin-left: 226px;
+    margin-left: 30px;
 }
 .bar{
     width: 910px;
@@ -189,7 +194,7 @@ li .active {
 }
 
 .faint{
-    width: 910px;
+    width: 100%;
     height: 159px;
     background-color: rgba(0, 0, 0, 0.5);
 }
@@ -231,7 +236,7 @@ li .active {
 
 @media (max-width: 1100px){
     body {
-        background-color: red;
+        /* background-color: red; */
     }
     .container {
         margin: 0px;
@@ -249,10 +254,16 @@ li .active {
     .bar {
         width: 700px;
     }
+    .lcircle, .mcircle, .scircle {
+        display: none;
+    }
+    .lcircle1, .mcircle1, .scircle1 {
+        display: none;
+    }
 }
 @media (max-width: 1000px){
     body {
-        background-color: green;
+        /* background-color: green; */
     }
       .input {
         margin-right: 0px;
@@ -287,10 +298,11 @@ li .active {
     .menulink {
         margin-left: 140px;
     }
+
 }
 @media (max-width: 720px){
     body {
-        background-color: yellow;
+        /* background-color: yellow; */
     }
     .input {
         width: 200px;
@@ -304,9 +316,6 @@ li .active {
     }
     .linkbtn {
         width: 100px;
-    }
-    .sidetext {
-        display: none;
     }
     .bio {
         display: block;
@@ -333,5 +342,40 @@ li .active {
     .navtex {
         display: none;
     }
+    li img {
+        margin-left: 0px;
+        text-align: left;
+    }
+    
+    .menulink ul li .active {
+        background: #E6E8FA;
+        color: black;
+        padding: 22px 31px 20px 32px;
+    
+    }
+    .lcircle, .lcircle1,
+    .mcircle, .mcircle1,
+    .scircle, .scircle1 {
+        display: none;
+    }
   
+}
+
+
+@media(max-width:500px){
+    .search_bar {
+        left: 50px;
+        width: 150px;
+    }
+    .letter {
+        margin-left: 70px;
+    }
+    .logo img {
+        width: 50px;
+        height: 50px;
+    }
+    .alertpara {
+        font-size: 13px;
+    }
+
 }

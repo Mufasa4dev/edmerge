@@ -149,7 +149,7 @@ li .active , a .active{
     color: white;
     margin: auto;
     display: flex;
-    border: 1px solid #000000;
+    border: 3px solid #e6e8fa;
     box-sizing: border-box;
     border-bottom: none;
 }
@@ -174,19 +174,18 @@ li .active , a .active{
     width: 50px;
     height: 50px;
     margin-right: 20px;
-    margin-top: 35px;
+    margin-top: 0px;
     background-color: #2b2d3c;
     border: 0px;
     outline: none;
-
 }
 .faqans {
     margin: auto;
     width: 870px;
     height: 120px;
-    background-color: #2b2d3c;
+    background-color: #E6E8FA;
     opacity: 0.9;
-    border: 1px solid #000000;
+    border: 3px solid #e6e8fa;
     box-sizing: border-box;
     border-top: none;
     margin-bottom: 20px;
@@ -446,4 +445,57 @@ li .active , a .active{
             margin-right: 0px;
             margin: auto;
         }
+}
+
+
+@media (max-width: 550px) {
+    .hide {
+        top: 20px;
+        right: 50px;
+        bottom: 100px;
+    }
+    .logo img {
+        width: 150px;
+        margin-left: 0px;
+    }
+    .footersnav {
+        display: block;
+        height: auto;
+    }
+    .social {
+        margin-left: 70px;
+    }
+    .socialtext {
+        text-align: center;
+        padding-bottom: 20px;
+    }
+    .menuLink ul li a{
+        color: white;
+        text-align: none;
+        z-index: 1;
+        position: relative;
+        transition: 2s;
+        top: 50px;
+        right: 200px;
+        font-size: 14px;
+        padding-bottom: 0px;
+        width: auto;
+    }
+    .how h3 {
+        font-size: 30px;
+    }
+    .how img {
+        width: 50px;
+        height: 50px;
+    }
+    .faqcontent, .faqans {
+        width: 400px;
+    }
+    .faqbtn{
+        margin-left: 0px;
+    }
+    .faqtext p, .faqans p {
+        width: 350px;
+        font-size: 12px;
+    }
 }
