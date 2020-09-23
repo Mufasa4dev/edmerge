@@ -61,7 +61,7 @@
                     <p>Setup your accout,edit profile details and change password</p>
                 </div>
                 <!-- *form* -->
-                <form action="" class="form1">
+                <form action="" class="form1" style="display: none;">
                     <label for="">First Name</label>
                     <input type="text" placeholder="chiamaka">
                     <label for="">Last Name</label>
@@ -84,7 +84,7 @@
                         <p>Change your password, manage your email and daily reports</p>
                     </div>
                     <!-- *form* -->
-                    <form action="" class="form2">
+                    <form action="" class="form2" style="display: none;">
                         <label for="">Email address</label>
                         <input type="text" placeholder="chiamakagirl@gmail.com">
                         <label for="">Current password</label>
@@ -142,6 +142,30 @@
         for (let i = 0; i< menuLength; i++){
             if(menuItem[i].href === currentLocation){
                 menuItem[i].className = "active"
+            }
+        }
+
+        let pen1 =document.querySelector('.pen1');
+        let form1 = document.querySelector('.form1');
+        pen1.addEventListener('click', showform1);
+
+        function showform1(){
+            if (form1.style.display == "none"){
+                form1.style.display = "block";
+            }else {
+                form1.style.display = "none"
+            }
+        }
+
+        let pen2 =document.querySelector('.pen2');
+        let form2 = document.querySelector('.form2');
+        pen2.addEventListener('click', showform2);
+
+        function showform2(){
+            if (form2.style.display == "none"){
+                form2.style.display = "block";
+            }else {
+                form2.style.display = "none"
             }
         }
         

@@ -211,6 +211,7 @@ input {
 }
 #text p {
     color:  #2B2D3C;
+    padding-bottom: 20px;
 }
 .form1{
     padding-top: 40px;
