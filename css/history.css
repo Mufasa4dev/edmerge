@@ -26,7 +26,6 @@ input {
     width: 100%;
     margin: auto;
     display: flex;
-    /* border: solid red; */
 }
 
 /* NAVBAR STYLING */
@@ -70,7 +69,6 @@ input {
     width: 459px;
     height: 455px;
     right: 0%;
-    /* left: 814.02px; */
     top: 700.56px;
     background: rgba(43, 45, 60, 0.6);
     mix-blend-mode: normal;
@@ -102,9 +100,7 @@ input {
 }
 .navbar {
     width: 26.8%;
-    /* width: 250px; */
     height: 1000px;
-    /* border: solid yellow; */
 }
 .menulink {
     width: 216px;
@@ -130,6 +126,12 @@ input {
     padding-top: 20px;
     padding-bottom: 20px;
 }
+.menulink ul li .active {
+    background: #E6E8FA;
+    color: black;
+    padding: 22px 58.5px 20px 58.5px;
+
+}
 .menulink ul li:hover {
     background: #E6E8FA;
     color: black;
@@ -154,7 +156,6 @@ input {
 /* BAR AND TRAINING DASHBOARD STYLING */
 .body{
     width: 73.2%;
-    /* width: 910px; */
     margin-left: 120px;
 }
 .Nbar{
@@ -162,8 +163,6 @@ input {
     margin-left: 2%;
     height: 159px;
     background: rgba(43, 45, 60, 0.3);
-    /* margin-left: 346px; */
-    /* border: solid blue 3px; */
 }
 .trainingDash{
     display: flex;
@@ -171,10 +170,6 @@ input {
     margin-top: 25px;
     margin-left: 50px;
     padding: 10px
-     
-    
-  
-    
 }
 
 .img1{
@@ -183,7 +178,6 @@ input {
     background-color: #E6E8FA;
     display: flex;
     margin-right: 40px;
-    /* padding: 5px; */
     margin-left: 80px;
 }
 .img2{
@@ -192,7 +186,6 @@ input {
     background-color: #E6E8FA;
     display: flex;
     margin-right: 70px;
-    /* padding: 5px; */
 }
 #imgdash img {
     margin: 24px 9px 23px 22px;
@@ -202,12 +195,10 @@ input {
 }
 .color2{
 color:#2B2D3C;
-;
 }
 .color1{
     color: #DB4437;
     padding-top: 10px;
-
 }
 p{
     padding-top: 10px;
@@ -265,15 +256,11 @@ h5, h6{
 .blackbar_1{
     width: 251px;
     height: 17px;
-   
     background-color: #DB4437;
-    /* margin-left: 50px; */
-
 }
 .bar3{
     width: 251px;
     height: 17px;
-
     background-color: black;
     margin-left: 30px;
     margin-top: 10px;
@@ -299,7 +286,6 @@ h5, h6{
 }
 .Nbar{
     background-image: url('../images/s-img.png');
-    /* position: fixed; */
 }
 #faint{
     width: 100%;
@@ -329,13 +315,11 @@ h5, h6{
 #lcircle {
     width: 750px;
     height: 250px;
-   
     border-radius: 100%;
     position: relative;
     background: rgba(43, 45, 60, 0.6);
     mix-blend-mode: normal;
     opacity: 0.5;
-    
     z-index: 2px;
     border: solid 1px;
     
@@ -345,8 +329,6 @@ h5, h6{
     height: 60px;
     background-color: white;
     color: black;
-   
-
 }
 .navtexsep{
     color: black;
@@ -363,9 +345,6 @@ h5, h6{
 
 
 @media (max-width: 1150px){
-    body {
-        background-color: red;
-    }
     .container {
         margin: 0px;
         width: 100%;
@@ -388,9 +367,6 @@ h5, h6{
     }
 }
 @media (max-width: 1000px){
-    body {
-        background-color: green;
-    }
     .trainingDash {
         width: 100%;
         display: block;
@@ -430,12 +406,15 @@ h5, h6{
     
 }
 @media (max-width: 800px){
-    body {
-        background-color: yellow;
-    }
     .menulink {
         width: 100px;
         margin-left: 0px;
+    }
+    .menulink ul li .active {
+        background: #E6E8FA;
+        color: black;
+        padding: 22px 31px 20px 32px;
+    
     }
     .logo img {
         width: 50px;

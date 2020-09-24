@@ -27,20 +27,21 @@
                 </div>
 
                 <ul class="up">
-                    <li><a href="studentboard.html"> <img src="images/homeImg/ohmome.png" alt=""> <span class="navtex">
-                                Home</span></a>
+                    <li><a href="trainerteam.html"> <img src="images/homeImg/ohmome.png" alt=""> <span class="navtex">
+                                Team</span></a>
                     </li>
-                    <li><a href="studentprofile.html"> <img src="images/homeImg/oprogile.png" alt=""> <span
+                    <li><a href="trainerprofile.html"> <img src="images/homeImg/oprogile.png" alt=""> <span
                                 class="navtex">
                                 Profile</span></a></li>
-                    <li><a href="studentalert.html"> <img src="images/homeImg/alertpng.png" alt=""> <span
-                                class="navtex">
-                                Alerts</span></a></li>
-                    <li><a href="studentactivity.html"> <img src="images/homeImg/trainingpng.png" alt=""> <span
+                    <li><a href="traineractivity.html"> <img src="images/homeImg/trainingpng.png" alt=""> <span
                                 class="navtex">Activity</span></a></li>
+                    <li><a href="history.html"> <img src="images/homeImg/alertpng.png" alt=""> <span class="navtex">
+                                History</span></a></li>
+
                 </ul>
                 <ul class="down">
-                    <li><a href="settings.html"><img src="images/homeImg/settingspng.png" alt=""> <span class="navtex">
+                    <li><a href="trainersettings.html"><img src="images/homeImg/settingspng.png" alt=""> <span
+                                class="navtex">
                                 Settings</span></a></li>
                     <li><a href="index.html"> <img src="images/homeImg/olog.png" alt=""> <span class="navtex"> Log
                                 out</span></a>
@@ -54,7 +55,6 @@
         <div class="body">
             <div class="Nbar">
                 <div id="faint">
-                    <!-- <img src="images/s-img.png" alt="" class="big-img"> -->
                     <div id="flex">
                         <input type="search" placeholder="    Search" class="searchbar">
                         <div class="flex">
@@ -67,7 +67,6 @@
             <!-- BIG IMG ENDS HERE -->
 
             <div class="trainingDash">
-                <!-- <div id="lcircle"></div> -->
                 <div class="img1">
                     <div id="imgdash">
                         <img src="images/image 23.png" alt="">
@@ -77,9 +76,9 @@
                             Iniatiative</h4>
                         <h5> <span class="color1"> Learning tracks:</span></h6>
                             <h6 class="color2">Web Development</6>
-                            <h6 class="color2"> Design (UI/UX) </h6>
-                            <h6 class="color1">Duration:</h6>
-                            <h6 class="color2">Aug.10th - Sept. 4th 2020.</h6>
+                                <h6 class="color2"> Design (UI/UX) </h6>
+                                <h6 class="color1">Duration:</h6>
+                                <h6 class="color2">Aug.10th - Sept. 4th 2020.</h6>
 
                     </div>
                 </div>
@@ -101,7 +100,6 @@
                 </div>
             </div>
             <div class="trainingDash">
-                <!-- <div id="lcircle"></div> -->
                 <div class="img1">
                     <div id="imgdash">
                         <img src="images/image 27.png" alt="">
@@ -134,7 +132,6 @@
                 </div>
             </div>
             <div class="trainingDash">
-                <!-- <div id="lcircle"></div> -->
                 <div class="img1">
                     <div id="imgdash">
                         <img src="images/image 30.png" alt="">
@@ -143,7 +140,6 @@
                         <h4 class="color2">Nigerian Women Techsters <br>
                             Iniatiative</h4>
                         <h5> <span class="color1"> Learning tracks:</span></h5>
-                        <!-- <h6 class="color2">Game Development,</h6> -->
                         <h6 class="color2"> Embodied systems, Web
                             & Mobile App Dev. </h6>
                         <h6 class="color1">Duration:</h6>
@@ -159,7 +155,6 @@
                         <h4 class="color2">Nigerian Women Techsters <br>
                             Iniatiative</h4>
                         <h5> <span class="color1"> Learning tracks:</span></h5>
-                        <!-- <h6 class="color2">Game Development,</h6> -->
                         <h6 class="color2"> Embodied systems, Web
                             & Mobile App Dev. </h6>
                         <h6 class="color1">Duration:</h6>
@@ -170,12 +165,21 @@
             </div>
 
 
-            <!-- <div id="lcircle"></div> -->
 
 
 </body>
 
 </html>
+<script>
+    const currentLocation = location.href;
+    const menuItem = document.querySelectorAll('a');
+    const menuLength = menuItem.length;
+    for (let i = 0; i < menuLength; i++) {
+        if (menuItem[i].href === currentLocation) {
+            menuItem[i].className = "active"
+        }
+    }
+</script>
 </body>
 
 </html>
