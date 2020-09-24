@@ -175,12 +175,13 @@ input {
     display: flex;
 }
 .bioimg {
-    width: 180px;
-    height: 176px;
+    width: 170px;
+    height: 166px;
     background: #E6E8FA;
     border-radius: 5px;
-    margin-top: 104px;
-    margin-left: 10px;
+    margin-top: 45px;
+    margin-left: 30px;
+    /* border: solid; */
 }
 .verify {
     width: 250px;
@@ -193,7 +194,7 @@ input {
     margin-left: 40px;
 }
 .spantext h3 {
-    margin-right: 79px;
+    margin-right: 60px;
 }
 .edtbtn button {
     width: 77px;
@@ -204,12 +205,13 @@ input {
     border-radius: 0px;
     outline: none;
     border: none;
+    /* border: solid blue; */
 }
 textarea {
     width: 232px;
     height: 158px;
     margin-top: 24px;
-    margin-left: 43px;
+    margin-left: 47px;
     padding: 10px;
     background: #E6E8FA;
 }
