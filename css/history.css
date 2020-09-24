@@ -130,6 +130,12 @@ input {
     padding-top: 20px;
     padding-bottom: 20px;
 }
+.menulink ul li .active {
+    background: #E6E8FA;
+    color: black;
+    padding: 22px 58.5px 20px 58.5px;
+
+}
 .menulink ul li:hover {
     background: #E6E8FA;
     color: black;
@@ -436,6 +442,12 @@ h5, h6{
     .menulink {
         width: 100px;
         margin-left: 0px;
+    }
+    .menulink ul li .active {
+        background: #E6E8FA;
+        color: black;
+        padding: 22px 31px 20px 32px;
+    
     }
     .logo img {
         width: 50px;

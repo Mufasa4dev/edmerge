@@ -4,119 +4,178 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/trainersettings.css">
-    <title>Trainer Settings</title>
+    <link rel="stylesheet" href="css/settings.css">
+    <title>Settings</title>
 </head>
 
 <body>
     <div class="container">
+        <div class="container">
+            <div class="lcircle"></div>
+            <div class="mcircle"></div>
+            <div class="scircle"></div>
+            <div class="lcircle1"></div>
+            <div class="mcircle1"></div>
+            <div class="scircle1"></div>
 
-        <!--===================== SIDE NAVBAR SECTION =====================-->
-        <div class="navbar">
-            <div class="menulink">
-                <div class="logo">
-                    <img src="images/logos/edm03.png" alt="">
+            <!--===================== SIDE NAVBAR SECTION =====================-->
+            <div class="navbar">
+
+                <div class="menulink">
+                    <div class="logo">
+                        <img src="images/logos/edm03.png" alt="">
+                    </div>
+                    <ul class="up">
+                        <li><a href="trainerteam.html"> <img src="images/homeImg/ohmome.png" alt=""> <span
+                                    class="navtex"> Team</span></a>
+                        </li>
+                        <li><a href="trainerprofile.html"> <img src="images/homeImg/oprogile.png" alt=""> <span
+                                    class="navtex">
+                                    Profile</span></a></li>
+                        <li><a href="traineractivity.html"> <img src="images/homeImg/trainingpng.png" alt=""> <span
+                                    class="navtex">Activity</span></a></li>
+                        <li><a href="history.html"> <img src="images/homeImg/alertpng.png" alt=""> <span class="navtex">
+                                    History</span></a></li>
+
+                    </ul>
+                    <ul class="down">
+                        <li><a href="trainersettings.html"><img src="images/homeImg/settingspng.png" alt=""> <span
+                                    class="navtex">
+                                    Settings</span></a></li>
+                        <li><a href="index.html"> <img src="images/homeImg/olog.png" alt=""> <span class="navtex"> Log
+                                    out</span></a>
+                        </li>
+                    </ul>
                 </div>
-                <ul class="up">
-                    <li><a href="studentboard.html"> <img src="images/homeImg/ohmome.png" alt=""> <span class="navtex">Team</span></a>
-                    </li>
-                    <li><a href="studentprofile.html"> <img src="images/homeImg/oprogile.png" alt=""> <span class="navtex">
-                                Profile</span></a></li>
-                    <li><a href="studentalert.html"> <img src="images/homeImg/alertpng.png" alt=""> <span class="navtex">
-                                Activity</span></a></li>
-                    <li><a href="studentactivity.html"> <img src="images/homeImg/trainingpng.png" alt=""> <span
-                                class="navtex">History</span></a></li>
-                </ul>
-                <ul class="down">
-                    <li><a href="settings.html"><img src="images/homeImg/settingspng.png" alt=""> <span class="navtex">
-                                Settings</span></a></li>
-                    <li><a href="index.html"> <img src="images/homeImg/olog.png" alt=""> <span class="navtex"> Log out</span></a>
-                    </li>
-                </ul>
             </div>
-        </div>
 
-        <!--====================== ALERT IMG AND BAR =====================-->
+            <!--====================== ALERT IMG AND BAR =====================-->
 
-        <div class="body">
-            <div class="bar">
-                <div id="bar-cover">
+            <div class="body">
+                <div class="bar">
+                    <!-- <div id="bar-cove">
 
+                </div> -->
+                    <h3>Account Settings</h3>
                 </div>
-                <h3>Account Settings</h3>
-            </div>
 
-            <!-- *general info* -->
-            <div class="general">
-                <div id="text">
-                    <h4>General Info <a href="#"><img src="images/homeImg/redpen.png" alt=""></a></h4>
-                    <p>Setup your accout,edit profile details and change password</p>
-                </div>
-                <!-- *form* -->
-                <form action="" class="form1">
-                    <label for="">First Name</label>
-                    <input type="text" placeholder="chiamaka">
-                    <label for="">Last Name</label>
-                    <input type="text" placeholder="ige">
-                    <label for="">Username</label>
-                    <input type="text" placeholder="chiamaka">
-                </form>
-
-
-                <!-- *account info* -->
-                <div class="account">
+                <!-- *general info* -->
+                <div class="general">
                     <div id="text">
-                        <h4>Account Info <a href="#"><img src="images/homeImg/redpen.png" alt=""></a></h4>
-                        <p>Change your password, manage your email and daily reports</p>
+                        <h4>General Info <a href="#"><img class="pen1" src="images/homeImg/redpen.png" alt=""></a></h4>
+                        <p>Setup your accout,edit profile details and change password</p>
                     </div>
                     <!-- *form* -->
-                    <form action="" class="form2">
-                        <label for="">Email address</label>
-                        <input type="text" placeholder="chiamakagirl@gmail.com">
-                        <label for="">Current password</label>
-                        <div class="btn">
-                            <input class="input" type="password" placeholder="******">
-                            <button type="button" class="btneye"><img src="images/svg/eyepass.svg" alt=""></button>
-                        </div>
-                        <label for="">Change password</label>
-                        <div class="btn1">
-                            <input class="input1" type="password" placeholder="******">
-                            <button type="button" class="btneye1"><img src="images/svg/eyepass.svg" alt=""></button>
-                        </div>
-                       
+                    <form action="" class="form1" style="display: none;">
+                        <label for="">First Name</label>
+                        <input type="text" placeholder="chiamaka">
+                        <label for="">Last Name</label>
+                        <input type="text" placeholder="ige">
+                        <label for="">Phone Number</label>
+                        <input type="text" placeholder="+234 7000 0000 00">
+                        <label for="">Address</label>
+                        <input type="text" placeholder="No 22 Lagos state">
+                        <label for="">Means of identification</label>
+                        <input type="text" placeholder="National I.D Card">
+                        <label for="">Upload I.D</label>
+                        <input class="file" type="file" placeholder="Jpeg, Png, PDF">
                     </form>
+
+
+                    <!-- *account info* -->
+                    <div class="account">
+                        <div id="text">
+                            <h4>Account Info <a href="#"><img class="pen2" src="images/homeImg/redpen.png" alt=""></a>
+                            </h4>
+                            <p>Change your password, manage your email and daily reports</p>
+                        </div>
+                        <!-- *form* -->
+                        <form action="" class="form2" style="display: none;">
+                            <label for="">Email address</label>
+                            <input type="text" placeholder="chiamakagirl@gmail.com">
+                            <label for="">Current password</label>
+                            <div class="btn">
+                                <input class="input" type="password" placeholder="******">
+                                <button type="button" class="btneye"><img src="images/svg/eyepass.svg" alt=""></button>
+                            </div>
+                            <label for="">Change password</label>
+                            <div class="btn1">
+                                <input class="input1" type="password" placeholder="******">
+                                <button type="button" class="btneye1"><img src="images/svg/eyepass.svg" alt=""></button>
+                            </div>
+                            <label for="">Udate Bio</label>
+                            <input type="text" placeholder="Not morethan 250 char">
+                            <label for="">Upload Profile Image 50KB or less</label>
+                            <input class="file" type="file" placeholder="Jpeg format 50KB or less">
+
+                        </form>
+                    </div>
                 </div>
+
+
+
             </div>
-
-
-
         </div>
-    </div>
-    <script>
-        let eyeBtn = document.querySelector(".btneye");
-        let myInput =document.querySelector(".input");
-        eyeBtn.addEventListener("click",showEye);
-        function showEye() {
-            if(myInput.type=="password"){
-                myInput.type="text";
-            }
-            else{
-                myInput.type="password"
-            }
-        }
+        <script>
+            let eyeBtn = document.querySelector(".btneye");
+            let myInput = document.querySelector(".input");
+            eyeBtn.addEventListener("click", showEye);
 
-        let eyeBtn1 = document.querySelector(".btneye1");
-        let myInput1 =document.querySelector(".input1");
-        eyeBtn1.addEventListener("click",showEye1);
-        function showEye1() {
-            if (myInput1.type == "password") {
-                myInput1.type = "text"
-            } else {
-                myInput1.type = "password"
+            function showEye() {
+                if (myInput.type == "password") {
+                    myInput.type = "text";
+                } else {
+                    myInput.type = "password"
+                }
             }
 
-        }
-    </script>
+            let eyeBtn1 = document.querySelector(".btneye1");
+            let myInput1 = document.querySelector(".input1");
+            eyeBtn1.addEventListener("click", showEye1);
+
+            function showEye1() {
+                if (myInput1.type == "password") {
+                    myInput1.type = "text"
+                } else {
+                    myInput1.type = "password"
+                }
+
+            }
+
+
+            const currentLocation = location.href;
+            const menuItem = document.querySelectorAll('a');
+            const menuLength = menuItem.length;
+            for (let i = 0; i < menuLength; i++) {
+                if (menuItem[i].href === currentLocation) {
+                    menuItem[i].className = "active"
+                }
+            }
+
+            let pen1 = document.querySelector('.pen1');
+            let form1 = document.querySelector('.form1');
+            pen1.addEventListener('click', showform1);
+
+            function showform1() {
+                if (form1.style.display == "none") {
+                    form1.style.display = "block";
+                } else {
+                    form1.style.display = "none"
+                }
+            }
+
+            let pen2 = document.querySelector('.pen2');
+            let form2 = document.querySelector('.form2');
+            pen2.addEventListener('click', showform2);
+
+            function showform2() {
+                if (form2.style.display == "none") {
+                    form2.style.display = "block";
+                } else {
+                    form2.style.display = "none"
+                }
+            }
+        </script>
 </body>
 
 </html>

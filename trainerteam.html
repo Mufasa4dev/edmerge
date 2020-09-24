@@ -28,20 +28,20 @@
                     <img src="images/logos/edm03.png" alt="">
                 </div>
                 <ul class="up">
-                    <li><a href="studentboard.html"> <img src="images/homeImg/ohmome.png" alt=""> <span class="navtex">
+                    <li><a href="trainerteam.html"> <img src="images/homeImg/ohmome.png" alt=""> <span class="navtex">
                                 Team</span></a>
                     </li>
-                    <li><a href="studentprofile.html"> <img src="images/homeImg/oprogile.png" alt=""> <span
+                    <li><a href="trainerprofile.html"> <img src="images/homeImg/oprogile.png" alt=""> <span
                                 class="navtex">
                                 Profile</span></a></li>
-                    <li><a href="studentalert.html"> <img src="images/homeImg/alertpng.png" alt=""> <span
+                    <li><a href="traineractivity.html"> <img src="images/homeImg/alertpng.png" alt=""> <span
                                 class="navtex">
                                 Activity</span></a></li>
-                    <li><a href="studentactivity.html"> <img src="images/homeImg/trainingpng.png" alt=""> <span
+                    <li><a href="history.html"> <img src="images/homeImg/trainingpng.png" alt=""> <span
                                 class="navtex">History</span></a></li>
                 </ul>
                 <ul class="down">
-                    <li><a href="settings.html"><img src="images/homeImg/settingspng.png" alt=""> <span class="navtex">
+                    <li><a href="trainersettings.html"><img src="images/homeImg/settingspng.png" alt=""> <span class="navtex">
                                 Settings</span></a></li>
                     <li><a href="index.html"> <img src="images/homeImg/olog.png" alt=""> <span class="navtex"> Log
                                 out</span></a>
@@ -117,7 +117,17 @@
             </div>
         </div>
     </div>
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/framework7/3.5.2/js/framework7.min.js">
+  
+    
+    <script>
+        const currentLocation = location.href;
+        const menuItem = document.querySelectorAll('a');
+        const menuLength = menuItem.length;
+        for (let i = 0; i< menuLength; i++){
+            if(menuItem[i].href === currentLocation){
+                menuItem[i].className = "active"
+            }
+        }
     </script>
     <script src="js/main.js"></script>
 </body>
