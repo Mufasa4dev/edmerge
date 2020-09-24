@@ -416,15 +416,15 @@
     }
 
 }
-@media(max-width:550px){
-  .form {
-      width: 100%;
+@media(max-width:500px){
+  .form, .form1 {
+      width: auto;
       margin: 0px;
     } 
-  .form_input input {
+  .form_input input, .info input, .java1 input {
     width: 250px;
     }
-  .btn {
+  .btn, .btn1 {
       width: 250px;
       margin-left: 70px;
     } 
@@ -434,6 +434,13 @@
     }
     p, .para {
         font-size: 12px;
+    }
+    .checkbox .paa {
+        font-size: 12px;
+    }
+    .java1 .passbtn1 {
+        width: 200px;
+        margin-left: 50px;
     }
 }
 

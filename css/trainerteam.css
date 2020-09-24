@@ -120,7 +120,7 @@ input {
 }
 .menulink .up {
     margin-top: 30px;
-    margin-bottom: 200px;
+    margin-bottom: 180px;
 }
 .menulink ul li {
     list-style: none;
@@ -131,7 +131,7 @@ input {
 .menulink ul li .active {
     background: #E6E8FA;
     color: black;
-    padding: 22px 64.5px 20px 64.5px;
+    padding: 22px 63px 20px 63px;
 
 }
 .menulink ul li:hover {
@@ -441,7 +441,7 @@ h3 .add {
     .menulink ul li .active {
         background: #E6E8FA;
         color: black;
-        padding: 22px 31px 20px 32px;
+        padding: 22px 30px 20px 30px;
     
     }
 
