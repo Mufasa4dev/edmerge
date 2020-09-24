@@ -107,11 +107,17 @@ a:hover {
     padding-top: 10px;
     background-color: white;
     display: flex;
+    position: fixed;
+    z-index: 3;
+    top: 0px;
 }
 .logo {
     width: 200px;
     margin-left: 134px;
     margin-top: 11px;
+}
+.logo img {
+    margin-top: -10px;
 }
 .menuLink {
     width: 440px;
@@ -189,8 +195,10 @@ li .active , a .active{
     margin: auto;
 }
 .stand1 {
-    margin-top: 100px;
+    margin-top: 180px;
     margin-bottom: 0px;
+    position: relative;
+    /* margin-top: 80px; */
 }
 .stand1 h3 {
     text-align: center;

@@ -30,11 +30,17 @@ a:hover {
     padding-top: 10px;
     background-color: white;
     display: flex;
+    position: fixed;
+    z-index: 3;
+    top: 0px;
 }
 .logo {
     width: 200px;
     margin-left: 134px;
     margin-top: 11px;
+}
+.logo img {
+    margin-top: -10px;
 }
 .menuLink {
     width: 440px;
@@ -115,6 +121,9 @@ a .active {
     width: 100%;
     height: 620px;
     display: flex;
+    position: relative;
+    margin-top: 80px;
+
 }
 .banner {
     width: 50%;
@@ -851,6 +860,11 @@ a .active {
         width: 150px;
         margin-left: 0px;
     }
+    /* .banner {
+        background: url('../images/homeImg/illustrationcopy.png');
+        background-repeat: no-repeat;
+        background-size: contain;
+    } */
     .showMenu {
         display: block;
     }
