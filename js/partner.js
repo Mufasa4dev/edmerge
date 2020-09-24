@@ -2,7 +2,7 @@ let myForm = document.querySelector(".singup");
 let showReg = document.querySelector(".signup");
 
 let myLogin = document.querySelector(".jogin");
-let showLogin = document.querySelector(".LogIn");
+let showLogin = document.querySelector(".Login");
 
 showReg.addEventListener("click", show);
 function show(){
@@ -17,17 +17,17 @@ function log(){
 }
 
 //for password display
-let input = document.querySelector('.passbtn');
-let eye = document.querySelector('.eyeBtn');
-eye.addEventListener('click', showpass);
+// let input = document.querySelector('.passbtn');
+// let eye = document.querySelector('.eyeBtn');
+// eye.addEventListener('click', showpass);
 
-function showpass() {
-    if (input.type == "password") {
-        input.type = "text"
-    } else {
-        input.type = "password"
-    }
-}
+// function showpass() {
+//     if (input.type == "password") {
+//         input.type = "text"
+//     } else {
+//         input.type = "password"
+//     }
+// }
 
 
 let input1 = document.querySelector('.passbtn1');
