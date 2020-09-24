@@ -319,9 +319,6 @@ input {
     }
 }
 @media (max-width: 720px){
-    body {
-        background-color: yellow;
-    }
     .menulink ul li .active {
         background: #E6E8FA;
         color: black;

@@ -348,9 +348,6 @@ input {
 
 
 @media(max-width:1180px) {
-    body {
-        background-color: red;
-    }
     .ellipse {
         margin-left: 100px;
     }
@@ -373,9 +370,6 @@ input {
     }
 }
 @media(max-width: 1050px) {
-    body {
-        background: green;
-    }
     .all-div {
         display: block;
     }
@@ -408,9 +402,6 @@ input {
 }
 
 @media(max-width: 900px) {
-    body {
-        background-color: yellow;
-    }
     .input {
         width: 150px;
     }
