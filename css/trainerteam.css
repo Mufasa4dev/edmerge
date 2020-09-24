@@ -7,7 +7,6 @@
 }
 button {
     cursor: pointer;
-    /* border-radius: 12px; */
 }
 input {
     outline: none;
@@ -20,13 +19,11 @@ input {
 .content {
     margin-left: 366px;
     width: 910px;
-    /* border: solid pink; */
 }
 .container {
     width: 100%;
     margin: auto;
     display: flex;
-    /* border: solid red; */
 }
 .navbar {
     width: 26.8%;
@@ -73,7 +70,6 @@ input {
     width: 459px;
     height: 455px;
     right: 0%;
-    /* left: 814.02px; */
     top: 1000.56px;
     background: rgba(43, 45, 60, 0.6);
     mix-blend-mode: normal;
@@ -111,7 +107,6 @@ input {
     height: 100vh;
     background-color: #2b2d3c;
     margin-left: 130px;
-    /* border-radius: 12px; */
     position: fixed;
 }
 .homedisplay {
@@ -163,7 +158,6 @@ input {
 .myteam {
     width: 73.2%;
     margin: auto;
-    /* margin-left: 2%; */
 }
 .topnav {
     display: flex;
@@ -220,18 +214,11 @@ input {
     z-index: 2;
 }
 /* BODY FIELD STYLING */
-/* .field {
-    display: flex;
-    margin-top: 90px;
-} */
 .field {
     width: 100%;
     margin: auto;
-    /* margin-left: 3%; */
     display: flex;
     margin-top: 50px;
-    /* width: 720px; */
-    /* border: solid grey; */
 }
 .member {
     margin: auto;
@@ -383,9 +370,6 @@ h3 .add {
 }
 
 @media (max-width: 1200px){
-    body {
-        background-color: red;
-    }
     .field {
         display: block;
         margin-bottom: 100px;
@@ -394,7 +378,6 @@ h3 .add {
         display: none;
     }
     .member {
-        /* width: 55%; */
         margin-bottom: 20px;
         z-index: 1;
         margin: auto;
@@ -423,9 +406,6 @@ h3 .add {
 }
 
 @media (max-width: 850px){
-    body {
-        background-color: green;
-    }
     .menulink {
         margin-left: 0px;
         width: 100px;

@@ -26,7 +26,6 @@ input {
     width: 100%;
     margin: auto;
     display: flex;
-    /* border: solid red; */
 }
 
 /* NAVBAR STYLING */
@@ -70,7 +69,6 @@ input {
     width: 459px;
     height: 455px;
     right: 0%;
-    /* left: 814.02px; */
     top: 1000.56px;
     background: rgba(43, 45, 60, 0.6);
     mix-blend-mode: normal;
@@ -105,18 +103,14 @@ input {
 }
 .navbar {
     width: 26.8%;
-    /* width: 250px; */
     height: 1000px;
-    /* border: solid yellow;  */
 }
 .menulink {
     width: 216px;
     height: 100vh;
     color: #E6E8FA;
-
     background-color: #2B2D3C;
     margin-left: 130px;
-    /* border-radius: 12px; */
     position: fixed;
 }
 .logo {
