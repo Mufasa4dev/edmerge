@@ -419,6 +419,7 @@
 @media(max-width:550px){
   .form {
       width: 100%;
+      margin: 0px;
     } 
   .form_input input {
     width: 250px;
@@ -430,6 +431,9 @@
     .loginImg img{
         margin-left: 70px;
         display: none;
+    }
+    p, .para {
+        font-size: 12px;
     }
 }
 
