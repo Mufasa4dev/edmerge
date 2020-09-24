@@ -100,39 +100,38 @@ li .active , a .active{
     position: absolute;
     display: none;
 }
+
 /* ===========PRIVACY POLICY STYLING BEGINGS HERE=========== */
 .imgbar{
     background-image: url('../images/navbar.png');
-    height: 428px;
+    height: 333px;
     background-repeat: no-repeat;
     background-size: cover;
     margin-top: 10px;
-  
 }
+
 .faint{
-   
     width: 100%;
-    height: 428px;
-    background-color:#2B2D3C ;
-    opacity: 80%;
-    background-repeat: no-repeat;
-    z-index: 0;
-    /* position: absolute; */
-    
+    height: 333px;
+    background-color: #2b2d3c;
+    opacity: 50%;
+    /* background-repeat: no-repeat; */
 }
+
 .words{
-    padding-top: 360px;
     text-align: center;
-    color: white;
+    padding-top: 290px;
+    color: #ffffff;
     font-family: edmerge;
+
 }
+
 .lcircle{
-    clip-path: circle(54.3% at 0 17%);
+    clip-path: circle(38.3% at 0 14%);
     position: absolute;
-    width: 459px;
-    height: 455px;
+    width: 350px;
+    height: 350px;
     left: 0;
-    /* top: 700.56px; */
     background: rgba(43, 45, 60, 0.6);
     mix-blend-mode: normal;
     z-index: -1;
@@ -140,35 +139,33 @@ li .active , a .active{
 }
 .mcircle{
     position: absolute;
-    width: 99px;
-    height: 98px;
-    left: 190px;
-    top: 562.68px;
+    width: 80px;
+    height: 80px;
+    left: 80px;
+    top: 450px;
     border-radius: 50%;
     background: rgba(43, 45, 60, 0.6);
-    mix-blend-mode: normal;
     opacity: 0.5;
 
 
 }
 .scircle{
     position: absolute;
-    width: 49px;
-    height: 49px;
-    left: 293.43px;
-    top: 584.82px;
+    width: 30px;
+    height: 30px;
+    left: 164px;
+    top: 480px;
     border-radius: 50%;
     background: rgba(43, 45, 60, 0.6);
-    mix-blend-mode: normal;
     opacity: 0.5;
 }
 .dlcircle{
-    clip-path: circle(49.3% at 73% 50%);
+    clip-path: circle(49.7% at 96% 50%);
     position: absolute;
-    width: 459px;
-    height: 455px;
-    left: 890.02px;
-    top: 1340.56px;
+    width: 350px;
+    height: 350px;
+    right: 0px;
+    top: 1550px;
     background: rgba(43, 45, 60, 0.6);
     mix-blend-mode: normal;
     z-index: -1;
@@ -178,8 +175,8 @@ li .active , a .active{
     position: absolute;
     width: 99px;
     height: 98px;
-    left: 950.22px;
-    top: 1490.68px;
+    right: 120px;
+    top: 1650px;
     border-radius: 50%;
     background: rgba(43, 45, 60, 0.6);
     mix-blend-mode: normal;
@@ -189,39 +186,37 @@ li .active , a .active{
     position: absolute;
     width: 49px;
     height: 49px;
-    left: 915px;
-    top: 1460px;
+    right: 215px;
+    top: 1640px;
     border-radius: 50%;
     background: rgba(43, 45, 60, 0.6);
     mix-blend-mode: normal;
     opacity: 0.5;
 }
-.texts{
-    height: 600px;
-    width: 600px;
+
+.text{
+    width: 700px;
+    height: 1320px;
     margin: auto;
-    /* background-color:  #E5E5E5; */
-    text-align: center;
+    margin-top: 50px;
     color: #2B2D3C;
-    font-weight: normal;
-    font-size: 16px;
+    font-size: 15.5px;
     line-height: 30px;
-    font-family: edmerge;
-    padding:10px;
-  
-}
-p, h3{
-   
-
-}
-ul li{
-    float: left;
+    /* border: solid 1px; */
 }
 
+.personal{
+    font-size:x-large;
+    margin-top: 30px;
+}
+
+.para_2{
+    margin-top: 30px;
+}
 
 /*======================= FOOTER STYLING ======================*/
 .footer {
-    margin-top: 700px;
+    margin-top: 150px;
     width: 100%;
     height: 290px;
     background: #2B2D3C;
@@ -232,13 +227,13 @@ ul li{
     margin-bottom: 34px;
 }
 .footerlogo {
-    margin-top: 15px;
+    margin-top: 70px;
     margin-left: 137px;
     margin-right: 100px;
     width: 100px;
 }
 .footertext ul {
-    margin-top: 30px;
+    margin-top: 105px;
     width: 900px;
 }
 .footertext ul li {
@@ -260,6 +255,7 @@ ul li{
     width: 100%;
     height: 60px;
     display: flex;
+    margin-top: 140px;
 }
 .social {
     width: 200px;
@@ -275,4 +271,24 @@ ul li{
     color: #E6E8FA;
     padding-top: 20px;
     margin-right: 150px;
+}
+
+
+
+
+
+
+@media(max-width: 1050px){
+    .menulink{
+        display: none;
+    }
+    .btnGet{
+        display: none;
+    }
+    .hide{
+        display: block;
+    }
+    .showMenu{
+        display: block;
+    }
 }
