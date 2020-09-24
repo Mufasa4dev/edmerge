@@ -100,6 +100,9 @@
     height: 800px;
     border: solid #E5E5E5 1px;
 }
+.logooImg {
+    background: url('../images/signuplogo/login.png');
+}
 
 .logo{
     width: 213px;

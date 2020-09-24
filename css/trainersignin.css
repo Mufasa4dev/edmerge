@@ -19,6 +19,7 @@
 .loginImg{
     width: 50%;
     height: 800px;
+    /* background: url("images/signuplogo/trainer sign.png"); */
 }
 
 .cover {
@@ -270,6 +271,7 @@
 }
 .logooImg {
     width: 50%;
+    background: url('../images/signuplogo/login.png');
 
 }
 
