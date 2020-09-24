@@ -1,0 +1,336 @@
+/* DEFAULT STYLING */
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: edmerge;
+}
+button {
+    cursor: pointer;
+    border-radius: 12px;
+}
+input {
+    outline: none;
+    border-color: inherit;
+}
+@font-face {
+    font-family: edmerge;
+    src: url('../montserrat/Montserrat-Regular.ttf');
+}
+.content {
+    padding-top: 35px;
+    margin-left: 10px;
+    border: solid pink;
+}
+.container {
+    width: 100%;
+    margin: auto;
+    display: flex;
+}
+
+/* NAVBAR STYLING */
+.lcircle {
+    width: 550px;
+    height: 550px;
+    left: -181px;
+    top: 166.84px;
+    border-radius: 50%;
+    position: absolute;
+    background: rgba(43, 45, 60, 0.6);
+    mix-blend-mode: normal;
+    opacity: 0.5;
+}
+.mcircle {
+    position: absolute;
+    width: 99px;
+    height: 98px;
+    left: 294.55px;
+    top: 455.53px;
+    border-radius: 50%;
+    background: rgba(43, 45, 60, 0.6);
+    mix-blend-mode: normal;
+    opacity: 0.5;
+}
+.scircle {
+    position: absolute;
+    width: 49px;
+    height: 49px;
+    left: 404.64px;
+    top: 483.55px;
+    border-radius: 50%;
+    background: rgba(43, 45, 60, 0.6);
+    mix-blend-mode: normal;
+    opacity: 0.5;
+    z-index: 2;
+}
+.lcircle1 {
+    clip-path: circle(46.6% at 98% 51%);
+    position: absolute;
+    width: 459px;
+    height: 455px;
+    right: 0%;
+    top: 1000.56px;
+    background: rgba(43, 45, 60, 0.6);
+    mix-blend-mode: normal;
+    z-index: -1;
+    opacity: 0.5;
+    z-index: -1;
+}
+.mcircle1 {
+    position: absolute;
+    width: 99px;
+    height: 98px;
+    left: 1000.22px;
+    top: 1262.68px;
+    border-radius: 50%;
+    background: rgba(43, 45, 60, 0.6);
+    mix-blend-mode: normal;
+    opacity: 0.5;
+    z-index: -1;
+
+}
+.scircle1 {
+    position: absolute;
+    width: 49px;
+    height: 49px;
+    left: 950.43px;
+    top: 1274.82px;
+    border-radius: 50%;
+    background: rgba(43, 45, 60, 0.6);
+    mix-blend-mode: normal;
+    opacity: 0.5;
+    z-index: -1;
+}
+.navbar {
+    width: 26.8%;
+    height: 1000px;
+}
+.menulink {
+    width: 216px;
+    height: 100vh;
+    color: #E6E8FA;
+    background-color: #2B2D3C;
+    margin-left: 130px;
+    position: fixed;
+}
+.logo {
+    text-align: center;
+}
+.logo img {
+    margin-top: 10px;
+}
+.menulink .up {
+    margin-top: 30px;
+    margin-bottom: 180px;
+}
+.menulink ul li {
+    text-align: right;
+    list-style: none;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.menulink ul li .active {
+    background: #E6E8FA;
+    color: black;
+    padding: 25px 55px 20px 55px;
+
+}
+.menulink ul li:hover {
+    background-color: #e6e8fa;
+    color: black;
+}
+.menulink ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.menulink ul li a:hover {
+    background-color: #E6E8FA;
+    color: black;
+}
+.up img, .down img {
+    text-align: left;
+    margin-right: 20px;
+}
+
+/*=========== NAVBAR STYLE ===========*/
+.body{
+    width: 73.2%;
+}
+.bar{
+    width: 98%;
+    margin-left: 2%;
+    height: 131px;
+    background: url('../images/homeImg/Banner.png');
+    display: flex;
+}
+.search{
+    display: flex;
+}
+.ellipse {
+    display: flex;
+    margin-top: 50px;
+    margin-left: 200px;
+}
+.textell h3{
+    color: #E6E8FA;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+.input {
+    width: 340px;
+    height: 44px;
+    background-color: #e6e8fa;
+    border-radius: 12px;
+    margin-top: 52px;
+    border-left: none;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+.search1{
+    border-right: none;
+    border-radius: 5px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    outline: none;
+    width: 70px; 
+    height: 46px;
+    margin-top: 52px;
+    margin-left: 80px; 
+    background-color: #e6e8fa;
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;     
+}
+
+/*============ ACTIVITY STYLING ============*/
+.activity {
+    width: 80%;
+    height: 865px;
+    background: #E6E8FA;
+    margin: auto;
+    margin-top: 30px;
+}
+.activity h3 {
+    text-align: center;
+    padding-top: 35px;
+    padding-bottom: 55px;
+    font-size: 18px;
+    color: #2B2D3C;
+}
+.title {
+    margin-left: 80px;
+}
+.title h3 {
+    text-align: left;
+    padding-bottom: 10px;
+    font-size: 16px;
+    color: #2B2D3C;
+}
+.title input {
+    width: 295px;
+    height: 32px;
+    outline: none;
+    border: solid #2b2d3c 1px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #E6E8FA;
+    color: #2B2D3C;
+    margin-bottom: 20px;
+}
+.title p {
+    font-size: 16px;
+    font-weight: 600;
+    color: #2B2D3C;
+    padding-bottom: 14px;
+}
+.title button {
+    color: #E6E8FA;
+    background-color: #2b2d3c;
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    margin-bottom: 25px;
+}
+.width {
+    width: 100%;
+    text-align: center;
+}
+.addact {
+    color: #E6E8FA;
+    background-color: #2b2d3c;
+    width: 179px;
+    height: 48px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    margin: auto;
+    margin-top: 300px;
+}
+
+
+
+
+@media(max-width:1180px) {
+    .ellipse {
+        margin-left: 100px;
+    }
+    .addicon {
+        margin-left: 150px;
+    }
+}
+@media(max-width: 1000px){
+    .input {
+        width: 150px;
+    }
+    .lcircle,
+    .mcircle,
+    .scircle,
+    .lcircle1,
+    .mcircle1,
+    .scircle1 {
+        display: none;
+    }
+    .menulink {
+        margin-left: 0px;
+    }
+    .title input {
+        width: 200px;
+    }
+}
+
+@media(max-width: 500px){
+    .menulink {
+        width: 100px;
+    }
+    .logo img {
+        width: 50px;
+        height: 50px;
+    }
+    .navtex {
+        display: none;
+    }
+    .title {
+        margin-left: 10px;
+    }
+    .title input {
+        width: 200px;
+    }
+    .search1 {
+        margin-left: 20px;
+        width: 40px;
+    }
+    .input {
+        width: 100px;
+        margin-right: -50px;
+    }
+    .textell h3 {
+        display: none;
+    }
+}
