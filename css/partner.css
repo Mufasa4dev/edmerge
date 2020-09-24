@@ -19,6 +19,7 @@
 .loginImg{
     width: 50%;
     height: 800px;
+    background: url("../images/signuplogo/sign\ in2.png");
 }
 
 .cover {
@@ -416,8 +417,8 @@
 
 }
 @media(max-width:550px){
-  .container {
-      width: 400px;
+  .form {
+      width: 100%;
     } 
   .form_input input {
     width: 250px;
