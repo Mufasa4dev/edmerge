@@ -851,6 +851,9 @@ a .active {
 
 
 @media (max-width: 550px){
+    .trustee h3, .opporHeader h3, .leaveText h3, .test h3, .textfot h3, .testimony h3{
+        font-size: 25px;
+    }
     .hide {
         top: 20px;
         right: 50px;

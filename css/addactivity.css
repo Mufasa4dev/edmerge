@@ -207,143 +207,73 @@ input {
     border-bottom-left-radius: 12px;     
 }
 
-
-
-/*==================== *all div* ====================*/
-
-.all-div{
-  width: 100%;  
-  margin: auto;
-  height: 300px;
-  display: flex;
-  margin-top: 80px;
-}
-.div1-2{
-    height: 234px;
-    width: 406px;
-    display: flex; 
-    margin: auto;
-    margin-left: 65px;
+/*============ ACTIVITY STYLING ============*/
+.activity {
+    width: 80%;
+    height: 865px;
     background: #E6E8FA;
-}
-
-/* IMAGE AND TEXT DIV */
-.image img{
-    margin: 20px;
+    margin: auto;
     margin-top: 30px;
 }
-.text{
-    margin-top: 15px;
-}
-.text h3{
-   color: #2B2D3C;
-
-}
-.text p{
-  margin-top: 10px;
-    padding-bottom: 5px;
-    color: #DB4437;
-}
-.text h5{
-    font-style: normal;
-}
-.activ {
-    background: #2B2D3C;
-    color: #E6E8FA;
-    border: none;
-    outline: none;
-    border-radius: 5px;
-    height: 48px;
-    width: 168px;
-    margin-top: 39px;
-    float: right;
-}
-
-/*============= SECOND DIV DIV2 =============*/
-.div2 {
-    width: 386px;
-    height: auto;
-    margin: auto;
-    background: #E6E8FA;
-}
-.grp h3 {
-    padding: 18px 0px 18px 18px;
-    color: #DB4437;
-}
-.addicon {
-    margin-left: 180px;
-    margin-right: 24px;
-}
-.grp hr {
-    width: 350px;
-    margin: auto;
-}
-.uiux h3 {
-    padding: 29px 0px 0px 18px;
-    color: #DB4437;
-}
-.design {
-    display: flex;
-}
- .img{
-    margin-left: 18px;
-    margin-right: 9px;
-    margin-top: 17px;
-}
-.imgs {
-    margin-left: 0px;
-    margin-right: 9px;
-    margin-top: 17px;
-}
-.uiux p {
-    padding: 25px 0px 25px 9px;
-    font-size: 16px;
-}
-.crown {
-    position: relative;
-    top: -20px;
-    left: 35px;
-    margin: 0px;
-}
-.more p {
+.activity h3 {
+    text-align: center;
+    padding-top: 35px;
+    padding-bottom: 55px;
+    font-size: 18px;
     color: #2B2D3C;
-    font-size: 14px;
-    float: right;
-    margin-right: 64px;
-    margin-bottom: 14px;
 }
-.more hr {
-    width: 350px;
-    margin: auto;
+.title {
+    margin-left: 80px;
 }
-.button {
-    display: flex;
-    margin: auto;
-    width: 386px;
+.title h3 {
+    text-align: left;
+    padding-bottom: 10px;
+    font-size: 16px;
+    color: #2B2D3C;
 }
-.red {
-    background-color: #DB4437;
-    color: #fbbebe;
-    width: 169px;
-    height: 50px;
+.title input {
+    width: 295px;
+    height: 32px;
     outline: none;
-    border: none;
+    border: solid #2b2d3c 1px;
+    padding: 10px;
     border-radius: 5px;
-    margin-top: 55px;
-    margin-bottom: 27px;
-    margin-right: 10px;
-    margin-left: 70px;
+    background-color: #E6E8FA;
+    color: #2B2D3C;
+    margin-bottom: 20px;
 }
-.del {
+.title p {
+    font-size: 16px;
+    font-weight: 600;
+    color: #2B2D3C;
+    padding-bottom: 14px;
+}
+.title button {
+    color: #E6E8FA;
     background-color: #2b2d3c;
-    margin-top: 55px;
-    margin-bottom: 27px;
-    width: 66px;
-    height: 48px;
-    outline: none;
-    border: none;
+    width: 30px;
+    height: 30px;
     border-radius: 5px;
+    border: none;
+    outline: none;
+    margin-bottom: 25px;
 }
+.width {
+    width: 100%;
+    text-align: center;
+}
+.addact {
+    color: #E6E8FA;
+    background-color: #2b2d3c;
+    width: 179px;
+    height: 48px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    margin: auto;
+    margin-top: 300px;
+}
+
 
 
 
@@ -354,70 +284,11 @@ input {
     .addicon {
         margin-left: 150px;
     }
-    .div2 {
-        width: 350px;
-    }
-    .div1-2 {
-        display: block;
-        height: auto;
-        width: auto;
-    }
-    .text {
-        padding-bottom: 20px;
-    }
-    .text h5, .text p, .text h3 {
-        padding-left: 20px;
-    }
 }
-@media(max-width: 1050px) {
-    .all-div {
-        display: block;
-    }
-    .div1-2 {
-        margin: auto;
-        width: 300px;
-    }
-    .activ {
-        float: none;
-        margin-left: 300px;
-        margin-bottom: 20px;
-    }
-    .div2 {
-        margin-bottom: 50px;
-    }
-    .input {
-        width: 240px;
-    }
-    .menulink {
-        margin-left: 100px;
-    }
-    .lcircle,
-    .mcircle,
-    .scircle,
-    .lcircle1,
-    .mcircle1,
-    .scircle1 {
-        display: none;
-    }
-}
-
-@media(max-width: 900px) {
+@media(max-width: 1000px){
     .input {
         width: 150px;
     }
-    .menulink {
-        margin-left: 0px;
-        width: 180px;
-    }
-    .ellipse {
-        margin-left: 50px;
-    }
-    .textell {
-        display: none;
-    }
-    .activ {
-        margin-left: 150px;    
-    }
     .lcircle,
     .mcircle,
     .scircle,
@@ -426,18 +297,17 @@ input {
     .scircle1 {
         display: none;
     }
-
-}
-@media(max-width: 550px){
     .menulink {
-        width: 100px;
         margin-left: 0px;
     }
-    .menulink ul li .active {
-        background: #E6E8FA;
-        color: black;
-        padding: 22px 30px 20px 30px;
-    
+    .title input {
+        width: 200px;
+    }
+}
+
+@media(max-width: 500px){
+    .menulink {
+        width: 100px;
     }
     .logo img {
         width: 50px;
@@ -446,36 +316,21 @@ input {
     .navtex {
         display: none;
     }
-    .search1 {
+    .title {
         margin-left: 10px;
-        width: 50px;
-   }
-   .input {
-       width: 150px;
-   }
-   .ellipse img {
-       margin-left: -10px;
-   }
-   .div1-2 {
-       width: 300px;
-   }
-   .div2 {
-       width: 300px;
-       margin: 0px;
-   }
-   .more hr, .grp hr {
-       width: 200px;
-   }
-   .activ {
-       margin: auto;
-       margin-top: 20px;
-       margin-bottom: 50px;
-       margin-left: 60px;
-   }
-   .red {
-       margin-left: 25px;
-   }
-   .addicon {
-       margin-left: 70px;
-   }
+    }
+    .title input {
+        width: 200px;
+    }
+    .search1 {
+        margin-left: 20px;
+        width: 40px;
+    }
+    .input {
+        width: 100px;
+        margin-right: -50px;
+    }
+    .textell h3 {
+        display: none;
+    }
 }
