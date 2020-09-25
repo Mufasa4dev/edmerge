@@ -208,7 +208,8 @@ input {
     width: 146px;
     height: 17px;
     border: solid 1px;
-    background-color: #2b2d3c;
+    background-color: #db4437;
+    border: none;
 }
 
 .dash h5{
