@@ -727,7 +727,7 @@ li .active , a .active{
    
 } 
 
-@media (max-width: 550px) {
+@media (max-width: 750px) {
     .hide {
         top: 20px;
         right: 50px;
@@ -790,5 +790,29 @@ li .active , a .active{
     }
     .teamimg1 {
         margin: auto;
+        margin: 0px;
+        margin-left: 50px;
     }
+    .img3 {
+        margin-bottom: 20px;
+        justify-content: center;
+    }
+    .container {
+        width: 100%;
+    }
+    .topnav {
+        width: 100%;
+    }
+    .teamimg {
+        margin: 0px;
+        margin: auto;
+    }
+    .imgagtext {
+        text-align: left;
+    }
+    .imgag {
+        width: auto;
+        height: auto;
+    }
+    
 }
