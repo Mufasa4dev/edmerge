@@ -38,23 +38,23 @@ $('.stop').on('click',function(){
     owl.trigger('stop.owl.autoplay')
 })
 
-//  FOR SECTION PARTNERS
-//$('.owl-carousel1').owlCarousel({
-  //  loop:true,
-  //  margin:10,
- //   nav:true,
-    //responsive:{
-       // 0:{
-         //   items:1
-        },
-        //600:{
-         //   items:3
-       // },
-      //  1000:{
-        //    items:5
-        }
-    }
-})
+// // //  FOR SECTION PARTNERS
+// // //$('.owl-carousel1').owlCarousel({
+// //   //  loop:true,
+// //   //  margin:10,
+// //  //   nav:true,
+// //     //responsive:{
+// //        // 0:{
+// //          //   items:1
+// //         },
+// //         //600:{
+// //          //   items:3
+// //        // },
+// //       //  1000:{
+// //         //    items:5
+//         }
+//     }
+// })
 
 
 // function cancelList(){
