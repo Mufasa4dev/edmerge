@@ -208,7 +208,8 @@ input {
     width: 146px;
     height: 17px;
     border: solid 1px;
-    background-color: #2b2d3c;
+    background-color: #db4437;
+    border: none;
 }
 
 .dash h5{
@@ -484,14 +485,27 @@ input {
   
 }
 @media(max-width: 550px){
+    .trainingDash {
+        width: 100%;
+    }
     .dash1, .dash {
-        width: 240px;
+        width: 80%;
+        margin: auto;
+    }
+    .dash {
+        margin-bottom: 20px;
     }
     .bar{
         width: 225px;
     }
     .bar3 .blackbar_1, .bar1 .blackbar_1{
-        width: 200px;
+        width: 150px;
+    }
+    .blackbar {
+        width: 100px;
+    }
+    .whitebar {
+        width: 50px;
     }
     .searchbar {
         width: 150px;
@@ -504,11 +518,15 @@ input {
         display: none;
     }
     .Nbar {
-        width: auto;
+        width: 90%;
+        margin-left: 20px;
     }
     #faint {
         position: relative;
         width: auto;
+    }
+    .menulink {
+        height: auto;
     }
 
 }
