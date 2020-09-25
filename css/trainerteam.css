@@ -251,9 +251,14 @@ input {
     margin-right: 20px;
     margin-bottom: 20px;
 }
+.ellipse1 {
+    margin-left: 41px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
 .crown {
     position: relative;
-    left: -30px;
+    left: -18px;
 }
 .member p {
     padding-top: 10px;
@@ -270,9 +275,26 @@ h3 .add, h3 .del {
     width: 27px;
     height: 23px;
 }
+.add {
+    cursor: pointer;
+}
 h3 .add {
-    margin-left: 169px;
+    margin-left: 120px;
     margin-right: 20px;
+}
+.inputfield {
+    display: flex;
+    display: none;
+}
+.inputfield input {
+    width: 150px;
+    height: 48px;
+    background: #E6E8FA;
+    border-radius: 5px;
+    outline: none;
+    border: solid #2b2d3c 1px;
+    margin: 33px;
+    padding: 10px;
 }
 .calrem {
     width: 45%;
@@ -339,9 +361,9 @@ h3 .add {
     font-size: 25px;
 }
 .belhead {
-    position: absolute;
-    top: 722.5px;
-    right: 119px;
+    position: relative;
+    top: -13px;
+    right: 11px;
 }
 .rem p {
     font-size: 14px;

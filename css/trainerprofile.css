@@ -553,12 +553,20 @@ textarea {
         padding: 22px 30px 20px 30px;
     
     }
+    .cir img {
+        margin-top: 30px;
+    }
   
 }
 @media(max-width: 500px){
 
     .profile {
         margin-left: 50px;
+    }
+    .cir img {
+        margin-top: 10px;
+        width: 135px;
+        margin-left: 15px;
     }
     .contbio {
         width: 300px;
