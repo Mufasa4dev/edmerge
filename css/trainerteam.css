@@ -240,10 +240,10 @@ input {
     display: flex;
 }
 .name {
-    padding-right: 143px;
+    padding-right: 155px;
 }
 .namej {
-    padding-right: 150px;
+    padding-right: 145px;
 }
 
 .ellipse {
@@ -269,7 +269,7 @@ p .space {
     padding-bottom: 10px;
 }
 p .spaces {
-    margin-left: 138px;
+    margin-left: 142px;
 }
 h3 .add, h3 .del {
     width: 27px;
