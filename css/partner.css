@@ -428,12 +428,14 @@
 @media(max-width:500px){
   .form, .form1 {
       margin: auto;
+      width: 100%;
     } 
   .form_input input, .info input, .java1 input {
     width: 250px;
     }
   .btn, .btn1 {
       width: 250px;
+      margin: 70px;
       /* margin-left: 70px; */
     } 
     .loginImg img{
@@ -448,7 +450,8 @@
     }
     .java1 .passbtn1 {
         width: 200px;
-        /* margin-left: 50px; */
+        margin-left: 50px;
     }
+  
 }
 
