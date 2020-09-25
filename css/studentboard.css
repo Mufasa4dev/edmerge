@@ -476,12 +476,12 @@ input {
         width: 250px;
         height: 89px;
     }
-    /* .menulink ul li .active {
+    .menulink ul li .active {
         background: #E6E8FA;
         color: black;
         padding: 25px 30px 20px 30px;
     
-    } */
+    }
 
         /* FOOTER MOBILE RESPONSIVE */
         .footer {
