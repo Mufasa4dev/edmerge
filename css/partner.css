@@ -101,7 +101,7 @@
     border: solid #E5E5E5 1px;
 }
 .logooImg {
-    background: url('../images/signuplogo/login.png');
+    /* background: url('../images/signuplogo/login.png'); */
 }
 
 .logo{
@@ -272,7 +272,7 @@
     width: 100%;
 }
 .logooImg {
-    width: 50%;
+    /* width: 50%; */
 
 }
 
@@ -290,7 +290,7 @@
 }
 
 .login{
-    height: 600px;
+    height: 900px;
     width: 400px;
     margin: auto;
     margin-top: 20px;
