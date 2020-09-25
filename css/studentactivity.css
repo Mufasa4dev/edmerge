@@ -350,9 +350,6 @@ input {
     .searchbar {
         left: 50px;
     }
-    /* .trainingDash {
-        margin: auto;
-    } */
     .container {
         margin: 0px;
         width: 100%;
@@ -528,5 +525,6 @@ input {
     .menulink {
         height: auto;
     }
+
 
 }

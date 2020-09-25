@@ -109,6 +109,9 @@ input {
     /* border-radius: 12px; */
     position: fixed;
 }
+.homedisplay {
+    width: 100%;
+}
 .logo {
     text-align: center;
 }
@@ -120,25 +123,19 @@ input {
     margin-bottom: 180px;
 }
 .menulink ul li {
-    text-align: right;
     list-style: none;
     text-align: center;
     padding-top: 20px;
     padding-bottom: 20px;
-    width: 216px;
-    /* border: solid red; */
 }
 .menulink ul li:hover {
-    background-color: #e6e8fa;
+    background: #E6E8FA;
     color: black;
 }
-li .active {
-    background-color: #e6e8fa;
+ .menulink ul li .active {
+    background: #E6E8FA;
     color: black;
-}
-.link .active {
-    color: black;
-    background-color: #e6e8fa;
+    padding: 20px 62px 20px 62px;
 }
 .menulink ul li a{
     text-decoration: none;
@@ -148,13 +145,8 @@ li .active {
     padding-top: 20px;
     padding-bottom: 20px;
 }
-.menulink ul li .active {
-    background: #E6E8FA;
-    color: black;
-    padding: 25px 62px 20px 62px;
-}
 .menulink ul li a:hover {
-    background-color: #e6e8fa;
+    background: #E6E8FA;
     color: black;
 }
 .up img, .down img {
@@ -265,6 +257,9 @@ li .active {
     }
 }
 @media (max-width: 1000px){
+    .menulink {
+        margin-left: 0px;
+    }
       .input {
         margin-right: 0px;
     }
@@ -296,60 +291,15 @@ li .active {
         margin: auto;
         margin-top: 20px;
     }
-    /* .bar {
-        width: 600px;
-    } */
-    .menulink {
-        margin-left: 0px;
-    }
 
 }
+
 @media (max-width: 720px){
-    .input {
-        width: 200px;
-        margin-right: 0px;
-    }
-    .sinput {
-        margin-right: 10px;
-    }
     .menulink {
         width: 100px;
-    }
-    .linkbtn {
-        width: 100px;
-    }
-    .bio {
-        display: block;
-        width: auto;
-        height: auto;
-    }
-    .bioimg {
-        margin: auto;
-        margin-top: 20px;
-    }
-    .bioedt {
-        margin: auto;
-        margin-right: 25px;
-    }
-    .bar {
-        width: 100%;
-    }
-    .body {
-        margin-left: -40px;
-    }
-    .menulink {
-        margin-left: 0px;
-        margin-right: 50px;
     }
     .navtex {
         display: none;
-    }
-    li img {
-        margin-left: 0px;
-        text-align: left;
-    }
-    .navbar {
-        width: 100%;
     }
     
     .menulink ul li .active {
@@ -368,8 +318,11 @@ li .active {
 
 
 @media(max-width:500px){
+    .Nbar {
+        width: 72vw;
+    }
     .search_bar {
-        left: 50px;
+        margin-left: 20px;
         width: 150px;
     }
     .navbar {
@@ -382,11 +335,29 @@ li .active {
         width: 50px;
         height: 50px;
     }
-    .alertpara {
+    .alertpara h3 {
+        margin-top: 0px;
         font-size: 13px;
+    }
+    /* .alertIcon {
+        margin: auto;
+        margin-top: 100px;
+    } */
+    .alertIcon{
+        width: 250px;
+        height: 250px;
+        margin: auto;
+        margin-top: 100px;
+        margin-bottom: -100px;
+    }
+    .alertIcon img {
+        width: 60%;
+        margin-bottom: 50px;
+    }
+    .flex img {
+        margin-left: -30px;
     }
     .flex p {
         display: none;
     }
-
 }
