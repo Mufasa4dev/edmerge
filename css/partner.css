@@ -18,8 +18,11 @@
 
 .loginImg{
     width: 50%;
-    height: 800px;
-    background: url("../images/signuplogo/sign\ in2.png");
+    /* height: 800px; */
+    background-image: url("../images/signuplogo/sign\ in2.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+
 }
 
 .cover {
@@ -28,6 +31,8 @@
     background: #2B2D3C;
     opacity: 0.5;
     position: absolute;
+    /* border: solid blue; */
+
 }
 
 .largeCircle {
@@ -98,7 +103,7 @@
 .form{
     width: 50%;
     height: 800px;
-    border: solid #E5E5E5 1px;
+    /* border: solid #E5E5E5 1px; */
 }
 .logooImg {
     /* background: url('../images/signuplogo/login.png'); */
@@ -117,7 +122,7 @@
 }
 
 .form_txt{
-    height: 900px;
+    /* height: 900px; */
     width: 400px;
     margin: auto;
     margin-top: 20px;
@@ -286,7 +291,7 @@
 .form1{
     width: 50%;
     height: 800px;
-    border: solid #E5E5E5 1px;
+    /* border: solid #E5E5E5 1px; */
 }
 
 .login{
@@ -407,8 +412,9 @@
     }
     .container {
         margin: 0px;
-        margin-left: 50px;
+        padding: 0px;
     }
+    
     .largeCircle,
     .largeCircle_1,
     .mCircle,
@@ -421,18 +427,17 @@
 }
 @media(max-width:500px){
   .form, .form1 {
-      width: auto;
-      margin: 0px;
+      margin: auto;
     } 
   .form_input input, .info input, .java1 input {
     width: 250px;
     }
   .btn, .btn1 {
       width: 250px;
-      margin-left: 70px;
+      /* margin-left: 70px; */
     } 
     .loginImg img{
-        margin-left: 70px;
+        /* margin-left: 70px; */
         display: none;
     }
     p, .para {
@@ -443,7 +448,7 @@
     }
     .java1 .passbtn1 {
         width: 200px;
-        margin-left: 50px;
+        /* margin-left: 50px; */
     }
 }
 

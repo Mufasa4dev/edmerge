@@ -5,6 +5,10 @@
     box-sizing: border-box;
     font-family: edmerge;
 }
+.container{
+    width: 100%;
+    /* background-color: yellow; */
+}
 html {
     scroll-behavior: smooth;
 }
@@ -267,6 +271,7 @@ a .active {
     padding-top: 50px;
     margin: auto;
     padding-bottom: 100px;
+    justify-content: center;
 }
 .oCard {
     width: 360px;
@@ -639,6 +644,14 @@ a .active {
 
 /*===================== RESPONSIVE STYLING =====================*/
 @media(max-width: 1250px){
+    .banner{
+        width: 100%;
+    }
+       .cover{
+           width: 100%;
+        text-align: center;
+        position: static;
+    }
     .menuLink {
         margin-left: 160px;
         padding-left: 0px;
@@ -647,10 +660,12 @@ a .active {
         display: none;
     }
     .banner h3, .banner p {
-        padding-left: 50px;
+        text-align: center;
+        padding: 20px;
+        margin: auto;
     }
     .btnCreate {
-        margin-left: 50px;
+        margin: auto;
     }
     .opporHeader p {
         width: 100%;
@@ -658,9 +673,9 @@ a .active {
         padding-right: 50px;
      
     }
-    .card {
+    /* .card {
         margin-left: 0px;
-    }
+    } */
     .largeCicle1 {
         display: none;
     }
@@ -676,27 +691,29 @@ a .active {
 @media(max-width: 1100px){
     .logo {
         margin-left: 50px;
+        margin-top: 20px;
     }
     .menuLink {
         margin-left: 100px;
         margin-right: 50px;
         padding-left: 0px;
     } 
-    .card {
+    /* .card {
         display: block; 
-    }
+        
+    } */
     .banner2 {
         display: none;
     }
     .largeCicle1 {
         display: none;
     }
-    .banner h3, .banner p {
+    /* .banner h3, .banner p {
         padding-left: 50px;
     }
     .btnCreate {
         margin-left: 50px;
-    }
+    } */
     .footerlogo {
         margin-left: 30px;
         margin-right: 10px;
@@ -707,6 +724,9 @@ a .active {
     
 }
 @media(max-width: 1050px){
+    .container{
+        width: 100%;
+    }
     .menuLink {
         display: none;
     } 
@@ -719,24 +739,55 @@ a .active {
     .showMenu {
         display: block;
     }
-    .banner h3, .banner p {
+    /* .banner h3, .banner p {
         padding-left: 50px;
-    }
+    } */
     .largeCicle {
         z-index: -1;
     }
-    .btnCreate {
+    /* .btnCreate {
         margin-left: 50px;
-    }
+    } */
     .card {
         display: block;
         padding-top: 50px;
         margin: auto;
+        width: 100%;
+        margin: auto;
+        text-align: center;
+    }
+
+    .oCard{
+        width: 100%;
+        margin: 0px;
+        height: 500px;
+        font-size: 14px;
     }
     .menuLink ul {
         transition: 2s;
         text-align: center;
     }
+    /* ADDING BTN HERE */
+ 
+/* .btnCreate {
+    width: 100px;
+    height: 48px;
+    font-size: 12px;
+    left: 50%;
+    z-index: 2;
+    position: relative;
+    cursor: pointer;
+}
+.btnLog {
+    width: 100px;
+    height: 48px;
+    font-size: 12px;
+    left: 50%;
+    z-index: 2;
+    position: relative;
+    cursor: pointer;
+} */
+    /* CLOSE HERE */
     .menuLink ul li{
         display: block;
         position: relative;
@@ -757,14 +808,14 @@ a .active {
     .play {
         margin: 10px 10px 10px 150px;
     }
-    .btnCreate2 {
+    /* .btnCreate2 {
         margin-left: 50px;
-    }
-    .cover {
+    } */
+    /* .cover {
         width: 100%;
         height: 700px;
         background-color: rgba(43, 45, 60 0.7);
-    }
+    } */
     .banner2 {
         display: none;
     }
@@ -851,6 +902,7 @@ a .active {
 
 
 @media (max-width: 550px){
+
     .trustee h3, .opporHeader h3, .leaveText h3, .test h3, .textfot h3, .testimony h3{
         font-size: 25px;
     }
@@ -871,49 +923,48 @@ a .active {
     .showMenu {
         display: block;
     }
-    .banner h3, .banner p {
+    /* .banner h3, .banner p {
         padding-left: 50px;
-    }
+    } */
     .largeCicle {
         z-index: -1;
     }
-    .btnCreate {
+    /* .btnCreate {
         margin-left: 50px;
-    }
-    .card {
-        /* display: block;
-        padding-top: 50px;
-        margin: auto; */
-        margin-left: 0px;
-    }
+    } */
+
    .sCircle, .mCircle, .largeCicle, .mCircle2, .sCircle2, .mCircle1 {
        display: none;
    }
-    .banner h3 {
+    /* .banner h3 {
         font-size: 24px;
         width: 450px;
         padding-left: 20px;
-    }
-    .banner p {
+    } */
+    /* .banner p {
         width: 380px;
         padding-left: 20px;
         font-size: 14px;
-    }
+    } */
     .logo {
         margin-left: 20px;
     }
-    .btop {
+    /* .btop {
         right: 30px;
         bottom: 30px;
-    }
+    } */
     
     .btnCreate {
-        margin-left: 90px;
-        margin-right: 0px;
-        margin-bottom: 20px;
+   margin: 2px;
+   width: 150px;
+           font-size: 12px;
+
     }
     .btnLog {
-        margin-left: 90px;
+        margin: 2px;
+        width: 150px;
+        font-size: 12px;
+
     }
     .oCard {
         width: 350px;
