@@ -25,13 +25,12 @@
 
 }
 
-.cover {
+.cover, .cover1 {
     width: 50%;
     height: 800px;
     background: #2B2D3C;
     opacity: 0.5;
     position: absolute;
-    /* border: solid blue; */
 
 }
 
