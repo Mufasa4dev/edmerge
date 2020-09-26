@@ -13,23 +13,25 @@
 .container{
     display: flex;
     margin: auto;
-    margin-top: 50px;
+
 }
 
 .loginImg{
     width: 50%;
-    height: 800px;
-    /* background: url("images/signuplogo/trainer sign.png"); */
+    background-image: url("../images/signuplogo/trainer sign.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+
 }
 
-.cover {
+.cover, .cover1 {
     width: 50%;
     height: 800px;
     background: #2B2D3C;
     opacity: 0.5;
     position: absolute;
-}
 
+}
 .largeCircle {
     clip-path: circle(41.6% at 50% 100%);
     width: 300px;
@@ -39,7 +41,7 @@
     border-radius: 10%;
     position: absolute;
     right: 430px;
-    top: 550px;
+    top: 500px;
 }    
 
 .mCircle {
@@ -50,7 +52,7 @@
     width: 68px;
     height: 68px;
     left: 750px;
-    top: 777px;
+    top: 727px;
 }
 .sCircle {
     background: rgba(43, 45, 60,0.5);
@@ -60,7 +62,7 @@
     width: 30px;
     height: 30px;
     left: 810px;
-    top: 765px;
+    top: 715px;
 }
 
 .largeCircle_1{
@@ -72,7 +74,6 @@
     border-radius: 0%;
     position: absolute;
     right: 0px;
-    top: 50px;
 }    
 
 .mCircle_1 {
@@ -83,7 +84,7 @@
     width: 68px;
     height: 68px;
     right: 35px;
-    top: 125px;
+    top: 75px;
 }
 .sCircle_1{
     background: rgba(43, 45, 60,0.5);
@@ -93,15 +94,20 @@
     width: 30px;
     height: 30px;
     right: 105px;
-    top: 150px;
+    top: 100px;
 }
 
 .form{
     width: 50%;
     height: 800px;
-    border: solid #E5E5E5 1px;
 }
-
+.logooImg {
+    width: 50%;
+    height: 800px;
+    background: url('../images/signuplogo/login.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 .logo{
     width: 213px;
     height: 51px;
@@ -115,7 +121,6 @@
 }
 
 .form_txt{
-    height: 900px;
     width: 400px;
     margin: auto;
     margin-top: 20px;
@@ -269,12 +274,6 @@
 .jogin {
     width: 100%;
 }
-.logooImg {
-    width: 50%;
-    background: url('../images/signuplogo/login.png');
-
-}
-
 .logoo{
     width: 213px;
     height: 51px;
@@ -285,7 +284,6 @@
 .form1{
     width: 50%;
     height: 800px;
-    border: solid #E5E5E5 1px;
 }
 
 .login{
@@ -406,6 +404,45 @@
     }
     .container {
         margin: 0px;
+        padding: 0px;
+    }
+    
+    .largeCircle,
+    .largeCircle_1,
+    .mCircle,
+    .mCircle_1,
+    .sCircle,
+    .sCircle_1 {
+        display: none;
+    }
+
+}
+@media(max-width:500px){
+  .form, .form1 {
+      margin: auto;
+      width: 100%;
+    } 
+  .form_input input, .info input, .java1 input {
+    width: 250px;
+    }
+  .btn, .btn1 {
+      width: 250px;
+      margin: 70px;
+    } 
+    .loginImg img{
+        display: none;
+    }
+    p, .para {
+        font-size: 12px;
+    }
+    .checkbox .paa {
+        font-size: 12px;
+    }
+    .java1 .passbtn1 {
+        width: 200px;
         margin-left: 50px;
     }
+  
 }
+
+
