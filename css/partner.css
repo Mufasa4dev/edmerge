@@ -13,12 +13,10 @@
 .container{
     display: flex;
     margin: auto;
-    /* margin-top: 50px; */
 }
 
 .loginImg{
     width: 50%;
-    /* height: 800px; */
     background-image: url("../images/signuplogo/sign\ in2.png");
     background-size: cover;
     background-repeat: no-repeat;
@@ -26,13 +24,16 @@
 }
 
 .cover, .cover1 {
-    width: 50%;
+    width: 100%;
     height: 800px;
     background: #2B2D3C;
     opacity: 0.5;
-    position: absolute;
+    position: relative;
+    top: 0px;
+    z-index: 2;
 
 }
+
 
 .largeCircle {
     clip-path: circle(41.6% at 50% 100%);
@@ -102,10 +103,11 @@
 .form{
     width: 50%;
     height: 800px;
-    /* border: solid #E5E5E5 1px; */
 }
 .logooImg {
-    /* background: url('../images/signuplogo/login.png'); */
+    width: 49.2%;
+    height: 800px;
+    background: url('../images/signuplogo/login.png');
 }
 
 .logo{
@@ -121,7 +123,6 @@
 }
 
 .form_txt{
-    /* height: 900px; */
     width: 400px;
     margin: auto;
     margin-top: 20px;
@@ -275,10 +276,6 @@
 .jogin {
     width: 100%;
 }
-.logooImg {
-    /* width: 50%; */
-
-}
 
 .logoo{
     width: 213px;
@@ -290,7 +287,6 @@
 .form1{
     width: 50%;
     height: 800px;
-    /* border: solid #E5E5E5 1px; */
 }
 
 .login{
@@ -435,10 +431,8 @@
   .btn, .btn1 {
       width: 250px;
       margin: 70px;
-      /* margin-left: 70px; */
     } 
     .loginImg img{
-        /* margin-left: 70px; */
         display: none;
     }
     p, .para {
