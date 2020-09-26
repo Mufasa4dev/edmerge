@@ -213,6 +213,23 @@ li .active , a .active{
 .para_2{
     margin-top: 30px;
 }
+.btn {
+    background: #2b2d3c;
+    color: #E6E8FA;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    width: 200px;
+    height: 48px;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    padding-top: 15px;
+    margin-top: 50px;
+}
+.text a {
+    text-decoration: none;
+}
 
 /*======================= FOOTER STYLING ======================*/
 .footer {
@@ -278,17 +295,163 @@ li .active , a .active{
 
 
 
-@media(max-width: 1050px){
-    .menulink{
+@media(max-width: 1100px){
+    .logo {
+        margin-left: 50px;
+        margin-top: 20px;
+    }
+    .menuLink {
+        margin-left: 100px;
+        margin-right: 50px;
+        padding-left: 0px;
+    } 
+    .banner2 {
         display: none;
     }
-    .btnGet{
+    .largeCicle1 {
         display: none;
     }
-    .hide{
-        display: block;
+    .footerlogo {
+        margin-left: 30px;
+        margin-right: 10px;
     }
-    .showMenu{
-        display: block;
-    }
+ 
+  
+  
+    
 }
+@media(max-width: 1050px){
+    .container{
+        width: 100%;
+    }
+    .menuLink {
+        display: none;
+    } 
+    .btnGet {
+        display: none;
+    }
+    .logo {
+        width: 100%;
+    }
+    /* .hide {
+        display: block;
+    } */
+    .showMenu {
+        display: block;
+    }
+    .menuLink ul li{
+        display: block;
+        position: relative;
+        top: 170px;
+        width: 100%;
+        right: 0;
+        padding: 30px;
+        transition: 2s;
+    }
+    .menuLink ul li a{
+        color: white;
+        z-index: 1;
+        position: relative;
+        transition: 2s;
+        font-weight: 600;
+        font-size: 20px;
+    }
+        /* FOOTER MOBILE RESPONSIVE */
+        .footer {
+            background-color: #2b2d3c;
+            height: auto;
+    
+        }
+        .footernav {
+            display: block;
+            height: auto;
+        }
+        .footertext ul li {
+            display: block;
+            text-align: center;
+        }
+        .footerlogo {
+            margin-top: 15px;
+            margin-left: 0px;
+            margin-right: 0px;
+            margin: auto;
+        }
+        .footertext ul {
+            width: 200px;
+            margin: auto;
+        }
+        .social {
+            margin: auto;
+            margin-left: 0px;
+        }
+        .socialtext p {
+            color: #E6E8FA;
+            padding-top: 20px;
+            margin-right: 0px;
+            margin: auto;
+        }
+
+    }
+
+    @media (max-width: 550px){
+        .hide {
+            top: 20px;
+            right: 50px;
+            bottom: 100px;
+        }
+        .logo img {
+            margin: auto;
+            width: 150px;
+            margin-left: 0px;
+        }
+        .showMenu {
+            display: block;
+        }
+        .largeCicle {
+            z-index: -1;
+        }
+      
+       .sCircle, .mCircle, .largeCicle, .mCircle2, .sCircle2, .mCircle1 {
+           display: none;
+       }
+        .logo {
+            margin-left: 20px;
+        }
+        .footersnav {
+            display: block;
+            height: auto;
+        }
+        .social {
+            margin-left: 70px;
+        }
+        .socialtext {
+            text-align: center;
+            padding-bottom: 20px;
+        }
+        .menuLink ul li a{
+            color: white;
+            text-align: none;
+            z-index: 1;
+            position: relative;
+            transition: 2s;
+            top: 50px;
+            right: 200px;
+            font-size: 14px;
+            padding-bottom: 0px;
+            width: auto;
+        }
+        .facecover {
+            display: none;
+        }
+        .text {
+            width: 100%;
+            height: auto;
+            padding-left: 20px;
+            padding-right: 20px;
+            justify-content: left;
+        }
+        .text p {
+            font-size: 14px;
+            color: #2b2d3c;
+        }
+    }

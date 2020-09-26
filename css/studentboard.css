@@ -22,7 +22,6 @@ input {
     width: 100%;
     margin: auto;
     display: flex;
-    /* border: solid red; */
 }
 .navbar {
     width: 26.8%;
@@ -30,8 +29,6 @@ input {
 .content {
     margin-left: 30px;
     width: 73.2%;
-    /* width: 910px; */
-    /* border: solid pink; */
 }
 
 
@@ -114,7 +111,6 @@ input {
     height: 100vh;
     background-color: #2b2d3c;
     margin-left: 130px;
-    /* border-radius: 12px; */
     position: fixed;
 }
 .homedisplay {
@@ -181,7 +177,6 @@ input {
     margin: auto;
     margin-left: 100px;
     width: 720px;
-    /* border: solid grey; */
 }
 .input {
     width: 340px;
@@ -445,7 +440,6 @@ input {
 @media (max-width: 920px){
     .content {
         margin-left: 120px;
-        /* width: 380px; */
     }
     .menulink {
         margin-left: 0px;
@@ -510,7 +504,6 @@ input {
         .social {
             margin: auto;
             margin-left: 0px;
-            /* border: solid red; */
         }
         .socialtext p {
             color: #E6E8FA;
@@ -560,18 +553,4 @@ input {
     .input {
         width: 120px;
     }
-    /* .container {
-        border: solid red;
-    } */
-    /* .pimg img {
-        width: 46%;
-        margin-left: 0px;
-    } */
-    /* .seem {
-        display: none;
-        margin: 0px;
-    } */
-    /* .topnavcover {
-        width: 75%;
-    } */
 }
