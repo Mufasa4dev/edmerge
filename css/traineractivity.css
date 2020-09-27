@@ -407,7 +407,7 @@ input {
     }
     .menulink {
         margin-left: 0px;
-        width: 180px;
+        /* width: 180px; */
     }
     .ellipse {
         margin-left: 50px;
