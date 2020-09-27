@@ -897,6 +897,17 @@ a .active {
     .largeCicle {
         z-index: -1;
     }
+    .banner h3 {
+        text-align: left;
+        font-size: 25px;
+    }
+    .banner p {
+        text-align: left;
+        font-size: 16px;
+    }
+    .opporHeader p {
+        font-size: 14px;
+    }
   
    .sCircle, .mCircle, .largeCicle, .mCircle2, .sCircle2, .mCircle1 {
        display: none;
@@ -951,6 +962,9 @@ a .active {
     }
     .facecover {
         display: none;
+    }
+    .topnav {
+        position: static;
     }
 }
 

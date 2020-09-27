@@ -708,10 +708,10 @@ li .active , a .active{
    
 } 
 
-@media (max-width: 750px) {
+@media (max-width: 550px) {
     .hide {
         top: 20px;
-        right: 50px;
+        left: 300px;
         bottom: 100px;
     }
     .logo img {
@@ -794,6 +794,9 @@ li .active , a .active{
     .imgag {
         width: auto;
         height: auto;
+    }
+    .topnav {
+        position: static;
     }
     
 }

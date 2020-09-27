@@ -505,4 +505,10 @@ li .active , a .active{
         width: 350px;
         font-size: 12px;
     }
+    .topnav {
+        position: static;
+    }
+    .how {
+        margin-top: 120px;
+    }
 }
