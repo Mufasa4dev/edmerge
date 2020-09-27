@@ -361,6 +361,9 @@ li .active , a .active{
         display: block;
         z-index: 2;
     }
+    .topnav {
+        position: static;
+    }
     .showMenu {
         display: block;
         z-index: 2;

@@ -538,6 +538,9 @@ li .active , a .active{
     .hide {
         display: block;
     }
+    .topnav {
+        position: static;
+    }
     .showMenu {
         display: block;
     }
