@@ -390,6 +390,11 @@ input {
     .pimg {
         margin-right: 25px;
     }
+    .lcircle, .lcircle1,
+    .mcircle, .mcircle1,
+    .scircle, .scircle1 {
+        display: none;
+    }
 }
 @media (max-width: 1100px){
       .input {
@@ -556,11 +561,4 @@ input {
     .input {
         width: 120px;
     }
-    .content {
-        border:  solid yellow;
-    }
-    /* .hometech {
-        width: 100px;
-    } */
-    
 }

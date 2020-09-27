@@ -361,6 +361,12 @@ li .active , a .active{
         display: block;
         z-index: 2;
     }
+    .topnav {
+        position: static;
+    }
+    .how {
+        margin-top: 120px;
+    }
     .showMenu {
         display: block;
         z-index: 2;
@@ -504,5 +510,11 @@ li .active , a .active{
     .faqtext p, .faqans p {
         width: 350px;
         font-size: 12px;
+    }
+    .topnav {
+        position: static;
+    }
+    .how {
+        margin-top: 120px;
     }
 }

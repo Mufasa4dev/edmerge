@@ -408,6 +408,10 @@ textarea {
 
 
 @media (max-width: 1200px){
+    .profile {
+        width: 100%;
+        margin-left: 250px;
+    }
     .container {
         margin: 0px;
         width: 100%;
@@ -459,10 +463,11 @@ textarea {
 }
 @media (max-width: 1000px){
     .profile {
+        width: 100%;
         margin-left: 250px;
     }
     .menulink {
-        margin-left: 20px;
+        /* margin-left: 0px; */
     }
       .input {
         margin-right: 0px;
@@ -492,7 +497,7 @@ textarea {
         margin-top: 20px;
     }
 }
-@media (max-width: 720px){
+@media (max-width: 855px){
     .input {
         width: 200px;
         margin-right: 0px;
